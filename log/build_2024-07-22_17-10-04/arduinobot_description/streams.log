@@ -1,0 +1,29 @@
+[0.017s] Invoking command in '/home/parallels/arduinobot_ws/build/arduinobot_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/parallels/ros2_ws/install/opencv_tests:/home/parallels/ros2_ws/install/my_robot_controller:/opt/ros/humble /usr/bin/cmake --build /home/parallels/arduinobot_ws/build/arduinobot_description -- -j2 -l2
+[0.092s] Invoked command in '/home/parallels/arduinobot_ws/build/arduinobot_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/parallels/ros2_ws/install/opencv_tests:/home/parallels/ros2_ws/install/my_robot_controller:/opt/ros/humble /usr/bin/cmake --build /home/parallels/arduinobot_ws/build/arduinobot_description -- -j2 -l2
+[0.120s] Invoking command in '/home/parallels/arduinobot_ws/build/arduinobot_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/parallels/ros2_ws/install/opencv_tests:/home/parallels/ros2_ws/install/my_robot_controller:/opt/ros/humble /usr/bin/cmake --install /home/parallels/arduinobot_ws/build/arduinobot_description
+[0.129s] -- Install configuration: ""
+[0.129s] -- Up-to-date: /home/parallels/arduinobot_ws/install/arduinobot_description/share/arduinobot_description/meshes
+[0.131s] -- Up-to-date: /home/parallels/arduinobot_ws/install/arduinobot_description/share/arduinobot_description/meshes/forward_drive_arm.STL
+[0.131s] -- Up-to-date: /home/parallels/arduinobot_ws/install/arduinobot_description/share/arduinobot_description/meshes/vertical_drive_arm.STL
+[0.132s] -- Up-to-date: /home/parallels/arduinobot_ws/install/arduinobot_description/share/arduinobot_description/meshes/plate.STL
+[0.132s] -- Up-to-date: /home/parallels/arduinobot_ws/install/arduinobot_description/share/arduinobot_description/meshes/link.STL
+[0.133s] -- Up-to-date: /home/parallels/arduinobot_ws/install/arduinobot_description/share/arduinobot_description/meshes/base_plate.STL
+[0.133s] -- Up-to-date: /home/parallels/arduinobot_ws/install/arduinobot_description/share/arduinobot_description/meshes/triangular_link.STL
+[0.133s] -- Up-to-date: /home/parallels/arduinobot_ws/install/arduinobot_description/share/arduinobot_description/meshes/basement.STL
+[0.134s] -- Up-to-date: /home/parallels/arduinobot_ws/install/arduinobot_description/share/arduinobot_description/meshes/round_plate.STL
+[0.134s] -- Up-to-date: /home/parallels/arduinobot_ws/install/arduinobot_description/share/arduinobot_description/meshes/servo_plate.STL
+[0.134s] -- Up-to-date: /home/parallels/arduinobot_ws/install/arduinobot_description/share/arduinobot_description/meshes/left_finger.STL
+[0.135s] -- Up-to-date: /home/parallels/arduinobot_ws/install/arduinobot_description/share/arduinobot_description/meshes/right_finger.STL
+[0.135s] -- Up-to-date: /home/parallels/arduinobot_ws/install/arduinobot_description/share/arduinobot_description/meshes/claw_support.STL
+[0.135s] -- Up-to-date: /home/parallels/arduinobot_ws/install/arduinobot_description/share/arduinobot_description/meshes/horizontal_arm.STL
+[0.135s] -- Up-to-date: /home/parallels/arduinobot_ws/install/arduinobot_description/share/arduinobot_description/urdf
+[0.135s] -- Up-to-date: /home/parallels/arduinobot_ws/install/arduinobot_description/share/arduinobot_description/urdf/arduinobot.urdf.xacro
+[0.138s] -- Up-to-date: /home/parallels/arduinobot_ws/install/arduinobot_description/share/arduinobot_description/launch
+[0.138s] -- Installing: /home/parallels/arduinobot_ws/install/arduinobot_description/share/arduinobot_description/launch/display.launch.py
+[0.139s] [31mCMake Error at cmake_install.cmake:46 (file):
+[0.139s]   file INSTALL cannot find
+[0.140s]   "/home/parallels/arduinobot_ws/src/arduinobot_description/rivz": No such
+[0.140s]   file or directory.
+[0.140s] 
+[0.140s] [0m
+[0.142s] Invoked command in '/home/parallels/arduinobot_ws/build/arduinobot_description' returned '1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/parallels/ros2_ws/install/opencv_tests:/home/parallels/ros2_ws/install/my_robot_controller:/opt/ros/humble /usr/bin/cmake --install /home/parallels/arduinobot_ws/build/arduinobot_description

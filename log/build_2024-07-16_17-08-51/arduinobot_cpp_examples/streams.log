@@ -1,0 +1,49 @@
+[0.018s] Invoking command in '/home/parallels/arduinobot_ws/build/arduinobot_cpp_examples': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/parallels/ros2_ws/install/opencv_tests:/home/parallels/ros2_ws/install/my_robot_controller:/opt/ros/humble /usr/bin/cmake --build /home/parallels/arduinobot_ws/build/arduinobot_cpp_examples -- -j2 -l2
+[0.067s] -- Found ament_cmake: 1.3.9 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.177s] -- Found rclcpp: 16.0.9 (/opt/ros/humble/share/rclcpp/cmake)
+[0.227s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.231s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.245s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.279s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.338s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.479s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.483s] -- Found rmw_fastrtps_cpp: 6.2.6 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.682s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.881s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[0.938s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[0.938s] -- Configured cppcheck include dirs: 
+[0.938s] -- Configured cppcheck exclude dirs and/or files: 
+[0.938s] -- Added test 'lint_cmake' to check CMake code style
+[0.939s] -- Added test 'uncrustify' to check C / C++ code style
+[0.939s] -- Configured uncrustify additional arguments: 
+[0.940s] -- Added test 'xmllint' to check XML markup files
+[0.942s] -- Configuring done
+[0.964s] -- Generating done
+[0.969s] -- Build files have been written to: /home/parallels/arduinobot_ws/build/arduinobot_cpp_examples
+[0.993s] [35m[1mConsolidate compiler generated dependencies of target simple_publisher[0m
+[1.013s] [ 50%] Built target simple_publisher
+[1.022s] [ 75%] [32mBuilding CXX object CMakeFiles/simple_subscriber.dir/src/simple_subscriber.cpp.o[0m
+[6.928s] [100%] [32m[1mLinking CXX executable simple_subscriber[0m
+[7.295s] [100%] Built target simple_subscriber
+[7.353s] Invoked command in '/home/parallels/arduinobot_ws/build/arduinobot_cpp_examples' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/parallels/ros2_ws/install/opencv_tests:/home/parallels/ros2_ws/install/my_robot_controller:/opt/ros/humble /usr/bin/cmake --build /home/parallels/arduinobot_ws/build/arduinobot_cpp_examples -- -j2 -l2
+[7.389s] Invoking command in '/home/parallels/arduinobot_ws/build/arduinobot_cpp_examples': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/parallels/ros2_ws/install/opencv_tests:/home/parallels/ros2_ws/install/my_robot_controller:/opt/ros/humble /usr/bin/cmake --install /home/parallels/arduinobot_ws/build/arduinobot_cpp_examples
+[7.393s] -- Install configuration: ""
+[7.396s] -- Up-to-date: /home/parallels/arduinobot_ws/install/arduinobot_cpp_examples/lib/arduinobot_cpp_examples/simple_publisher
+[7.397s] -- Installing: /home/parallels/arduinobot_ws/install/arduinobot_cpp_examples/lib/arduinobot_cpp_examples/simple_subscriber
+[7.399s] -- Set runtime path of "/home/parallels/arduinobot_ws/install/arduinobot_cpp_examples/lib/arduinobot_cpp_examples/simple_subscriber" to ""
+[7.399s] -- Up-to-date: /home/parallels/arduinobot_ws/install/arduinobot_cpp_examples/share/ament_index/resource_index/package_run_dependencies/arduinobot_cpp_examples
+[7.400s] -- Up-to-date: /home/parallels/arduinobot_ws/install/arduinobot_cpp_examples/share/ament_index/resource_index/parent_prefix_path/arduinobot_cpp_examples
+[7.402s] -- Up-to-date: /home/parallels/arduinobot_ws/install/arduinobot_cpp_examples/share/arduinobot_cpp_examples/environment/ament_prefix_path.sh
+[7.402s] -- Installing: /home/parallels/arduinobot_ws/install/arduinobot_cpp_examples/share/arduinobot_cpp_examples/environment/ament_prefix_path.dsv
+[7.404s] -- Up-to-date: /home/parallels/arduinobot_ws/install/arduinobot_cpp_examples/share/arduinobot_cpp_examples/environment/path.sh
+[7.404s] -- Installing: /home/parallels/arduinobot_ws/install/arduinobot_cpp_examples/share/arduinobot_cpp_examples/environment/path.dsv
+[7.405s] -- Up-to-date: /home/parallels/arduinobot_ws/install/arduinobot_cpp_examples/share/arduinobot_cpp_examples/local_setup.bash
+[7.406s] -- Up-to-date: /home/parallels/arduinobot_ws/install/arduinobot_cpp_examples/share/arduinobot_cpp_examples/local_setup.sh
+[7.406s] -- Up-to-date: /home/parallels/arduinobot_ws/install/arduinobot_cpp_examples/share/arduinobot_cpp_examples/local_setup.zsh
+[7.407s] -- Installing: /home/parallels/arduinobot_ws/install/arduinobot_cpp_examples/share/arduinobot_cpp_examples/local_setup.dsv
+[7.408s] -- Installing: /home/parallels/arduinobot_ws/install/arduinobot_cpp_examples/share/arduinobot_cpp_examples/package.dsv
+[7.409s] -- Up-to-date: /home/parallels/arduinobot_ws/install/arduinobot_cpp_examples/share/ament_index/resource_index/packages/arduinobot_cpp_examples
+[7.409s] -- Up-to-date: /home/parallels/arduinobot_ws/install/arduinobot_cpp_examples/share/arduinobot_cpp_examples/cmake/arduinobot_cpp_examplesConfig.cmake
+[7.410s] -- Up-to-date: /home/parallels/arduinobot_ws/install/arduinobot_cpp_examples/share/arduinobot_cpp_examples/cmake/arduinobot_cpp_examplesConfig-version.cmake
+[7.410s] -- Up-to-date: /home/parallels/arduinobot_ws/install/arduinobot_cpp_examples/share/arduinobot_cpp_examples/package.xml
+[7.420s] Invoked command in '/home/parallels/arduinobot_ws/build/arduinobot_cpp_examples' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/parallels/ros2_ws/install/opencv_tests:/home/parallels/ros2_ws/install/my_robot_controller:/opt/ros/humble /usr/bin/cmake --install /home/parallels/arduinobot_ws/build/arduinobot_cpp_examples

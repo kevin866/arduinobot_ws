@@ -1,0 +1,23 @@
+[0.505s] Invoking command in '/home/parallels/arduinobot_ws/build/arduinobot_py_examples': PYTHONPATH=/home/parallels/arduinobot_ws/build/arduinobot_py_examples/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/parallels/arduinobot_ws/install/arduinobot_py_examples/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/parallels/arduinobot_ws/build/arduinobot_py_examples/build --no-deps symlink_data --force
+[0.739s] running develop
+[0.740s] /usr/lib/python3/dist-packages/setuptools/command/easy_install.py:158: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.
+[0.741s]   warnings.warn(
+[0.855s] running egg_info
+[0.856s] writing arduinobot_py_examples.egg-info/PKG-INFO
+[0.857s] writing dependency_links to arduinobot_py_examples.egg-info/dependency_links.txt
+[0.858s] writing entry points to arduinobot_py_examples.egg-info/entry_points.txt
+[0.858s] writing requirements to arduinobot_py_examples.egg-info/requires.txt
+[0.859s] writing top-level names to arduinobot_py_examples.egg-info/top_level.txt
+[0.861s] reading manifest file 'arduinobot_py_examples.egg-info/SOURCES.txt'
+[0.862s] writing manifest file 'arduinobot_py_examples.egg-info/SOURCES.txt'
+[0.864s] running build_ext
+[0.864s] Creating /home/parallels/arduinobot_ws/install/arduinobot_py_examples/lib/python3.10/site-packages/arduinobot-py-examples.egg-link (link to .)
+[0.865s] Installing simple_parameter script to /home/parallels/arduinobot_ws/install/arduinobot_py_examples/lib/arduinobot_py_examples
+[0.866s] Installing simple_publisher script to /home/parallels/arduinobot_ws/install/arduinobot_py_examples/lib/arduinobot_py_examples
+[0.867s] Installing simple_subscriber script to /home/parallels/arduinobot_ws/install/arduinobot_py_examples/lib/arduinobot_py_examples
+[0.868s] 
+[0.868s] Installed /home/parallels/arduinobot_ws/build/arduinobot_py_examples
+[0.868s] running symlink_data
+[0.869s] symbolically linking /home/parallels/arduinobot_ws/build/arduinobot_py_examples/resource/arduinobot_py_examples -> /home/parallels/arduinobot_ws/install/arduinobot_py_examples/share/ament_index/resource_index/packages
+[0.870s] symbolically linking /home/parallels/arduinobot_ws/build/arduinobot_py_examples/package.xml -> /home/parallels/arduinobot_ws/install/arduinobot_py_examples/share/arduinobot_py_examples
+[0.892s] Invoked command in '/home/parallels/arduinobot_ws/build/arduinobot_py_examples' returned '0': PYTHONPATH=/home/parallels/arduinobot_ws/build/arduinobot_py_examples/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/parallels/arduinobot_ws/install/arduinobot_py_examples/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/parallels/arduinobot_ws/build/arduinobot_py_examples/build --no-deps symlink_data --force

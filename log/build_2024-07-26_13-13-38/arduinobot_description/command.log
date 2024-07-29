@@ -1,0 +1,2 @@
+Invoking command in '/home/parallels/arduinobot_ws/build/arduinobot_description': /usr/bin/cmake --build /home/parallels/arduinobot_ws/build/arduinobot_description -- -j2 -l2
+Invoked command in '/home/parallels/arduinobot_ws/build/arduinobot_description' returned '2': /usr/bin/cmake --build /home/parallels/arduinobot_ws/build/arduinobot_description -- -j2 -l2

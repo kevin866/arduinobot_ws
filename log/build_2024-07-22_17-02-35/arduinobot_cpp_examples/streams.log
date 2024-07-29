@@ -1,0 +1,4 @@
+[0.014s] Invoking command in '/home/parallels/arduinobot_ws/build/arduinobot_cpp_examples': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/parallels/ros2_ws/install/opencv_tests:/home/parallels/ros2_ws/install/my_robot_controller:/opt/ros/humble /usr/bin/cmake --build /home/parallels/arduinobot_ws/build/arduinobot_cpp_examples -- -j2 -l2
+[0.081s] [ 33%] Built target simple_subscriber
+[0.087s] [ 66%] Built target simple_publisher
+[0.114s] [100%] Built target simple_parameter

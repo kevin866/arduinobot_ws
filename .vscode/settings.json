@@ -1,0 +1,27 @@
+{
+    "python.autoComplete.extraPaths": [
+        "/home/parallels/arduinobot_ws/install/arduinobot_py_examples/lib/python3.10/site-packages",
+        "/home/parallels/ros2_ws/build/opencv_tests",
+        "/home/parallels/ros2_ws/install/opencv_tests/lib/python3.10/site-packages",
+        "/home/parallels/ros2_ws/build/my_robot_controller",
+        "/home/parallels/ros2_ws/install/my_robot_controller/lib/python3.10/site-packages",
+        "/home/parallels/ros2_ws/install/image_geometry/local/lib/python3.10/dist-packages",
+        "/home/parallels/ros2_ws/install/cv_bridge/local/lib/python3.10/dist-packages",
+        "/home/parallels/test_ws/install/turtlesim/local/lib/python3.10/dist-packages",
+        "/opt/ros/humble/lib/python3.10/site-packages",
+        "/opt/ros/humble/local/lib/python3.10/dist-packages"
+    ],
+    "python.analysis.extraPaths": [
+        "/home/parallels/arduinobot_ws/install/arduinobot_py_examples/lib/python3.10/site-packages",
+        "/home/parallels/ros2_ws/build/opencv_tests",
+        "/home/parallels/ros2_ws/install/opencv_tests/lib/python3.10/site-packages",
+        "/home/parallels/ros2_ws/build/my_robot_controller",
+        "/home/parallels/ros2_ws/install/my_robot_controller/lib/python3.10/site-packages",
+        "/home/parallels/ros2_ws/install/image_geometry/local/lib/python3.10/dist-packages",
+        "/home/parallels/ros2_ws/install/cv_bridge/local/lib/python3.10/dist-packages",
+        "/home/parallels/test_ws/install/turtlesim/local/lib/python3.10/dist-packages",
+        "/opt/ros/humble/lib/python3.10/site-packages",
+        "/opt/ros/humble/local/lib/python3.10/dist-packages"
+    ],
+    "cmake.sourceDirectory": "/home/parallels/arduinobot_ws/src/arduinobot_description"
+}

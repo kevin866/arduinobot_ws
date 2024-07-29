@@ -1,0 +1,156 @@
+[0.000000] (-) TimerEvent: {}
+[0.000098] (arduinobot_cpp_examples) JobQueued: {'identifier': 'arduinobot_cpp_examples', 'dependencies': OrderedDict()}
+[0.000120] (arduinobot_py_examples) JobQueued: {'identifier': 'arduinobot_py_examples', 'dependencies': OrderedDict()}
+[0.000560] (arduinobot_cpp_examples) JobStarted: {'identifier': 'arduinobot_cpp_examples'}
+[0.007819] (arduinobot_py_examples) JobStarted: {'identifier': 'arduinobot_py_examples'}
+[0.016286] (arduinobot_cpp_examples) JobProgress: {'identifier': 'arduinobot_cpp_examples', 'progress': 'cmake'}
+[0.017303] (arduinobot_cpp_examples) JobProgress: {'identifier': 'arduinobot_cpp_examples', 'progress': 'build'}
+[0.017869] (arduinobot_cpp_examples) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/parallels/arduinobot_ws/build/arduinobot_cpp_examples', '--', '-j2', '-l2'], 'cwd': '/home/parallels/arduinobot_ws/build/arduinobot_cpp_examples', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'parallels'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/parallels/ros2_ws/install/image_geometry/lib:/home/parallels/ros2_ws/install/cv_bridge/lib:/home/parallels/test_ws/install/turtlesim/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/parallels'), ('OLDPWD', '/home/parallels'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '87054'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('_colcon_cd_root', '/opt/ros/humble/'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/parallels/ros2_ws/install:/home/parallels/test_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'parallels'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'parallels'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/ubuntu-linux-22-04-desktop:@/tmp/.ICE-unix/87037,unix/ubuntu-linux-22-04-desktop:/tmp/.ICE-unix/87037'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/473821a9_9535_4021_bd69_134822b64805'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.1BNZP2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.3365'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/parallels/ros2_ws/install/vision_opencv:/home/parallels/ros2_ws/install/opencv_tests:/home/parallels/ros2_ws/install/my_robot_controller:/home/parallels/ros2_ws/install/image_geometry:/home/parallels/ros2_ws/install/cv_bridge:/home/parallels/test_ws/install/turtlesim:/home/parallels/test_ws/install/my_package:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/parallels/arduinobot_ws/build/arduinobot_cpp_examples'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/parallels/ros2_ws/build/opencv_tests:/home/parallels/ros2_ws/install/opencv_tests/lib/python3.10/site-packages:/home/parallels/ros2_ws/build/my_robot_controller:/home/parallels/ros2_ws/install/my_robot_controller/lib/python3.10/site-packages:/home/parallels/ros2_ws/install/image_geometry/local/lib/python3.10/dist-packages:/home/parallels/ros2_ws/install/cv_bridge/local/lib/python3.10/dist-packages:/home/parallels/test_ws/install/turtlesim/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/parallels/ros2_ws/install/vision_opencv:/home/parallels/ros2_ws/install/image_geometry:/home/parallels/ros2_ws/install/cv_bridge:/home/parallels/test_ws/install/turtlesim:/home/parallels/test_ws/install/my_package:/home/parallels/ros2_ws/install/opencv_tests:/home/parallels/ros2_ws/install/my_robot_controller:/opt/ros/humble')]), 'shell': False}
+[0.066826] (arduinobot_cpp_examples) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.9 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.099846] (-) TimerEvent: {}
+[0.177645] (arduinobot_cpp_examples) StdoutLine: {'line': b'-- Found rclcpp: 16.0.9 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[0.199976] (-) TimerEvent: {}
+[0.227801] (arduinobot_cpp_examples) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[0.231848] (arduinobot_cpp_examples) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[0.245469] (arduinobot_cpp_examples) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[0.279392] (arduinobot_cpp_examples) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.300080] (-) TimerEvent: {}
+[0.338635] (arduinobot_cpp_examples) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.400227] (-) TimerEvent: {}
+[0.479400] (arduinobot_cpp_examples) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[0.484059] (arduinobot_cpp_examples) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.6 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[0.500302] (-) TimerEvent: {}
+[0.600616] (-) TimerEvent: {}
+[0.682361] (arduinobot_cpp_examples) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[0.700706] (-) TimerEvent: {}
+[0.801022] (-) TimerEvent: {}
+[0.826299] (arduinobot_py_examples) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/arduinobot_py_examples', 'build', '--build-base', '/home/parallels/arduinobot_ws/build/arduinobot_py_examples/build', 'install', '--record', '/home/parallels/arduinobot_ws/build/arduinobot_py_examples/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/parallels/arduinobot_ws/src/arduinobot_py_examples', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'parallels', 'XDG_SESSION_TYPE': 'wayland', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/parallels/ros2_ws/install/image_geometry/lib:/home/parallels/ros2_ws/install/cv_bridge/lib:/home/parallels/test_ws/install/turtlesim/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/home/parallels', 'OLDPWD': '/home/parallels', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'SYSTEMD_EXEC_PID': '87054', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', '_colcon_cd_root': '/opt/ros/humble/', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/parallels/ros2_ws/install:/home/parallels/test_ws/install', 'ROS_DISTRO': 'humble', 'LOGNAME': 'parallels', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'parallels', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/ubuntu-linux-22-04-desktop:@/tmp/.ICE-unix/87037,unix/ubuntu-linux-22-04-desktop:/tmp/.ICE-unix/87037', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/473821a9_9535_4021_bd69_134822b64805', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.1BNZP2', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'GNOME_TERMINAL_SERVICE': ':1.3365', 'SSH_AGENT_LAUNCHER': 'gnome-keyring', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/parallels/ros2_ws/install/vision_opencv:/home/parallels/ros2_ws/install/opencv_tests:/home/parallels/ros2_ws/install/my_robot_controller:/home/parallels/ros2_ws/install/image_geometry:/home/parallels/ros2_ws/install/cv_bridge:/home/parallels/test_ws/install/turtlesim:/home/parallels/test_ws/install/my_package:/opt/ros/humble', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/parallels/arduinobot_ws/build/arduinobot_py_examples', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/parallels/arduinobot_ws/build/arduinobot_py_examples/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/parallels/arduinobot_ws/install/arduinobot_py_examples/lib/python3.10/site-packages:/home/parallels/ros2_ws/build/opencv_tests:/home/parallels/ros2_ws/install/opencv_tests/lib/python3.10/site-packages:/home/parallels/ros2_ws/build/my_robot_controller:/home/parallels/ros2_ws/install/my_robot_controller/lib/python3.10/site-packages:/home/parallels/ros2_ws/install/image_geometry/local/lib/python3.10/dist-packages:/home/parallels/ros2_ws/install/cv_bridge/local/lib/python3.10/dist-packages:/home/parallels/test_ws/install/turtlesim/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1', 'VTE_VERSION': '6800', 'CMAKE_PREFIX_PATH': '/home/parallels/ros2_ws/install/vision_opencv:/home/parallels/ros2_ws/install/image_geometry:/home/parallels/ros2_ws/install/cv_bridge:/home/parallels/test_ws/install/turtlesim:/home/parallels/test_ws/install/my_package'}, 'shell': False}
+[0.881640] (arduinobot_cpp_examples) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[0.901102] (-) TimerEvent: {}
+[0.938078] (arduinobot_cpp_examples) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[0.938343] (arduinobot_cpp_examples) StdoutLine: {'line': b'-- Configured cppcheck include dirs: \n'}
+[0.938421] (arduinobot_cpp_examples) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[0.939039] (arduinobot_cpp_examples) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[0.939850] (arduinobot_cpp_examples) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[0.939953] (arduinobot_cpp_examples) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[0.940320] (arduinobot_cpp_examples) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[0.942095] (arduinobot_cpp_examples) StdoutLine: {'line': b'-- Configuring done\n'}
+[0.964182] (arduinobot_cpp_examples) StdoutLine: {'line': b'-- Generating done\n'}
+[0.969497] (arduinobot_cpp_examples) StdoutLine: {'line': b'-- Build files have been written to: /home/parallels/arduinobot_ws/build/arduinobot_cpp_examples\n'}
+[0.992973] (arduinobot_cpp_examples) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target simple_publisher\x1b[0m\n'}
+[1.001373] (-) TimerEvent: {}
+[1.010871] (arduinobot_py_examples) StdoutLine: {'line': b'running egg_info\n'}
+[1.012975] (arduinobot_cpp_examples) StdoutLine: {'line': b'[ 50%] Built target simple_publisher\n'}
+[1.014762] (arduinobot_py_examples) StdoutLine: {'line': b'writing ../../build/arduinobot_py_examples/arduinobot_py_examples.egg-info/PKG-INFO\n'}
+[1.015630] (arduinobot_py_examples) StdoutLine: {'line': b'writing dependency_links to ../../build/arduinobot_py_examples/arduinobot_py_examples.egg-info/dependency_links.txt\n'}
+[1.016316] (arduinobot_py_examples) StdoutLine: {'line': b'writing entry points to ../../build/arduinobot_py_examples/arduinobot_py_examples.egg-info/entry_points.txt\n'}
+[1.017062] (arduinobot_py_examples) StdoutLine: {'line': b'writing requirements to ../../build/arduinobot_py_examples/arduinobot_py_examples.egg-info/requires.txt\n'}
+[1.017695] (arduinobot_py_examples) StdoutLine: {'line': b'writing top-level names to ../../build/arduinobot_py_examples/arduinobot_py_examples.egg-info/top_level.txt\n'}
+[1.019629] (arduinobot_py_examples) StdoutLine: {'line': b"reading manifest file '../../build/arduinobot_py_examples/arduinobot_py_examples.egg-info/SOURCES.txt'\n"}
+[1.020824] (arduinobot_py_examples) StdoutLine: {'line': b"writing manifest file '../../build/arduinobot_py_examples/arduinobot_py_examples.egg-info/SOURCES.txt'\n"}
+[1.021443] (arduinobot_py_examples) StdoutLine: {'line': b'running build\n'}
+[1.021902] (arduinobot_py_examples) StdoutLine: {'line': b'running build_py\n'}
+[1.022464] (arduinobot_cpp_examples) StdoutLine: {'line': b'[ 75%] \x1b[32mBuilding CXX object CMakeFiles/simple_subscriber.dir/src/simple_subscriber.cpp.o\x1b[0m\n'}
+[1.023639] (arduinobot_py_examples) StdoutLine: {'line': b'running install\n'}
+[1.024055] (arduinobot_py_examples) StdoutLine: {'line': b'running install_lib\n'}
+[1.024956] (arduinobot_py_examples) StdoutLine: {'line': b'running install_data\n'}
+[1.025393] (arduinobot_py_examples) StdoutLine: {'line': b'running install_egg_info\n'}
+[1.029173] (arduinobot_py_examples) StdoutLine: {'line': b"removing '/home/parallels/arduinobot_ws/install/arduinobot_py_examples/lib/python3.10/site-packages/arduinobot_py_examples-0.0.0-py3.10.egg-info' (and everything under it)\n"}
+[1.029351] (arduinobot_py_examples) StdoutLine: {'line': b'Copying ../../build/arduinobot_py_examples/arduinobot_py_examples.egg-info to /home/parallels/arduinobot_ws/install/arduinobot_py_examples/lib/python3.10/site-packages/arduinobot_py_examples-0.0.0-py3.10.egg-info\n'}
+[1.029475] (arduinobot_py_examples) StdoutLine: {'line': b'running install_scripts\n'}
+[1.046387] (arduinobot_py_examples) StdoutLine: {'line': b'Installing simple_publisher script to /home/parallels/arduinobot_ws/install/arduinobot_py_examples/lib/arduinobot_py_examples\n'}
+[1.047334] (arduinobot_py_examples) StdoutLine: {'line': b'Installing simple_subscriber script to /home/parallels/arduinobot_ws/install/arduinobot_py_examples/lib/arduinobot_py_examples\n'}
+[1.047690] (arduinobot_py_examples) StdoutLine: {'line': b"writing list of installed files to '/home/parallels/arduinobot_ws/build/arduinobot_py_examples/install.log'\n"}
+[1.064256] (arduinobot_py_examples) CommandEnded: {'returncode': 0}
+[1.079524] (arduinobot_py_examples) JobEnded: {'identifier': 'arduinobot_py_examples', 'rc': 0}
+[1.101471] (-) TimerEvent: {}
+[1.201849] (-) TimerEvent: {}
+[1.302137] (-) TimerEvent: {}
+[1.402462] (-) TimerEvent: {}
+[1.504121] (-) TimerEvent: {}
+[1.604371] (-) TimerEvent: {}
+[1.705165] (-) TimerEvent: {}
+[1.805450] (-) TimerEvent: {}
+[1.905730] (-) TimerEvent: {}
+[2.006046] (-) TimerEvent: {}
+[2.106664] (-) TimerEvent: {}
+[2.208988] (-) TimerEvent: {}
+[2.310896] (-) TimerEvent: {}
+[2.411881] (-) TimerEvent: {}
+[2.516088] (-) TimerEvent: {}
+[2.619384] (-) TimerEvent: {}
+[2.720249] (-) TimerEvent: {}
+[2.821568] (-) TimerEvent: {}
+[2.924506] (-) TimerEvent: {}
+[3.025040] (-) TimerEvent: {}
+[3.126335] (-) TimerEvent: {}
+[3.226586] (-) TimerEvent: {}
+[3.326860] (-) TimerEvent: {}
+[3.427138] (-) TimerEvent: {}
+[3.527420] (-) TimerEvent: {}
+[3.630796] (-) TimerEvent: {}
+[3.733016] (-) TimerEvent: {}
+[3.833294] (-) TimerEvent: {}
+[3.933905] (-) TimerEvent: {}
+[4.035336] (-) TimerEvent: {}
+[4.135686] (-) TimerEvent: {}
+[4.235961] (-) TimerEvent: {}
+[4.338327] (-) TimerEvent: {}
+[4.438662] (-) TimerEvent: {}
+[4.539934] (-) TimerEvent: {}
+[4.640452] (-) TimerEvent: {}
+[4.740866] (-) TimerEvent: {}
+[4.841208] (-) TimerEvent: {}
+[4.941498] (-) TimerEvent: {}
+[5.042964] (-) TimerEvent: {}
+[5.143561] (-) TimerEvent: {}
+[5.247284] (-) TimerEvent: {}
+[5.347528] (-) TimerEvent: {}
+[5.447781] (-) TimerEvent: {}
+[5.548178] (-) TimerEvent: {}
+[5.648631] (-) TimerEvent: {}
+[5.749042] (-) TimerEvent: {}
+[5.849731] (-) TimerEvent: {}
+[5.950031] (-) TimerEvent: {}
+[6.050373] (-) TimerEvent: {}
+[6.150645] (-) TimerEvent: {}
+[6.251315] (-) TimerEvent: {}
+[6.351596] (-) TimerEvent: {}
+[6.451867] (-) TimerEvent: {}
+[6.552137] (-) TimerEvent: {}
+[6.652385] (-) TimerEvent: {}
+[6.752657] (-) TimerEvent: {}
+[6.853568] (-) TimerEvent: {}
+[6.924974] (arduinobot_cpp_examples) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable simple_subscriber\x1b[0m\n'}
+[6.953675] (-) TimerEvent: {}
+[7.054139] (-) TimerEvent: {}
+[7.155193] (-) TimerEvent: {}
+[7.255462] (-) TimerEvent: {}
+[7.294635] (arduinobot_cpp_examples) StdoutLine: {'line': b'[100%] Built target simple_subscriber\n'}
+[7.346599] (arduinobot_cpp_examples) CommandEnded: {'returncode': 0}
+[7.359587] (-) TimerEvent: {}
+[7.379038] (arduinobot_cpp_examples) JobProgress: {'identifier': 'arduinobot_cpp_examples', 'progress': 'install'}
+[7.389334] (arduinobot_cpp_examples) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/parallels/arduinobot_ws/build/arduinobot_cpp_examples'], 'cwd': '/home/parallels/arduinobot_ws/build/arduinobot_cpp_examples', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'parallels'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/parallels/ros2_ws/install/image_geometry/lib:/home/parallels/ros2_ws/install/cv_bridge/lib:/home/parallels/test_ws/install/turtlesim/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/parallels'), ('OLDPWD', '/home/parallels'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '87054'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('_colcon_cd_root', '/opt/ros/humble/'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/parallels/ros2_ws/install:/home/parallels/test_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'parallels'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'parallels'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/ubuntu-linux-22-04-desktop:@/tmp/.ICE-unix/87037,unix/ubuntu-linux-22-04-desktop:/tmp/.ICE-unix/87037'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/473821a9_9535_4021_bd69_134822b64805'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.1BNZP2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.3365'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/parallels/ros2_ws/install/vision_opencv:/home/parallels/ros2_ws/install/opencv_tests:/home/parallels/ros2_ws/install/my_robot_controller:/home/parallels/ros2_ws/install/image_geometry:/home/parallels/ros2_ws/install/cv_bridge:/home/parallels/test_ws/install/turtlesim:/home/parallels/test_ws/install/my_package:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/parallels/arduinobot_ws/build/arduinobot_cpp_examples'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/parallels/ros2_ws/build/opencv_tests:/home/parallels/ros2_ws/install/opencv_tests/lib/python3.10/site-packages:/home/parallels/ros2_ws/build/my_robot_controller:/home/parallels/ros2_ws/install/my_robot_controller/lib/python3.10/site-packages:/home/parallels/ros2_ws/install/image_geometry/local/lib/python3.10/dist-packages:/home/parallels/ros2_ws/install/cv_bridge/local/lib/python3.10/dist-packages:/home/parallels/test_ws/install/turtlesim/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/parallels/ros2_ws/install/vision_opencv:/home/parallels/ros2_ws/install/image_geometry:/home/parallels/ros2_ws/install/cv_bridge:/home/parallels/test_ws/install/turtlesim:/home/parallels/test_ws/install/my_package:/home/parallels/ros2_ws/install/opencv_tests:/home/parallels/ros2_ws/install/my_robot_controller:/opt/ros/humble')]), 'shell': False}
+[7.393942] (arduinobot_cpp_examples) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[7.396431] (arduinobot_cpp_examples) StdoutLine: {'line': b'-- Up-to-date: /home/parallels/arduinobot_ws/install/arduinobot_cpp_examples/lib/arduinobot_cpp_examples/simple_publisher\n'}
+[7.396908] (arduinobot_cpp_examples) StdoutLine: {'line': b'-- Installing: /home/parallels/arduinobot_ws/install/arduinobot_cpp_examples/lib/arduinobot_cpp_examples/simple_subscriber\n'}
+[7.399158] (arduinobot_cpp_examples) StdoutLine: {'line': b'-- Set runtime path of "/home/parallels/arduinobot_ws/install/arduinobot_cpp_examples/lib/arduinobot_cpp_examples/simple_subscriber" to ""\n'}
+[7.400078] (arduinobot_cpp_examples) StdoutLine: {'line': b'-- Up-to-date: /home/parallels/arduinobot_ws/install/arduinobot_cpp_examples/share/ament_index/resource_index/package_run_dependencies/arduinobot_cpp_examples\n'}
+[7.400652] (arduinobot_cpp_examples) StdoutLine: {'line': b'-- Up-to-date: /home/parallels/arduinobot_ws/install/arduinobot_cpp_examples/share/ament_index/resource_index/parent_prefix_path/arduinobot_cpp_examples\n'}
+[7.402486] (arduinobot_cpp_examples) StdoutLine: {'line': b'-- Up-to-date: /home/parallels/arduinobot_ws/install/arduinobot_cpp_examples/share/arduinobot_cpp_examples/environment/ament_prefix_path.sh\n'}
+[7.402913] (arduinobot_cpp_examples) StdoutLine: {'line': b'-- Installing: /home/parallels/arduinobot_ws/install/arduinobot_cpp_examples/share/arduinobot_cpp_examples/environment/ament_prefix_path.dsv\n'}
+[7.404423] (arduinobot_cpp_examples) StdoutLine: {'line': b'-- Up-to-date: /home/parallels/arduinobot_ws/install/arduinobot_cpp_examples/share/arduinobot_cpp_examples/environment/path.sh\n'}
+[7.404809] (arduinobot_cpp_examples) StdoutLine: {'line': b'-- Installing: /home/parallels/arduinobot_ws/install/arduinobot_cpp_examples/share/arduinobot_cpp_examples/environment/path.dsv\n'}
+[7.406052] (arduinobot_cpp_examples) StdoutLine: {'line': b'-- Up-to-date: /home/parallels/arduinobot_ws/install/arduinobot_cpp_examples/share/arduinobot_cpp_examples/local_setup.bash\n'}
+[7.406432] (arduinobot_cpp_examples) StdoutLine: {'line': b'-- Up-to-date: /home/parallels/arduinobot_ws/install/arduinobot_cpp_examples/share/arduinobot_cpp_examples/local_setup.sh\n'}
+[7.406829] (arduinobot_cpp_examples) StdoutLine: {'line': b'-- Up-to-date: /home/parallels/arduinobot_ws/install/arduinobot_cpp_examples/share/arduinobot_cpp_examples/local_setup.zsh\n'}
+[7.407218] (arduinobot_cpp_examples) StdoutLine: {'line': b'-- Installing: /home/parallels/arduinobot_ws/install/arduinobot_cpp_examples/share/arduinobot_cpp_examples/local_setup.dsv\n'}
+[7.408446] (arduinobot_cpp_examples) StdoutLine: {'line': b'-- Installing: /home/parallels/arduinobot_ws/install/arduinobot_cpp_examples/share/arduinobot_cpp_examples/package.dsv\n'}
+[7.409539] (arduinobot_cpp_examples) StdoutLine: {'line': b'-- Up-to-date: /home/parallels/arduinobot_ws/install/arduinobot_cpp_examples/share/ament_index/resource_index/packages/arduinobot_cpp_examples\n'}
+[7.410007] (arduinobot_cpp_examples) StdoutLine: {'line': b'-- Up-to-date: /home/parallels/arduinobot_ws/install/arduinobot_cpp_examples/share/arduinobot_cpp_examples/cmake/arduinobot_cpp_examplesConfig.cmake\n'}
+[7.410410] (arduinobot_cpp_examples) StdoutLine: {'line': b'-- Up-to-date: /home/parallels/arduinobot_ws/install/arduinobot_cpp_examples/share/arduinobot_cpp_examples/cmake/arduinobot_cpp_examplesConfig-version.cmake\n'}
+[7.410822] (arduinobot_cpp_examples) StdoutLine: {'line': b'-- Up-to-date: /home/parallels/arduinobot_ws/install/arduinobot_cpp_examples/share/arduinobot_cpp_examples/package.xml\n'}
+[7.418059] (arduinobot_cpp_examples) CommandEnded: {'returncode': 0}
+[7.459665] (-) TimerEvent: {}
+[7.466666] (arduinobot_cpp_examples) JobEnded: {'identifier': 'arduinobot_cpp_examples', 'rc': 0}
+[7.473465] (-) EventReactorShutdown: {}

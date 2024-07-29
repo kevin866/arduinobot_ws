@@ -1,0 +1,25 @@
+-- Install configuration: ""
+-- Up-to-date: /home/parallels/arduinobot_ws/install/arduinobot_description/share/arduinobot_description/meshes
+-- Up-to-date: /home/parallels/arduinobot_ws/install/arduinobot_description/share/arduinobot_description/meshes/forward_drive_arm.STL
+-- Up-to-date: /home/parallels/arduinobot_ws/install/arduinobot_description/share/arduinobot_description/meshes/vertical_drive_arm.STL
+-- Up-to-date: /home/parallels/arduinobot_ws/install/arduinobot_description/share/arduinobot_description/meshes/plate.STL
+-- Up-to-date: /home/parallels/arduinobot_ws/install/arduinobot_description/share/arduinobot_description/meshes/link.STL
+-- Up-to-date: /home/parallels/arduinobot_ws/install/arduinobot_description/share/arduinobot_description/meshes/base_plate.STL
+-- Up-to-date: /home/parallels/arduinobot_ws/install/arduinobot_description/share/arduinobot_description/meshes/triangular_link.STL
+-- Up-to-date: /home/parallels/arduinobot_ws/install/arduinobot_description/share/arduinobot_description/meshes/basement.STL
+-- Up-to-date: /home/parallels/arduinobot_ws/install/arduinobot_description/share/arduinobot_description/meshes/round_plate.STL
+-- Up-to-date: /home/parallels/arduinobot_ws/install/arduinobot_description/share/arduinobot_description/meshes/servo_plate.STL
+-- Up-to-date: /home/parallels/arduinobot_ws/install/arduinobot_description/share/arduinobot_description/meshes/left_finger.STL
+-- Up-to-date: /home/parallels/arduinobot_ws/install/arduinobot_description/share/arduinobot_description/meshes/right_finger.STL
+-- Up-to-date: /home/parallels/arduinobot_ws/install/arduinobot_description/share/arduinobot_description/meshes/claw_support.STL
+-- Up-to-date: /home/parallels/arduinobot_ws/install/arduinobot_description/share/arduinobot_description/meshes/horizontal_arm.STL
+-- Up-to-date: /home/parallels/arduinobot_ws/install/arduinobot_description/share/arduinobot_description/urdf
+[31mCMake Error at cmake_install.cmake:46 (file):
+  file INSTALL cannot find
+-- Up-to-date: /home/parallels/arduinobot_ws/install/arduinobot_description/share/arduinobot_description/urdf/arduinobot.urdf.xacro
+-- Up-to-date: /home/parallels/arduinobot_ws/install/arduinobot_description/share/arduinobot_description/launch
+-- Up-to-date: /home/parallels/arduinobot_ws/install/arduinobot_description/share/arduinobot_description/launch/display.launch.py
+  "/home/parallels/arduinobot_ws/src/arduinobot_description/rivz": No such
+  file or directory.
+
+[0m
