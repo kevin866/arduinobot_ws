@@ -66,21 +66,49 @@
     </joint>
 
     <link name="rgb_camera">
-        <xacro:default_inertial mass="0.1"/>
+        <xacro:default_inertial mass="0.001"/>
         <visual>
-            <origin rpy="0 1.57 0" xyz="0 -0.125 0.125"/>
+            <origin rpy="-1.57 0 -1.57" xyz="-0.1 0.125 0.15"/>
             <geometry>
                 <mesh filename="package://arduinobot_description/meshes/pi_camera.STL" scale="0.01 0.01 0.01"/>
             </geometry>
         </visual>
         <collision>
-            <origin rpy="0 0 0" xyz="-0.5 -0.5 0"/>
+            <origin rpy="-1.57 0 -1.57" xyz="-0.1 0.125 0.15"/>
             <geometry>
-                <mesh filename="package://arduinobot_description/meshes/basement.STL" scale="0.01 0.01 0.01"/>
-
+                <mesh filename="package://arduinobot_description/meshes/pi_camera.STL" scale="0.01 0.01 0.01"/>
             </geometry>
         </collision>
     </link>
+
+    <gazebo>
+        <sensor type="camera" name="camera1">
+            <update_rate>30</update_rate>
+            <visualize>true</visualize>
+            <camera name="head">
+              <horizontal_fov>1.15</horizontal_fov>
+              <vertical_fov>0.71</vertical_fov>
+              <image>
+                <width>2304</width>
+                <height>1296</height>
+                <format>R8G8B8</format>
+              </image>
+            </camera>
+            <plugin name="plugin_name" filename="libgazebo_ros_camera.so">
+                <ros>
+                  <remapping>image_raw:=image_raw</remapping>
+                  <remapping>camera_info:=camera_info</remapping>
+                </ros>
+    
+                <camera_name>rgb_camera</camera_name>
+    
+                <frame_name>rgb_camera</frame_name>
+    
+                <hack_baseline>0.2</hack_baseline>
+    
+              </plugin>
+          </sensor>
+    </gazebo>
 
     <joint name="rgb_camera_joint" type="fixed">
         <parent link="base_link"/>
