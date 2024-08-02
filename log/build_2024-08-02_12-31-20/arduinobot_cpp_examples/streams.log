@@ -1,0 +1,108 @@
+[0.013s] Invoking command in '/home/parallels/arduinobot_ws/build/arduinobot_cpp_examples': AMENT_PREFIX_PATH=/home/parallels/arduinobot_ws/install/arduinobot_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/parallels/arduinobot_ws/install/arduinobot_msgs:/home/parallels/ros2_ws/install/vision_opencv:/home/parallels/ros2_ws/install/image_geometry:/home/parallels/ros2_ws/install/cv_bridge:/home/parallels/test_ws/install/turtlesim:/home/parallels/test_ws/install/my_package:/home/parallels/ros2_ws/install/opencv_tests:/home/parallels/ros2_ws/install/my_robot_controller:/opt/ros/humble LD_LIBRARY_PATH=/home/parallels/arduinobot_ws/install/arduinobot_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/parallels/arduinobot_ws/install/arduinobot_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/parallels/arduinobot_ws/build/arduinobot_cpp_examples -- -j4 -l4
+[0.079s] [ 25%] Built target simple_publisher
+[0.090s] [35m[1mConsolidate compiler generated dependencies of target simple_service_server[0m
+[0.097s] [ 50%] Built target simple_subscriber
+[0.109s] [ 62%] [32mBuilding CXX object CMakeFiles/simple_service_server.dir/src/simple_service_server.cpp.o[0m
+[0.132s] [ 87%] Built target simple_parameter
+[1.857s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+[1.857s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[1.857s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[1.857s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[1.857s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[1.858s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[1.858s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[1.858s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[1.858s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[1.858s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[1.858s]                  from [01m[K/home/parallels/arduinobot_ws/src/arduinobot_cpp_examples/src/simple_service_server.cpp:1[m[K:
+[1.858s] [01m[K/home/parallels/arduinobot_ws/src/arduinobot_cpp_examples/src/simple_service_server.cpp:[m[K In member function ‘[01m[Kvoid SimpleServiceServer::serviceCallback(std::shared_ptr<arduinobot_msgs::srv::AddTwoInts_Request_<std::allocator<void> > >, std::shared_ptr<arduinobot_msgs::srv::AddTwoInts_Response_<std::allocator<void> > >)[m[K’:
+[1.858s] [01m[K/home/parallels/arduinobot_ws/src/arduinobot_cpp_examples/src/simple_service_server.cpp:21:28:[m[K [01;31m[Kerror: [m[K‘[01m[Krclcp[m[K’ was not declared in this scope; did you mean ‘[01m[Krclcpp[m[K’?
+[1.858s]    21 |         RCLCPP_INFO_STREAM([01;31m[Krclcp[m[K::get_logger("rclcpp"), "New Request Received a: " << req->a <<" b:"<<req->b);
+[1.858s]       |                            [01;31m[K^~~~~[m[K
+[1.858s] [01m[K/home/parallels/arduinobot_ws/src/arduinobot_cpp_examples/src/simple_service_server.cpp:21:28:[m[K [01;31m[Kerror: [m[K‘[01m[Krclcp[m[K’ is not a class, namespace, or enumeration
+[1.858s] [01m[K/home/parallels/arduinobot_ws/src/arduinobot_cpp_examples/src/simple_service_server.cpp:21:9:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[1.858s]    21 |         [01;31m[KRCLCPP_INFO_STREAM[m[K(rclcp::get_logger("rclcpp"), "New Request Received a: " << req->a <<" b:"<<req->b);
+[1.858s]       |         [01;31m[K^~~~~~~~~~~~~~~~~~[m[K
+[1.858s] [01m[K/home/parallels/arduinobot_ws/src/arduinobot_cpp_examples/src/simple_service_server.cpp:21:9:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[1.858s]    21 |         [01;31m[KRCLCPP_INFO_STREAM[m[K(rclcp::get_logger("rclcpp"), "New Request Received a: " << req->a <<" b:"<<req->b);
+[1.858s]       |         [01;31m[K^~~~~~~~~~~~~~~~~~[m[K
+[1.858s] [01m[K/home/parallels/arduinobot_ws/src/arduinobot_cpp_examples/src/simple_service_server.cpp:21:9:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[1.858s]    21 |         [01;31m[KRCLCPP_INFO_STREAM[m[K(rclcp::get_logger("rclcpp"), "New Request Received a: " << req->a <<" b:"<<req->b);
+[1.858s]       |         [01;31m[K^~~~~~~~~~~~~~~~~~[m[K
+[1.858s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+[1.858s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+[1.858s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[1.858s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[1.858s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[1.859s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[1.859s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[1.859s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[1.859s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[1.859s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[1.859s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[1.859s]                  from [01m[K/home/parallels/arduinobot_ws/src/arduinobot_cpp_examples/src/simple_service_server.cpp:1[m[K:
+[1.859s] [01m[K/home/parallels/arduinobot_ws/src/arduinobot_cpp_examples/src/simple_service_server.cpp:21:28:[m[K [01;31m[Kerror: [m[K‘[01m[Krclcp[m[K’ is not a class, namespace, or enumeration
+[1.859s]    21 |         RCLCPP_INFO_STREAM([01;31m[Krclcp[m[K::get_logger("rclcpp"), "New Request Received a: " << req->a <<" b:"<<req->b);
+[1.859s]       |                            [01;31m[K^~~~~[m[K
+[1.859s] [01m[K/home/parallels/arduinobot_ws/src/arduinobot_cpp_examples/src/simple_service_server.cpp:21:28:[m[K [01;31m[Kerror: [m[K‘[01m[Krclcp[m[K’ is not a class, namespace, or enumeration
+[1.859s]    21 |         RCLCPP_INFO_STREAM([01;31m[Krclcp[m[K::get_logger("rclcpp"), "New Request Received a: " << req->a <<" b:"<<req->b);
+[1.859s]       |                            [01;31m[K^~~~~[m[K
+[1.859s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+[1.859s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[1.859s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[1.859s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[1.859s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[1.859s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[1.859s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[1.859s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[1.859s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[1.859s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[1.859s]                  from [01m[K/home/parallels/arduinobot_ws/src/arduinobot_cpp_examples/src/simple_service_server.cpp:1[m[K:
+[1.859s] [01m[K/home/parallels/arduinobot_ws/src/arduinobot_cpp_examples/src/simple_service_server.cpp:23:34:[m[K [01;31m[Kerror: [m[Kfound ‘[01m[K:[m[K’ in nested-name-specifier, expected ‘[01m[K::[m[K’
+[1.859s]    23 |         RCLCPP_INFO_STREAM(rclcpp[01;31m[K:[m[Kget_logger("rclcpp"), "Returning sum: " << res->sum);
+[1.859s]       |                                  [01;31m[K^[m[K
+[1.859s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+[1.859s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+[1.860s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[1.860s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[1.860s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[1.860s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[1.860s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[1.860s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[1.860s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[1.860s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[1.860s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[1.860s]                  from [01m[K/home/parallels/arduinobot_ws/src/arduinobot_cpp_examples/src/simple_service_server.cpp:1[m[K:
+[1.860s] [01m[K/home/parallels/arduinobot_ws/src/arduinobot_cpp_examples/src/simple_service_server.cpp:23:34:[m[K [01;31m[Kerror: [m[Kfound ‘[01m[K:[m[K’ in nested-name-specifier, expected ‘[01m[K::[m[K’
+[1.860s]    23 |         RCLCPP_INFO_STREAM(rclcpp[01;31m[K:[m[Kget_logger("rclcpp"), "Returning sum: " << res->sum);
+[1.860s]       |                                  [01;31m[K^[m[K
+[1.860s] [01m[K/home/parallels/arduinobot_ws/src/arduinobot_cpp_examples/src/simple_service_server.cpp:23:34:[m[K [01;31m[Kerror: [m[Kfound ‘[01m[K:[m[K’ in nested-name-specifier, expected ‘[01m[K::[m[K’
+[1.860s]    23 |         RCLCPP_INFO_STREAM(rclcpp[01;31m[K:[m[Kget_logger("rclcpp"), "Returning sum: " << res->sum);
+[1.860s]       |                                  [01;31m[K^[m[K
+[1.864s] [01m[K/home/parallels/arduinobot_ws/src/arduinobot_cpp_examples/src/simple_service_server.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[1.864s] [01m[K/home/parallels/arduinobot_ws/src/arduinobot_cpp_examples/src/simple_service_server.cpp:33:12:[m[K [01;31m[Kerror: [m[K‘[01m[Kshutdown[m[K’ was not declared in this scope; did you mean ‘[01m[Krclcpp::shutdown[m[K’?
+[1.864s]    33 |     rclcpp:[01;31m[Kshutdown[m[K();
+[1.864s]       |            [01;31m[K^~~~~~~~[m[K
+[1.864s]       |            [32m[Krclcpp::shutdown[m[K
+[1.864s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:25[m[K,
+[1.864s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+[1.864s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[1.864s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[1.864s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[1.864s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[1.864s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[1.864s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[1.864s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[1.864s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[1.864s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[1.864s]                  from [01m[K/home/parallels/arduinobot_ws/src/arduinobot_cpp_examples/src/simple_service_server.cpp:1[m[K:
+[1.864s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/utilities.hpp:194:1:[m[K [01;36m[Knote: [m[K‘[01m[Krclcpp::shutdown[m[K’ declared here
+[1.864s]   194 | [01;36m[Kshutdown[m[K(
+[1.864s]       | [01;36m[K^~~~~~~~[m[K
+[1.864s] [01m[K/home/parallels/arduinobot_ws/src/arduinobot_cpp_examples/src/simple_service_server.cpp:33:5:[m[K [01;35m[Kwarning: [m[Klabel ‘[01m[Krclcpp[m[K’ defined but not used [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-label-Wunused-label]8;;[m[K]
+[1.864s]    33 |     [01;35m[Krclcpp[m[K:shutdown();
+[1.864s]       |     [01;35m[K^~~~~~[m[K
+[2.281s] gmake[2]: *** [CMakeFiles/simple_service_server.dir/build.make:76: CMakeFiles/simple_service_server.dir/src/simple_service_server.cpp.o] Error 1
+[2.281s] gmake[1]: *** [CMakeFiles/Makefile2:221: CMakeFiles/simple_service_server.dir/all] Error 2
+[2.281s] gmake: *** [Makefile:146: all] Error 2
+[2.283s] Invoked command in '/home/parallels/arduinobot_ws/build/arduinobot_cpp_examples' returned '2': AMENT_PREFIX_PATH=/home/parallels/arduinobot_ws/install/arduinobot_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/parallels/arduinobot_ws/install/arduinobot_msgs:/home/parallels/ros2_ws/install/vision_opencv:/home/parallels/ros2_ws/install/image_geometry:/home/parallels/ros2_ws/install/cv_bridge:/home/parallels/test_ws/install/turtlesim:/home/parallels/test_ws/install/my_package:/home/parallels/ros2_ws/install/opencv_tests:/home/parallels/ros2_ws/install/my_robot_controller:/opt/ros/humble LD_LIBRARY_PATH=/home/parallels/arduinobot_ws/install/arduinobot_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/parallels/arduinobot_ws/install/arduinobot_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/parallels/arduinobot_ws/build/arduinobot_cpp_examples -- -j4 -l4

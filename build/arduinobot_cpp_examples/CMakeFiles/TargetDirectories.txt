@@ -3,6 +3,7 @@
 /home/parallels/arduinobot_ws/build/arduinobot_cpp_examples/CMakeFiles/simple_publisher.dir
 /home/parallels/arduinobot_ws/build/arduinobot_cpp_examples/CMakeFiles/simple_subscriber.dir
 /home/parallels/arduinobot_ws/build/arduinobot_cpp_examples/CMakeFiles/simple_parameter.dir
+/home/parallels/arduinobot_ws/build/arduinobot_cpp_examples/CMakeFiles/simple_service_server.dir
 /home/parallels/arduinobot_ws/build/arduinobot_cpp_examples/CMakeFiles/test.dir
 /home/parallels/arduinobot_ws/build/arduinobot_cpp_examples/CMakeFiles/edit_cache.dir
 /home/parallels/arduinobot_ws/build/arduinobot_cpp_examples/CMakeFiles/rebuild_cache.dir

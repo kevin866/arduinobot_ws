@@ -11,6 +11,8 @@
         "/home/parallels/test_ws/install/turtlesim/include/**",
         "/opt/ros/humble/include/**",
         "/home/parallels/arduinobot_ws/src/arduinobot_cpp_examples/include/**",
+        "/home/parallels/arduinobot_ws/src/arduinobot_description/include/**",
+        "/home/parallels/arduinobot_ws/src/arduinobot_msgs/include/**",
         "/usr/include/**"
       ],
       "name": "ROS",
