@@ -1,0 +1,15 @@
+/home/parallels/arduinobot_ws/src/install/arduinobot_utils/share/ament_index/resource_index/package_run_dependencies/arduinobot_utils
+/home/parallels/arduinobot_ws/src/install/arduinobot_utils/share/ament_index/resource_index/parent_prefix_path/arduinobot_utils
+/home/parallels/arduinobot_ws/src/install/arduinobot_utils/share/arduinobot_utils/environment/ament_prefix_path.sh
+/home/parallels/arduinobot_ws/src/install/arduinobot_utils/share/arduinobot_utils/environment/ament_prefix_path.dsv
+/home/parallels/arduinobot_ws/src/install/arduinobot_utils/share/arduinobot_utils/environment/path.sh
+/home/parallels/arduinobot_ws/src/install/arduinobot_utils/share/arduinobot_utils/environment/path.dsv
+/home/parallels/arduinobot_ws/src/install/arduinobot_utils/share/arduinobot_utils/local_setup.bash
+/home/parallels/arduinobot_ws/src/install/arduinobot_utils/share/arduinobot_utils/local_setup.sh
+/home/parallels/arduinobot_ws/src/install/arduinobot_utils/share/arduinobot_utils/local_setup.zsh
+/home/parallels/arduinobot_ws/src/install/arduinobot_utils/share/arduinobot_utils/local_setup.dsv
+/home/parallels/arduinobot_ws/src/install/arduinobot_utils/share/arduinobot_utils/package.dsv
+/home/parallels/arduinobot_ws/src/install/arduinobot_utils/share/ament_index/resource_index/packages/arduinobot_utils
+/home/parallels/arduinobot_ws/src/install/arduinobot_utils/share/arduinobot_utils/cmake/arduinobot_utilsConfig.cmake
+/home/parallels/arduinobot_ws/src/install/arduinobot_utils/share/arduinobot_utils/cmake/arduinobot_utilsConfig-version.cmake
+/home/parallels/arduinobot_ws/src/install/arduinobot_utils/share/arduinobot_utils/package.xml

@@ -1,0 +1,132 @@
+[0.253s] Invoking command in '/home/parallels/arduinobot_ws/build/arduinobot_cpp_examples': AMENT_PREFIX_PATH=/home/parallels/arduinobot_ws/install/arduinobot_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/parallels/arduinobot_ws/install/arduinobot_msgs:/home/parallels/ros2_ws/install/vision_opencv:/home/parallels/ros2_ws/install/image_geometry:/home/parallels/ros2_ws/install/cv_bridge:/home/parallels/test_ws/install/turtlesim:/home/parallels/test_ws/install/my_package:/home/parallels/ros2_ws/install/opencv_tests:/home/parallels/ros2_ws/install/my_robot_controller:/opt/ros/humble LD_LIBRARY_PATH=/home/parallels/arduinobot_ws/install/arduinobot_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/parallels/arduinobot_ws/install/arduinobot_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/parallels/arduinobot_ws/build/arduinobot_cpp_examples -- -j2 -l2
+[0.324s] -- Found ament_cmake: 1.3.9 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.471s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.490s] -- Found rclcpp: 16.0.9 (/opt/ros/humble/share/rclcpp/cmake)
+[0.540s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.544s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.552s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.567s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.587s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.705s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.707s] -- Found rmw_fastrtps_cpp: 6.2.6 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.861s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.057s] -- Found arduinobot_msgs: 0.0.0 (/home/parallels/arduinobot_ws/install/arduinobot_msgs/share/arduinobot_msgs/cmake)
+[1.080s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[1.191s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[1.192s] -- Configured cppcheck include dirs: 
+[1.192s] -- Configured cppcheck exclude dirs and/or files: 
+[1.194s] -- Added test 'lint_cmake' to check CMake code style
+[1.195s] -- Added test 'uncrustify' to check C / C++ code style
+[1.195s] -- Configured uncrustify additional arguments: 
+[1.196s] -- Added test 'xmllint' to check XML markup files
+[1.203s] -- Configuring done
+[1.241s] -- Generating done
+[1.246s] -- Build files have been written to: /home/parallels/arduinobot_ws/build/arduinobot_cpp_examples
+[1.268s] [35m[1mConsolidate compiler generated dependencies of target simple_publisher[0m
+[1.287s] [ 20%] Built target simple_publisher
+[1.297s] [35m[1mConsolidate compiler generated dependencies of target simple_parameter[0m
+[1.307s] [35m[1mConsolidate compiler generated dependencies of target simple_subscriber[0m
+[1.361s] [ 40%] Built target simple_subscriber
+[1.368s] [ 60%] Built target simple_parameter
+[1.380s] [35m[1mConsolidate compiler generated dependencies of target simple_service_server[0m
+[1.418s] [ 70%] [32mBuilding CXX object CMakeFiles/simple_service_client.dir/src/simple_service_client.cpp.o[0m
+[1.422s] [ 90%] Built target simple_service_server
+[3.663s] [01m[K/home/parallels/arduinobot_ws/src/arduinobot_cpp_examples/src/simple_service_client.cpp:34:42:[m[K [01;31m[Kerror: [m[K‘[01m[KAddTwoints[m[K’ is not a member of ‘[01m[Karduinobot_msgs::srv[m[K’; did you mean ‘[01m[KAddTwoInts[m[K’?
+[3.663s]    34 |     rclcpp::Client<arduinobot_msgs::srv::[01;31m[KAddTwoints[m[K>::SharedPtr client_;
+[3.664s]       |                                          [01;31m[K^~~~~~~~~~[m[K
+[3.664s]       |                                          [32m[KAddTwoInts[m[K
+[3.665s] [01m[K/home/parallels/arduinobot_ws/src/arduinobot_cpp_examples/src/simple_service_client.cpp:34:52:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[3.665s]    34 |     rclcpp::Client<arduinobot_msgs::srv::AddTwoints[01;31m[K>[m[K::SharedPtr client_;
+[3.665s]       |                                                    [01;31m[K^[m[K
+[3.666s] [01m[K/home/parallels/arduinobot_ws/src/arduinobot_cpp_examples/src/simple_service_client.cpp:34:55:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ at end of member declaration
+[3.666s]    34 |     rclcpp::Client<arduinobot_msgs::srv::AddTwoints>::[01;31m[KSharedPtr[m[K client_;
+[3.666s]       |                                                       [01;31m[K^~~~~~~~~[m[K
+[3.666s]       |                                                                [32m[K;[m[K
+[3.667s] [01m[K/home/parallels/arduinobot_ws/src/arduinobot_cpp_examples/src/simple_service_client.cpp:34:65:[m[K [01;31m[Kerror: [m[K‘[01m[Kclient_[m[K’ does not name a type
+[3.667s]    34 |    rclcpp::Client<arduinobot_msgs::srv::AddTwoints>::SharedPtr [01;31m[Kclient_[m[K;
+[3.667s]       |                                                                [01;31m[K^~~~~~~[m[K
+[3.667s] 
+[3.667s] [01m[K/home/parallels/arduinobot_ws/src/arduinobot_cpp_examples/src/simple_service_client.cpp:36:64:[m[K [01;31m[Kerror: [m[K‘[01m[KAddTwoints[m[K’ is not a member of ‘[01m[Karduinobot_msgs::srv[m[K’; did you mean ‘[01m[KAddTwoInts[m[K’?
+[3.667s]    36 |  void responseCallback(rclcpp::Client<arduinobot_msgs::srv::[01;31m[KAddTwoints[m[K>::SharedFuture future)
+[3.667s]       |                                                             [01;31m[K^~~~~~~~~~[m[K
+[3.667s]       |                                                             [32m[KAddTwoInts[m[K
+[3.667s] [01m[K/home/parallels/arduinobot_ws/src/arduinobot_cpp_examples/src/simple_service_client.cpp:36:74:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[3.667s]    36 | onseCallback(rclcpp::Client<arduinobot_msgs::srv::AddTwoints[01;31m[K>[m[K::SharedFuture future)
+[3.667s]       |                                                             [01;31m[K^[m[K
+[3.667s] 
+[3.670s] [01m[K/home/parallels/arduinobot_ws/src/arduinobot_cpp_examples/src/simple_service_client.cpp:36:90:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K,[m[K’ or ‘[01m[K...[m[K’ before ‘[01m[Kfuture[m[K’
+[3.670s]    36 | (rclcpp::Client<arduinobot_msgs::srv::AddTwoints>::SharedFuture [01;31m[Kfuture[m[K)
+[3.670s]       |                                                                 [01;31m[K^~~~~~[m[K
+[3.670s] 
+[3.671s] [01m[K/home/parallels/arduinobot_ws/src/arduinobot_cpp_examples/src/simple_service_client.cpp:47:2:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ after class definition
+[3.671s]    47 | }
+[3.671s]       |  [01;31m[K^[m[K
+[3.671s]       |  [32m[K;[m[K
+[3.675s] [01m[K/home/parallels/arduinobot_ws/src/arduinobot_cpp_examples/src/simple_service_client.cpp:[m[K In constructor ‘[01m[KSimpleServiceClient::SimpleServiceClient(int, int)[m[K’:
+[3.675s] [01m[K/home/parallels/arduinobot_ws/src/arduinobot_cpp_examples/src/simple_service_client.cpp:15:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kclient_[m[K’ was not declared in this scope
+[3.676s]    15 |         [01;31m[Kclient_[m[K = create_client<arduinobot_msgs::srv::AddTwoints>("add_two_ints");
+[3.676s]       |         [01;31m[K^~~~~~~[m[K
+[3.676s] [01m[K/home/parallels/arduinobot_ws/src/arduinobot_cpp_examples/src/simple_service_client.cpp:15:55:[m[K [01;31m[Kerror: [m[K‘[01m[KAddTwoints[m[K’ is not a member of ‘[01m[Karduinobot_msgs::srv[m[K’; did you mean ‘[01m[KAddTwoInts[m[K’?
+[3.676s]    15 |         client_ = create_client<arduinobot_msgs::srv::[01;31m[KAddTwoints[m[K>("add_two_ints");
+[3.676s]       |                                                       [01;31m[K^~~~~~~~~~[m[K
+[3.676s]       |                                                       [32m[KAddTwoInts[m[K
+[3.678s] [01m[K/home/parallels/arduinobot_ws/src/arduinobot_cpp_examples/src/simple_service_client.cpp:15:66:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[KSimpleServiceClient::create_client<<expression error> >(const char [13])[m[K’
+[3.678s]    15 |    client_ = [01;31m[Kcreate_client<arduinobot_msgs::srv::AddTwoints>("add_two_ints")[m[K;
+[3.678s]       |              [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~[m[K
+[3.678s] 
+[3.680s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/single_threaded_executor.hpp:28[m[K,
+[3.680s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:22[m[K,
+[3.680s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[3.680s]                  from [01m[K/home/parallels/arduinobot_ws/src/arduinobot_cpp_examples/src/simple_service_client.cpp:1[m[K:
+[3.680s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:252:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class ServiceT> typename rclcpp::Client<ServiceT>::SharedPtr rclcpp::Node::create_client(const string&, const rmw_qos_profile_t&, rclcpp::CallbackGroup::SharedPtr)[m[K’
+[3.680s]   252 |   [01;36m[Kcreate_client[m[K(
+[3.680s]       |   [01;36m[K^~~~~~~~~~~~~[m[K
+[3.680s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:252:3:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[3.680s] [01m[K/home/parallels/arduinobot_ws/src/arduinobot_cpp_examples/src/simple_service_client.cpp:15:66:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[3.681s]    15 |    client_ = [01;31m[Kcreate_client<arduinobot_msgs::srv::AddTwoints>("add_two_ints")[m[K;
+[3.681s]       |              [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~[m[K
+[3.681s] 
+[3.681s] [01m[K/home/parallels/arduinobot_ws/src/arduinobot_cpp_examples/src/simple_service_client.cpp:16:63:[m[K [01;31m[Kerror: [m[K‘[01m[KAddTwoints[m[K’ is not a member of ‘[01m[Karduinobot_msgs::srv[m[K’; did you mean ‘[01m[KAddTwoInts[m[K’?
+[3.681s]    16 |       auto request = std::make_shared<arduinobot_msgs::srv::[01;31m[KAddTwoints[m[K::Request>();
+[3.681s]       |                                                             [01;31m[K^~~~~~~~~~[m[K
+[3.681s]       |                                                             [32m[KAddTwoInts[m[K
+[3.681s] [01m[K/home/parallels/arduinobot_ws/src/arduinobot_cpp_examples/src/simple_service_client.cpp:16:29:[m[K [01;31m[Kerror: [m[Kparse error in template argument list
+[3.681s]    16 |         auto request = std::[01;31m[Kmake_shared<arduinobot_msgs::srv::AddTwoints::Request>[m[K();
+[3.681s]       |                             [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[3.681s] [01m[K/home/parallels/arduinobot_ws/src/arduinobot_cpp_examples/src/simple_service_client.cpp:16:83:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Kmake_shared<<expression error> >()[m[K’
+[3.681s]    16 | equest = [01;31m[Kstd::make_shared<arduinobot_msgs::srv::AddTwoints::Request>()[m[K;
+[3.681s]       |          [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~[m[K
+[3.681s] 
+[3.684s] In file included from [01m[K/usr/include/c++/11/memory:77[m[K,
+[3.684s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:153[m[K,
+[3.684s]                  from [01m[K/home/parallels/arduinobot_ws/src/arduinobot_cpp_examples/src/simple_service_client.cpp:1[m[K:
+[3.684s] [01m[K/usr/include/c++/11/bits/shared_ptr.h:875:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Tp, class ... _Args> std::shared_ptr<_Tp> std::make_shared(_Args&& ...)[m[K’
+[3.684s]   875 |     [01;36m[Kmake_shared[m[K(_Args&&... __args)
+[3.684s]       |     [01;36m[K^~~~~~~~~~~[m[K
+[3.684s] [01m[K/usr/include/c++/11/bits/shared_ptr.h:875:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[3.684s] [01m[K/home/parallels/arduinobot_ws/src/arduinobot_cpp_examples/src/simple_service_client.cpp:16:83:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[3.684s]    16 | equest = [01;31m[Kstd::make_shared<arduinobot_msgs::srv::AddTwoints::Request>()[m[K;
+[3.684s]       |          [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~[m[K
+[3.684s] 
+[3.692s] [01m[K/home/parallels/arduinobot_ws/src/arduinobot_cpp_examples/src/simple_service_client.cpp:31:5:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K,[m[K’ or ‘[01m[K;[m[K’ before ‘[01m[K}[m[K’ token
+[3.692s]    31 |     [01;31m[K}[m[K
+[3.692s]       |     [01;31m[K^[m[K
+[3.693s] [01m[K/home/parallels/arduinobot_ws/src/arduinobot_cpp_examples/src/simple_service_client.cpp:[m[K In member function ‘[01m[Kvoid SimpleServiceClient::responseCallback(int)[m[K’:
+[3.694s] [01m[K/home/parallels/arduinobot_ws/src/arduinobot_cpp_examples/src/simple_service_client.cpp:38:12:[m[K [01;31m[Kerror: [m[K‘[01m[Kfuture[m[K’ was not declared in this scope; did you mean ‘[01m[Kstd::future[m[K’?
+[3.694s]    38 |         if([01;31m[Kfuture[m[K.valid())
+[3.694s]       |            [01;31m[K^~~~~~[m[K
+[3.694s]       |            [32m[Kstd::future[m[K
+[3.694s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:18[m[K,
+[3.694s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[3.694s]                  from [01m[K/home/parallels/arduinobot_ws/src/arduinobot_cpp_examples/src/simple_service_client.cpp:1[m[K:
+[3.694s] [01m[K/usr/include/c++/11/future:124:11:[m[K [01;36m[Knote: [m[K‘[01m[Kstd::future[m[K’ declared here
+[3.695s]   124 |     class [01;36m[Kfuture[m[K;
+[3.695s]       |           [01;36m[K^~~~~~[m[K
+[3.696s] [01m[K/home/parallels/arduinobot_ws/src/arduinobot_cpp_examples/src/simple_service_client.cpp:36:77:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[KSharedFuture[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[3.696s]    36 | eCallback([01;35m[Krclcpp::Client<arduinobot_msgs::srv::AddTwoints>::SharedFuture[m[K future)
+[3.696s]       |           [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~[m[K
+[3.696s] 
+[4.054s] gmake[2]: *** [CMakeFiles/simple_service_client.dir/build.make:76: CMakeFiles/simple_service_client.dir/src/simple_service_client.cpp.o] Error 1
+[4.057s] gmake[1]: *** [CMakeFiles/Makefile2:249: CMakeFiles/simple_service_client.dir/all] Error 2
+[4.060s] gmake: *** [Makefile:146: all] Error 2
+[4.115s] Invoked command in '/home/parallels/arduinobot_ws/build/arduinobot_cpp_examples' returned '2': AMENT_PREFIX_PATH=/home/parallels/arduinobot_ws/install/arduinobot_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/parallels/arduinobot_ws/install/arduinobot_msgs:/home/parallels/ros2_ws/install/vision_opencv:/home/parallels/ros2_ws/install/image_geometry:/home/parallels/ros2_ws/install/cv_bridge:/home/parallels/test_ws/install/turtlesim:/home/parallels/test_ws/install/my_package:/home/parallels/ros2_ws/install/opencv_tests:/home/parallels/ros2_ws/install/my_robot_controller:/opt/ros/humble LD_LIBRARY_PATH=/home/parallels/arduinobot_ws/install/arduinobot_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/parallels/arduinobot_ws/install/arduinobot_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/parallels/arduinobot_ws/build/arduinobot_cpp_examples -- -j2 -l2
