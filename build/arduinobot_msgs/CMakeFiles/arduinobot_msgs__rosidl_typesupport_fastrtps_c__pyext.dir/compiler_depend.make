@@ -244,8 +244,22 @@ CMakeFiles/arduinobot_msgs__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_gene
   rosidl_generator_c/arduinobot_msgs/srv/detail/add_two_ints__type_support.h \
   rosidl_generator_c/arduinobot_msgs/msg/rosidl_generator_c__visibility_control.h \
   rosidl_generator_c/arduinobot_msgs/srv/detail/add_two_ints__struct.h \
-  rosidl_generator_c/arduinobot_msgs/srv/detail/add_two_ints__functions.h
+  rosidl_generator_c/arduinobot_msgs/srv/detail/add_two_ints__functions.h \
+  rosidl_generator_c/arduinobot_msgs/srv/detail/euler_to_quaternion__type_support.h \
+  rosidl_generator_c/arduinobot_msgs/srv/detail/euler_to_quaternion__struct.h \
+  rosidl_generator_c/arduinobot_msgs/srv/detail/euler_to_quaternion__functions.h \
+  rosidl_generator_c/arduinobot_msgs/srv/detail/quaternion_to_euler__type_support.h \
+  rosidl_generator_c/arduinobot_msgs/srv/detail/quaternion_to_euler__struct.h \
+  rosidl_generator_c/arduinobot_msgs/srv/detail/quaternion_to_euler__functions.h
 
+
+rosidl_generator_c/arduinobot_msgs/srv/detail/quaternion_to_euler__functions.h:
+
+rosidl_generator_c/arduinobot_msgs/srv/detail/euler_to_quaternion__functions.h:
+
+rosidl_generator_c/arduinobot_msgs/srv/detail/euler_to_quaternion__struct.h:
+
+rosidl_generator_c/arduinobot_msgs/srv/detail/euler_to_quaternion__type_support.h:
 
 rosidl_generator_c/arduinobot_msgs/srv/detail/add_two_ints__struct.h:
 
@@ -278,6 +292,8 @@ rosidl_generator_c/arduinobot_msgs/srv/detail/add_two_ints__type_support.h:
 /usr/include/aarch64-linux-gnu/bits/sched.h:
 
 /usr/include/sched.h:
+
+rosidl_generator_c/arduinobot_msgs/srv/detail/quaternion_to_euler__struct.h:
 
 /usr/include/pthread.h:
 
@@ -528,6 +544,8 @@ rosidl_generator_c/arduinobot_msgs/msg/rosidl_generator_c__visibility_control.h:
 /usr/include/aarch64-linux-gnu/bits/uintn-identity.h:
 
 /usr/include/aarch64-linux-gnu/asm/errno.h:
+
+rosidl_generator_c/arduinobot_msgs/srv/detail/quaternion_to_euler__type_support.h:
 
 /usr/include/python3.10/cpython/dictobject.h:
 
