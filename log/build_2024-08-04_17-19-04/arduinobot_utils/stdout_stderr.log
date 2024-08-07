@@ -1,0 +1,42 @@
+[35m[1mConsolidate compiler generated dependencies of target angle_conversion[0m
+[  0%] Built target ament_cmake_python_copy_arduinobot_utils
+[ 50%] [32mBuilding CXX object CMakeFiles/angle_conversion.dir/src/angle_conversion.cpp.o[0m
+running egg_info
+writing arduinobot_utils.egg-info/PKG-INFO
+writing dependency_links to arduinobot_utils.egg-info/dependency_links.txt
+writing top-level names to arduinobot_utils.egg-info/top_level.txt
+reading manifest file 'arduinobot_utils.egg-info/SOURCES.txt'
+writing manifest file 'arduinobot_utils.egg-info/SOURCES.txt'
+[ 50%] Built target ament_cmake_python_build_arduinobot_utils_egg
+[01m[K/home/parallels/arduinobot_ws/src/arduinobot_utils/src/angle_conversion.cpp:19:43:[m[K [01;31m[Kerror: [m[K‘[01m[KAddTwoInts[m[K’ is not a member of ‘[01m[Karduinobot_msgs::srv[m[K’
+   19 |     rclcpp::Service<arduinobot_msgs::srv::[01;31m[KAddTwoInts[m[K>::SharedPtr service_;
+      |                                           [01;31m[K^~~~~~~~~~[m[K
+[01m[K/home/parallels/arduinobot_ws/src/arduinobot_utils/src/angle_conversion.cpp:19:53:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+   19 |     rclcpp::Service<arduinobot_msgs::srv::AddTwoInts[01;31m[K>[m[K::SharedPtr service_;
+      |                                                     [01;31m[K^[m[K
+[01m[K/home/parallels/arduinobot_ws/src/arduinobot_utils/src/angle_conversion.cpp:19:56:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ at end of member declaration
+   19 |     rclcpp::Service<arduinobot_msgs::srv::AddTwoInts>::[01;31m[KSharedPtr[m[K service_;
+      |                                                        [01;31m[K^~~~~~~~~[m[K
+      |                                                                 [32m[K;[m[K
+[01m[K/home/parallels/arduinobot_ws/src/arduinobot_utils/src/angle_conversion.cpp:19:66:[m[K [01;31m[Kerror: [m[K‘[01m[Kservice_[m[K’ does not name a type
+   19 |  rclcpp::Service<arduinobot_msgs::srv::AddTwoInts>::SharedPtr [01;31m[Kservice_[m[K;
+      |                                                               [01;31m[K^~~~~~~~[m[K
+
+[01m[K/home/parallels/arduinobot_ws/src/arduinobot_utils/src/angle_conversion.cpp:[m[K In constructor ‘[01m[KAnglesConverter::AnglesConverter()[m[K’:
+[01m[K/home/parallels/arduinobot_ws/src/arduinobot_utils/src/angle_conversion.cpp:13:9:[m[K [01;31m[Kerror: [m[K‘[01m[Keuler_to_quaternion_[m[K’ was not declared in this scope
+   13 |         [01;31m[Keuler_to_quaternion_[m[K = create_service<arduinobot_msgs::srv::EulerToQuaternion>("quaternion_to_euler", std::bind(&SimpleServiceServer::eulerToQuaternionCallback, this, _1,_2));
+      |         [01;31m[K^~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/parallels/arduinobot_ws/src/arduinobot_utils/src/angle_conversion.cpp:13:122:[m[K [01;31m[Kerror: [m[K‘[01m[KSimpleServiceServer[m[K’ has not been declared
+   13 | ::srv::EulerToQuaternion>("quaternion_to_euler", std::bind(&[01;31m[KSimpleServiceServer[m[K::eulerToQuaternionCallback, this, _1,_2));
+      |                                                             [01;31m[K^~~~~~~~~~~~~~~~~~~[m[K
+
+[01m[K/home/parallels/arduinobot_ws/src/arduinobot_utils/src/angle_conversion.cpp:14:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kquaternion_to_euler_[m[K’ was not declared in this scope
+   14 |         [01;31m[Kquaternion_to_euler_[m[K = create_service<arduinobot_msgs::srv::QuaternionToEuler>("euler_to_quaternion", std::bind(&SimpleServiceServer::quaternionToEulerCallback, this, _1,_2));
+      |         [01;31m[K^~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/parallels/arduinobot_ws/src/arduinobot_utils/src/angle_conversion.cpp:14:122:[m[K [01;31m[Kerror: [m[K‘[01m[KSimpleServiceServer[m[K’ has not been declared
+   14 | ::srv::QuaternionToEuler>("euler_to_quaternion", std::bind(&[01;31m[KSimpleServiceServer[m[K::quaternionToEulerCallback, this, _1,_2));
+      |                                                             [01;31m[K^~~~~~~~~~~~~~~~~~~[m[K
+
+gmake[2]: *** [CMakeFiles/angle_conversion.dir/build.make:76: CMakeFiles/angle_conversion.dir/src/angle_conversion.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:140: CMakeFiles/angle_conversion.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

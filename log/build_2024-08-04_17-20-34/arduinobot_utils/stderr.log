@@ -1,0 +1,10 @@
+[01m[K/home/parallels/arduinobot_ws/src/arduinobot_utils/src/angle_conversion.cpp:[m[K In constructor ‘[01m[KAnglesConverter::AnglesConverter()[m[K’:
+[01m[K/home/parallels/arduinobot_ws/src/arduinobot_utils/src/angle_conversion.cpp:13:122:[m[K [01;31m[Kerror: [m[K‘[01m[KSimpleServiceServer[m[K’ has not been declared
+   13 |         euler_to_quaternion_ = create_service<arduinobot_msgs::srv::EulerToQuaternion>("quaternion_to_euler", std::bind(&[01;31m[KSimpleServiceServer[m[K::eulerToQuaternionCallback, this, _1,_2));
+      |                                                                                                                          [01;31m[K^~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/parallels/arduinobot_ws/src/arduinobot_utils/src/angle_conversion.cpp:14:122:[m[K [01;31m[Kerror: [m[K‘[01m[KSimpleServiceServer[m[K’ has not been declared
+   14 |         quaternion_to_euler_ = create_service<arduinobot_msgs::srv::QuaternionToEuler>("euler_to_quaternion", std::bind(&[01;31m[KSimpleServiceServer[m[K::quaternionToEulerCallback, this, _1,_2));
+      |                                                                                                                          [01;31m[K^~~~~~~~~~~~~~~~~~~[m[K
+gmake[2]: *** [CMakeFiles/angle_conversion.dir/build.make:76: CMakeFiles/angle_conversion.dir/src/angle_conversion.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:140: CMakeFiles/angle_conversion.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

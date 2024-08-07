@@ -1,0 +1,22 @@
+[0.033s] Invoking command in '/home/parallels/arduinobot_ws/build/arduinobot_utils': AMENT_PREFIX_PATH=/home/parallels/arduinobot_ws/install/arduinobot_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/parallels/arduinobot_ws/install/arduinobot_msgs:/home/parallels/ros2_ws/install/vision_opencv:/home/parallels/ros2_ws/install/image_geometry:/home/parallels/ros2_ws/install/cv_bridge:/home/parallels/test_ws/install/turtlesim:/home/parallels/test_ws/install/my_package:/home/parallels/ros2_ws/install/opencv_tests:/home/parallels/ros2_ws/install/my_robot_controller:/opt/ros/humble LD_LIBRARY_PATH=/home/parallels/arduinobot_ws/install/arduinobot_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/parallels/arduinobot_ws/install/arduinobot_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/parallels/arduinobot_ws/build/arduinobot_utils -- -j2 -l2
+[0.128s] [35m[1mConsolidate compiler generated dependencies of target angle_conversion[0m
+[0.165s] [  0%] Built target ament_cmake_python_copy_arduinobot_utils
+[0.179s] [ 50%] [32mBuilding CXX object CMakeFiles/angle_conversion.dir/src/angle_conversion.cpp.o[0m
+[0.660s] running egg_info
+[0.664s] writing arduinobot_utils.egg-info/PKG-INFO
+[0.665s] writing dependency_links to arduinobot_utils.egg-info/dependency_links.txt
+[0.676s] writing top-level names to arduinobot_utils.egg-info/top_level.txt
+[0.676s] reading manifest file 'arduinobot_utils.egg-info/SOURCES.txt'
+[0.680s] writing manifest file 'arduinobot_utils.egg-info/SOURCES.txt'
+[0.757s] [ 50%] Built target ament_cmake_python_build_arduinobot_utils_egg
+[2.876s] [01m[K/home/parallels/arduinobot_ws/src/arduinobot_utils/src/angle_conversion.cpp:[m[K In constructor ‘[01m[KAnglesConverter::AnglesConverter()[m[K’:
+[2.876s] [01m[K/home/parallels/arduinobot_ws/src/arduinobot_utils/src/angle_conversion.cpp:13:122:[m[K [01;31m[Kerror: [m[K‘[01m[KSimpleServiceServer[m[K’ has not been declared
+[2.876s]    13 |         euler_to_quaternion_ = create_service<arduinobot_msgs::srv::EulerToQuaternion>("quaternion_to_euler", std::bind(&[01;31m[KSimpleServiceServer[m[K::eulerToQuaternionCallback, this, _1,_2));
+[2.876s]       |                                                                                                                          [01;31m[K^~~~~~~~~~~~~~~~~~~[m[K
+[2.876s] [01m[K/home/parallels/arduinobot_ws/src/arduinobot_utils/src/angle_conversion.cpp:14:122:[m[K [01;31m[Kerror: [m[K‘[01m[KSimpleServiceServer[m[K’ has not been declared
+[2.876s]    14 |         quaternion_to_euler_ = create_service<arduinobot_msgs::srv::QuaternionToEuler>("euler_to_quaternion", std::bind(&[01;31m[KSimpleServiceServer[m[K::quaternionToEulerCallback, this, _1,_2));
+[2.876s]       |                                                                                                                          [01;31m[K^~~~~~~~~~~~~~~~~~~[m[K
+[3.278s] gmake[2]: *** [CMakeFiles/angle_conversion.dir/build.make:76: CMakeFiles/angle_conversion.dir/src/angle_conversion.cpp.o] Error 1
+[3.278s] gmake[1]: *** [CMakeFiles/Makefile2:140: CMakeFiles/angle_conversion.dir/all] Error 2
+[3.278s] gmake: *** [Makefile:146: all] Error 2
+[3.280s] Invoked command in '/home/parallels/arduinobot_ws/build/arduinobot_utils' returned '2': AMENT_PREFIX_PATH=/home/parallels/arduinobot_ws/install/arduinobot_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/parallels/arduinobot_ws/install/arduinobot_msgs:/home/parallels/ros2_ws/install/vision_opencv:/home/parallels/ros2_ws/install/image_geometry:/home/parallels/ros2_ws/install/cv_bridge:/home/parallels/test_ws/install/turtlesim:/home/parallels/test_ws/install/my_package:/home/parallels/ros2_ws/install/opencv_tests:/home/parallels/ros2_ws/install/my_robot_controller:/opt/ros/humble LD_LIBRARY_PATH=/home/parallels/arduinobot_ws/install/arduinobot_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/parallels/arduinobot_ws/install/arduinobot_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/parallels/arduinobot_ws/build/arduinobot_utils -- -j2 -l2

@@ -1,0 +1,44 @@
+[0.031s] Invoking command in '/home/parallels/arduinobot_ws/build/arduinobot_utils': AMENT_PREFIX_PATH=/home/parallels/arduinobot_ws/install/arduinobot_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/parallels/arduinobot_ws/install/arduinobot_msgs:/home/parallels/ros2_ws/install/vision_opencv:/home/parallels/ros2_ws/install/image_geometry:/home/parallels/ros2_ws/install/cv_bridge:/home/parallels/test_ws/install/turtlesim:/home/parallels/test_ws/install/my_package:/home/parallels/ros2_ws/install/opencv_tests:/home/parallels/ros2_ws/install/my_robot_controller:/opt/ros/humble LD_LIBRARY_PATH=/home/parallels/arduinobot_ws/install/arduinobot_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/parallels/arduinobot_ws/install/arduinobot_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/parallels/arduinobot_ws/build/arduinobot_utils -- -j2 -l2
+[0.149s] [35m[1mConsolidate compiler generated dependencies of target angle_conversion[0m
+[0.159s] [  0%] Built target ament_cmake_python_copy_arduinobot_utils
+[0.181s] [ 50%] [32mBuilding CXX object CMakeFiles/angle_conversion.dir/src/angle_conversion.cpp.o[0m
+[0.706s] running egg_info
+[0.708s] writing arduinobot_utils.egg-info/PKG-INFO
+[0.708s] writing dependency_links to arduinobot_utils.egg-info/dependency_links.txt
+[0.709s] writing top-level names to arduinobot_utils.egg-info/top_level.txt
+[0.716s] reading manifest file 'arduinobot_utils.egg-info/SOURCES.txt'
+[0.719s] writing manifest file 'arduinobot_utils.egg-info/SOURCES.txt'
+[0.800s] [ 50%] Built target ament_cmake_python_build_arduinobot_utils_egg
+[2.753s] [01m[K/home/parallels/arduinobot_ws/src/arduinobot_utils/src/angle_conversion.cpp:19:43:[m[K [01;31m[Kerror: [m[K‘[01m[KAddTwoInts[m[K’ is not a member of ‘[01m[Karduinobot_msgs::srv[m[K’
+[2.753s]    19 |     rclcpp::Service<arduinobot_msgs::srv::[01;31m[KAddTwoInts[m[K>::SharedPtr service_;
+[2.753s]       |                                           [01;31m[K^~~~~~~~~~[m[K
+[2.753s] [01m[K/home/parallels/arduinobot_ws/src/arduinobot_utils/src/angle_conversion.cpp:19:53:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[2.753s]    19 |     rclcpp::Service<arduinobot_msgs::srv::AddTwoInts[01;31m[K>[m[K::SharedPtr service_;
+[2.753s]       |                                                     [01;31m[K^[m[K
+[2.754s] [01m[K/home/parallels/arduinobot_ws/src/arduinobot_utils/src/angle_conversion.cpp:19:56:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ at end of member declaration
+[2.754s]    19 |     rclcpp::Service<arduinobot_msgs::srv::AddTwoInts>::[01;31m[KSharedPtr[m[K service_;
+[2.754s]       |                                                        [01;31m[K^~~~~~~~~[m[K
+[2.755s]       |                                                                 [32m[K;[m[K
+[2.757s] [01m[K/home/parallels/arduinobot_ws/src/arduinobot_utils/src/angle_conversion.cpp:19:66:[m[K [01;31m[Kerror: [m[K‘[01m[Kservice_[m[K’ does not name a type
+[2.757s]    19 |  rclcpp::Service<arduinobot_msgs::srv::AddTwoInts>::SharedPtr [01;31m[Kservice_[m[K;
+[2.757s]       |                                                               [01;31m[K^~~~~~~~[m[K
+[2.757s] 
+[2.769s] [01m[K/home/parallels/arduinobot_ws/src/arduinobot_utils/src/angle_conversion.cpp:[m[K In constructor ‘[01m[KAnglesConverter::AnglesConverter()[m[K’:
+[2.769s] [01m[K/home/parallels/arduinobot_ws/src/arduinobot_utils/src/angle_conversion.cpp:13:9:[m[K [01;31m[Kerror: [m[K‘[01m[Keuler_to_quaternion_[m[K’ was not declared in this scope
+[2.769s]    13 |         [01;31m[Keuler_to_quaternion_[m[K = create_service<arduinobot_msgs::srv::EulerToQuaternion>("quaternion_to_euler", std::bind(&SimpleServiceServer::eulerToQuaternionCallback, this, _1,_2));
+[2.769s]       |         [01;31m[K^~~~~~~~~~~~~~~~~~~~[m[K
+[2.769s] [01m[K/home/parallels/arduinobot_ws/src/arduinobot_utils/src/angle_conversion.cpp:13:122:[m[K [01;31m[Kerror: [m[K‘[01m[KSimpleServiceServer[m[K’ has not been declared
+[2.769s]    13 | ::srv::EulerToQuaternion>("quaternion_to_euler", std::bind(&[01;31m[KSimpleServiceServer[m[K::eulerToQuaternionCallback, this, _1,_2));
+[2.769s]       |                                                             [01;31m[K^~~~~~~~~~~~~~~~~~~[m[K
+[2.769s] 
+[2.781s] [01m[K/home/parallels/arduinobot_ws/src/arduinobot_utils/src/angle_conversion.cpp:14:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kquaternion_to_euler_[m[K’ was not declared in this scope
+[2.781s]    14 |         [01;31m[Kquaternion_to_euler_[m[K = create_service<arduinobot_msgs::srv::QuaternionToEuler>("euler_to_quaternion", std::bind(&SimpleServiceServer::quaternionToEulerCallback, this, _1,_2));
+[2.781s]       |         [01;31m[K^~~~~~~~~~~~~~~~~~~~[m[K
+[2.781s] [01m[K/home/parallels/arduinobot_ws/src/arduinobot_utils/src/angle_conversion.cpp:14:122:[m[K [01;31m[Kerror: [m[K‘[01m[KSimpleServiceServer[m[K’ has not been declared
+[2.782s]    14 | ::srv::QuaternionToEuler>("euler_to_quaternion", std::bind(&[01;31m[KSimpleServiceServer[m[K::quaternionToEulerCallback, this, _1,_2));
+[2.782s]       |                                                             [01;31m[K^~~~~~~~~~~~~~~~~~~[m[K
+[2.782s] 
+[3.151s] gmake[2]: *** [CMakeFiles/angle_conversion.dir/build.make:76: CMakeFiles/angle_conversion.dir/src/angle_conversion.cpp.o] Error 1
+[3.151s] gmake[1]: *** [CMakeFiles/Makefile2:140: CMakeFiles/angle_conversion.dir/all] Error 2
+[3.151s] gmake: *** [Makefile:146: all] Error 2
+[3.155s] Invoked command in '/home/parallels/arduinobot_ws/build/arduinobot_utils' returned '2': AMENT_PREFIX_PATH=/home/parallels/arduinobot_ws/install/arduinobot_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/parallels/arduinobot_ws/install/arduinobot_msgs:/home/parallels/ros2_ws/install/vision_opencv:/home/parallels/ros2_ws/install/image_geometry:/home/parallels/ros2_ws/install/cv_bridge:/home/parallels/test_ws/install/turtlesim:/home/parallels/test_ws/install/my_package:/home/parallels/ros2_ws/install/opencv_tests:/home/parallels/ros2_ws/install/my_robot_controller:/opt/ros/humble LD_LIBRARY_PATH=/home/parallels/arduinobot_ws/install/arduinobot_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/parallels/arduinobot_ws/install/arduinobot_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/parallels/arduinobot_ws/build/arduinobot_utils -- -j2 -l2
