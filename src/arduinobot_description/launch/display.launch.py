@@ -9,7 +9,8 @@ from ament_index_python.packages import get_package_share_directory
 def generate_launch_description():
     model_arg = DeclareLaunchArgument(
         name="model", 
-        default_value = os.path.join(get_package_share_directory("arduinobot_description"), "urdf", "arduinobot.urdf.xacro"),
+        default_value = os.path.join(get_package_share_directory("arduinobot_description"), 
+                                     "urdf", "arduinobot.urdf.xacro"),
     )
 
     robot_description = ParameterValue(Command(["xacro ", LaunchConfiguration("model")]))

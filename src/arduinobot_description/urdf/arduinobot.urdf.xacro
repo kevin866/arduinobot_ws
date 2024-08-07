@@ -2,6 +2,9 @@
 
 <robot xmlns:xacro="http://www.ros.org/wiki/xacro" name="arduinobot">
 
+    <xacro:include filename="$(find arduinobot_description)/urdf/arduinobot_gazebo.xacro"/>
+    <xacro:include filename="$(find arduinobot_description)/urdf/arduinobot_ros2_control.xacro"/>
+
     <xacro:property name="PI" value="3.14159"/>
     <xacro:property name="effort" value="30"/>
     <xacro:property name="velocity" value="10"/>
@@ -14,7 +17,19 @@
                     izz="1.0"/>
         </inertial>         
     </xacro:macro>
+
+    <xacro:macro name="default_transmission" params = "number">
+        <transmission name="transmission_${number}">
+            <plugin>transmission_interface/SimpleTransmission</plugin>
+            <actuator name="motor_${number}" role = "actuator1"/>
+            <joint name="joint_${number}" rolw="joint1">
+                <mechanical_reduction>1.0</mechanical_reduction>
+            </joint>
+        </transmission>
+    </xacro:macro>
     
+    
+
     <link name="world"/>
     <link name="base_link">
         <xacro:default_inertial mass="1.0"/>
@@ -241,4 +256,9 @@
         <limit lower="0" upper="${PI/2}" effort="${effort}" velocity="${velocity}"/>
 
     </joint>
+
+    <xacro:default_transmission number="1"/>
+    <xacro:default_transmission number="2"/>
+    <xacro:default_transmission number="3"/>
+    <xacro:default_transmission number="4"/>
 </robot>
