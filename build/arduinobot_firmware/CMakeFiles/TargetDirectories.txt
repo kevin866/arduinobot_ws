@@ -1,0 +1,9 @@
+/home/parallels/arduinobot_ws/build/arduinobot_firmware/CMakeFiles/uninstall.dir
+/home/parallels/arduinobot_ws/build/arduinobot_firmware/CMakeFiles/arduinobot_firmware_uninstall.dir
+/home/parallels/arduinobot_ws/build/arduinobot_firmware/CMakeFiles/test.dir
+/home/parallels/arduinobot_ws/build/arduinobot_firmware/CMakeFiles/edit_cache.dir
+/home/parallels/arduinobot_ws/build/arduinobot_firmware/CMakeFiles/rebuild_cache.dir
+/home/parallels/arduinobot_ws/build/arduinobot_firmware/CMakeFiles/list_install_components.dir
+/home/parallels/arduinobot_ws/build/arduinobot_firmware/CMakeFiles/install.dir
+/home/parallels/arduinobot_ws/build/arduinobot_firmware/CMakeFiles/install/local.dir
+/home/parallels/arduinobot_ws/build/arduinobot_firmware/CMakeFiles/install/strip.dir

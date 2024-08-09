@@ -1,0 +1,15 @@
+/home/parallels/arduinobot_ws/install/arduinobot_firmware/share/ament_index/resource_index/package_run_dependencies/arduinobot_firmware
+/home/parallels/arduinobot_ws/install/arduinobot_firmware/share/ament_index/resource_index/parent_prefix_path/arduinobot_firmware
+/home/parallels/arduinobot_ws/install/arduinobot_firmware/share/arduinobot_firmware/environment/ament_prefix_path.sh
+/home/parallels/arduinobot_ws/install/arduinobot_firmware/share/arduinobot_firmware/environment/ament_prefix_path.dsv
+/home/parallels/arduinobot_ws/install/arduinobot_firmware/share/arduinobot_firmware/environment/path.sh
+/home/parallels/arduinobot_ws/install/arduinobot_firmware/share/arduinobot_firmware/environment/path.dsv
+/home/parallels/arduinobot_ws/install/arduinobot_firmware/share/arduinobot_firmware/local_setup.bash
+/home/parallels/arduinobot_ws/install/arduinobot_firmware/share/arduinobot_firmware/local_setup.sh
+/home/parallels/arduinobot_ws/install/arduinobot_firmware/share/arduinobot_firmware/local_setup.zsh
+/home/parallels/arduinobot_ws/install/arduinobot_firmware/share/arduinobot_firmware/local_setup.dsv
+/home/parallels/arduinobot_ws/install/arduinobot_firmware/share/arduinobot_firmware/package.dsv
+/home/parallels/arduinobot_ws/install/arduinobot_firmware/share/ament_index/resource_index/packages/arduinobot_firmware
+/home/parallels/arduinobot_ws/install/arduinobot_firmware/share/arduinobot_firmware/cmake/arduinobot_firmwareConfig.cmake
+/home/parallels/arduinobot_ws/install/arduinobot_firmware/share/arduinobot_firmware/cmake/arduinobot_firmwareConfig-version.cmake
+/home/parallels/arduinobot_ws/install/arduinobot_firmware/share/arduinobot_firmware/package.xml
