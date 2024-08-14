@@ -1,0 +1,17 @@
+[ 11%] Built target simple_publisher
+[ 22%] Built target simple_parameter
+[ 33%] Built target simple_service_server
+[ 44%] Built target simple_subscriber
+[ 55%] Built target simple_service_client
+[ 66%] Built target simple_action_server
+[35m[1mConsolidate compiler generated dependencies of target simple_action_client[0m
+[ 77%] Built target simple_action_client_node
+[ 88%] Built target simple_action_server_node
+[ 94%] [32mBuilding CXX object CMakeFiles/simple_action_client.dir/src/simple_action_client.cpp.o[0m
+[01m[K/home/parallels/arduinobot_ws/src/arduinobot_cpp_examples/src/simple_action_client.cpp:[m[K In member function ‘[01m[Kvoid arduinobot_cpp_examples::SimpleActionClient::resultCallback(const rclcpp_action::ClientGoalHandle<arduinobot_msgs::action::Fibonacci>::WrappedResult&)[m[K’:
+[01m[K/home/parallels/arduinobot_ws/src/arduinobot_cpp_examples/src/simple_action_client.cpp:89:33:[m[K [01;31m[Kerror: [m[Kbase operand of ‘[01m[K->[m[K’ has non-pointer type ‘[01m[Kconst rclcpp_action::ClientGoalHandle<arduinobot_msgs::action::Fibonacci>::WrappedResult[m[K’
+   89 |         for (auto number: result[01;31m[K->[m[Ksequence)
+      |                                 [01;31m[K^~[m[K
+gmake[2]: *** [CMakeFiles/simple_action_client.dir/build.make:76: CMakeFiles/simple_action_client.dir/src/simple_action_client.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:335: CMakeFiles/simple_action_client.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

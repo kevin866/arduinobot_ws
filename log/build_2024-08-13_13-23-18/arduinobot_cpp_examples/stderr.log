@@ -1,0 +1,24 @@
+[01m[K/home/parallels/arduinobot_ws/src/arduinobot_cpp_examples/src/simple_action_client.cpp:[m[K In member function ‘[01m[Kvoid arduinobot_cpp_examples::SimpleActionClient::timerCallback()[m[K’:
+[01m[K/home/parallels/arduinobot_ws/src/arduinobot_cpp_examples/src/simple_action_client.cpp:41:78:[m[K [01;31m[Kerror: [m[K‘[01m[KfeedbackCallback[m[K’ is not a member of ‘[01m[Karduinobot_cpp_examples::SimpleActionClient[m[K’
+   41 |         send_goal_options.feedback_callback = std::bind(&SimpleActionClient::[01;31m[KfeedbackCallback[m[K, this, _1, _2);
+      |                                                                              [01;31m[K^~~~~~~~~~~~~~~~[m[K
+[01m[K/home/parallels/arduinobot_ws/src/arduinobot_cpp_examples/src/simple_action_client.cpp:42:76:[m[K [01;31m[Kerror: [m[K‘[01m[KresultCallback[m[K’ is not a member of ‘[01m[Karduinobot_cpp_examples::SimpleActionClient[m[K’
+   42 |         send_goal_options.result_callback = std::bind(&SimpleActionClient::[01;31m[KresultCallback[m[K, this, _1);
+      |                                                                            [01;31m[K^~~~~~~~~~~~~~[m[K
+[01m[K/home/parallels/arduinobot_ws/src/arduinobot_cpp_examples/src/simple_action_client.cpp:44:44:[m[K [01;31m[Kerror: [m[K‘[01m[Kend_goal_options[m[K’ was not declared in this scope; did you mean ‘[01m[Ksend_goal_options[m[K’?
+   44 |         client_->async_send_goal(goal_msg, [01;31m[Kend_goal_options[m[K);
+      |                                            [01;31m[K^~~~~~~~~~~~~~~~[m[K
+      |                                            [32m[Ksend_goal_options[m[K
+[01m[K/home/parallels/arduinobot_ws/src/arduinobot_cpp_examples/src/simple_action_client.cpp:[m[K In member function ‘[01m[Kvoid arduinobot_cpp_examples::SimpleActionClient::feedback_callback(const SharedPtr&)[m[K’:
+[01m[K/home/parallels/arduinobot_ws/src/arduinobot_cpp_examples/src/simple_action_client.cpp:72:23:[m[K [01;31m[Kerror: [m[K‘[01m[Kconst SharedPtr[m[K’ {aka ‘[01m[Kconst class std::shared_ptr<rclcpp_action::ClientGoalHandle<arduinobot_msgs::action::Fibonacci> >[m[K’} has no member named ‘[01m[Kcode[m[K’
+   72 |         swtich(result.[01;31m[Kcode[m[K)
+      |                       [01;31m[K^~~~[m[K
+[01m[K/home/parallels/arduinobot_ws/src/arduinobot_cpp_examples/src/simple_action_client.cpp:72:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kswtich[m[K’ was not declared in this scope
+   72 |         [01;31m[Kswtich[m[K(result.code)
+      |         [01;31m[K^~~~~~[m[K
+[01m[K/home/parallels/arduinobot_ws/src/arduinobot_cpp_examples/src/simple_action_client.cpp:88:35:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing element_type = class rclcpp_action::ClientGoalHandle<arduinobot_msgs::action::Fibonacci>[m[K’ {aka ‘[01m[Kclass rclcpp_action::ClientGoalHandle<arduinobot_msgs::action::Fibonacci>[m[K’} has no member named ‘[01m[Ksequence[m[K’
+   88 |         for (auto number: result->[01;31m[Ksequence[m[K)
+      |                                   [01;31m[K^~~~~~~~[m[K
+gmake[2]: *** [CMakeFiles/simple_action_client.dir/build.make:76: CMakeFiles/simple_action_client.dir/src/simple_action_client.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:335: CMakeFiles/simple_action_client.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

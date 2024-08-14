@@ -1,0 +1,9 @@
+[01m[K/home/parallels/arduinobot_ws/src/arduinobot_cpp_examples/src/simple_action_client.cpp:99:1:[m[K [01;31m[Kerror: [m[Kexpected declaration before ‘[01m[K}[m[K’ token
+   99 | [01;31m[K}[m[K;
+      | [01;31m[K^[m[K
+[01m[K/home/parallels/arduinobot_ws/src/arduinobot_cpp_examples/src/simple_action_client.cpp:100:1:[m[K [01;31m[Kerror: [m[Kexpected declaration before ‘[01m[K}[m[K’ token
+  100 | [01;31m[K}[m[K
+      | [01;31m[K^[m[K
+gmake[2]: *** [CMakeFiles/simple_action_client.dir/build.make:76: CMakeFiles/simple_action_client.dir/src/simple_action_client.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:335: CMakeFiles/simple_action_client.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

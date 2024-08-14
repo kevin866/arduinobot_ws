@@ -1,0 +1,31 @@
+[0.013s] Invoking command in '/home/parallels/arduinobot_ws/build/arduinobot_cpp_examples': AMENT_PREFIX_PATH=/home/parallels/arduinobot_ws/install/arduinobot_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/parallels/arduinobot_ws/install/arduinobot_msgs:/home/parallels/ros2_ws/install/vision_opencv:/home/parallels/ros2_ws/install/image_geometry:/home/parallels/ros2_ws/install/cv_bridge:/home/parallels/test_ws/install/turtlesim:/home/parallels/test_ws/install/my_package:/home/parallels/ros2_ws/install/opencv_tests:/home/parallels/ros2_ws/install/my_robot_controller:/opt/ros/humble LD_LIBRARY_PATH=/home/parallels/arduinobot_ws/install/arduinobot_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/parallels/arduinobot_ws/install/arduinobot_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/parallels/arduinobot_ws/build/arduinobot_cpp_examples -- -j6 -l6
+[0.200s] [ 11%] Built target simple_service_server
+[0.200s] [ 22%] Built target simple_publisher
+[0.200s] [ 44%] Built target simple_action_server
+[0.200s] [ 44%] Built target simple_service_client
+[0.200s] [ 55%] Built target simple_subscriber
+[0.200s] [35m[1mConsolidate compiler generated dependencies of target simple_action_client[0m
+[0.200s] [ 66%] Built target simple_parameter
+[0.200s] [ 77%] Built target simple_action_server_node
+[0.200s] [ 88%] Built target simple_action_client_node
+[0.200s] [ 94%] [32mBuilding CXX object CMakeFiles/simple_action_client.dir/src/simple_action_client.cpp.o[0m
+[1.684s] [01m[K/home/parallels/arduinobot_ws/src/arduinobot_cpp_examples/src/simple_action_client.cpp:[m[K In member function ‘[01m[Kvoid arduinobot_cpp_examples::SimpleActionClient::resultCallback(const rclcpp_action::ClientGoalHandle<arduinobot_msgs::action::Fibonacci>::WrappedResult&)[m[K’:
+[1.684s] [01m[K/home/parallels/arduinobot_ws/src/arduinobot_cpp_examples/src/simple_action_client.cpp:80:13:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[Kcase[m[K’
+[1.684s]    80 |             [01;31m[Kcase[m[K rclcpp_action::ResultCode::CANCELED:
+[1.684s]       |             [01;31m[K^~~~[m[K
+[1.684s] [01m[K/home/parallels/arduinobot_ws/src/arduinobot_cpp_examples/src/simple_action_client.cpp:80:13:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ before ‘[01m[Kcase[m[K’
+[1.684s] [01m[K/home/parallels/arduinobot_ws/src/arduinobot_cpp_examples/src/simple_action_client.cpp:83:13:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[Kdefault[m[K’
+[1.684s]    83 |             [01;31m[Kdefault[m[K:
+[1.684s]       |             [01;31m[K^~~~~~~[m[K
+[1.684s] [01m[K/home/parallels/arduinobot_ws/src/arduinobot_cpp_examples/src/simple_action_client.cpp:83:13:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ before ‘[01m[Kdefault[m[K’
+[1.684s] [01m[K/home/parallels/arduinobot_ws/src/arduinobot_cpp_examples/src/simple_action_client.cpp:86:9:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[K}[m[K’ token
+[1.684s]    86 |         [01;31m[K}[m[K
+[1.685s]       |         [01;31m[K^[m[K
+[1.685s] [01m[K/home/parallels/arduinobot_ws/src/arduinobot_cpp_examples/src/simple_action_client.cpp:86:9:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ before ‘[01m[K}[m[K’ token
+[1.685s] [01m[K/home/parallels/arduinobot_ws/src/arduinobot_cpp_examples/src/simple_action_client.cpp:89:33:[m[K [01;31m[Kerror: [m[Kbase operand of ‘[01m[K->[m[K’ has non-pointer type ‘[01m[Kconst rclcpp_action::ClientGoalHandle<arduinobot_msgs::action::Fibonacci>::WrappedResult[m[K’
+[1.685s]    89 |         for (auto number: result[01;31m[K->[m[Ksequence)
+[1.685s]       |                                 [01;31m[K^~[m[K
+[2.206s] gmake[2]: *** [CMakeFiles/simple_action_client.dir/build.make:76: CMakeFiles/simple_action_client.dir/src/simple_action_client.cpp.o] Error 1
+[2.206s] gmake[1]: *** [CMakeFiles/Makefile2:335: CMakeFiles/simple_action_client.dir/all] Error 2
+[2.206s] gmake: *** [Makefile:146: all] Error 2
+[2.208s] Invoked command in '/home/parallels/arduinobot_ws/build/arduinobot_cpp_examples' returned '2': AMENT_PREFIX_PATH=/home/parallels/arduinobot_ws/install/arduinobot_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/parallels/arduinobot_ws/install/arduinobot_msgs:/home/parallels/ros2_ws/install/vision_opencv:/home/parallels/ros2_ws/install/image_geometry:/home/parallels/ros2_ws/install/cv_bridge:/home/parallels/test_ws/install/turtlesim:/home/parallels/test_ws/install/my_package:/home/parallels/ros2_ws/install/opencv_tests:/home/parallels/ros2_ws/install/my_robot_controller:/opt/ros/humble LD_LIBRARY_PATH=/home/parallels/arduinobot_ws/install/arduinobot_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/parallels/arduinobot_ws/install/arduinobot_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/parallels/arduinobot_ws/build/arduinobot_cpp_examples -- -j6 -l6

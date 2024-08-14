@@ -1,0 +1,29 @@
+[ 11%] Built target simple_service_server
+[ 22%] Built target simple_publisher
+[ 44%] Built target simple_action_server
+[ 44%] Built target simple_service_client
+[ 55%] Built target simple_subscriber
+[35m[1mConsolidate compiler generated dependencies of target simple_action_client[0m
+[ 66%] Built target simple_parameter
+[ 77%] Built target simple_action_server_node
+[ 88%] Built target simple_action_client_node
+[ 94%] [32mBuilding CXX object CMakeFiles/simple_action_client.dir/src/simple_action_client.cpp.o[0m
+[01m[K/home/parallels/arduinobot_ws/src/arduinobot_cpp_examples/src/simple_action_client.cpp:[m[K In member function ‘[01m[Kvoid arduinobot_cpp_examples::SimpleActionClient::resultCallback(const rclcpp_action::ClientGoalHandle<arduinobot_msgs::action::Fibonacci>::WrappedResult&)[m[K’:
+[01m[K/home/parallels/arduinobot_ws/src/arduinobot_cpp_examples/src/simple_action_client.cpp:80:13:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[Kcase[m[K’
+   80 |             [01;31m[Kcase[m[K rclcpp_action::ResultCode::CANCELED:
+      |             [01;31m[K^~~~[m[K
+[01m[K/home/parallels/arduinobot_ws/src/arduinobot_cpp_examples/src/simple_action_client.cpp:80:13:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ before ‘[01m[Kcase[m[K’
+[01m[K/home/parallels/arduinobot_ws/src/arduinobot_cpp_examples/src/simple_action_client.cpp:83:13:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[Kdefault[m[K’
+   83 |             [01;31m[Kdefault[m[K:
+      |             [01;31m[K^~~~~~~[m[K
+[01m[K/home/parallels/arduinobot_ws/src/arduinobot_cpp_examples/src/simple_action_client.cpp:83:13:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ before ‘[01m[Kdefault[m[K’
+[01m[K/home/parallels/arduinobot_ws/src/arduinobot_cpp_examples/src/simple_action_client.cpp:86:9:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[K}[m[K’ token
+   86 |         [01;31m[K}[m[K
+      |         [01;31m[K^[m[K
+[01m[K/home/parallels/arduinobot_ws/src/arduinobot_cpp_examples/src/simple_action_client.cpp:86:9:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ before ‘[01m[K}[m[K’ token
+[01m[K/home/parallels/arduinobot_ws/src/arduinobot_cpp_examples/src/simple_action_client.cpp:89:33:[m[K [01;31m[Kerror: [m[Kbase operand of ‘[01m[K->[m[K’ has non-pointer type ‘[01m[Kconst rclcpp_action::ClientGoalHandle<arduinobot_msgs::action::Fibonacci>::WrappedResult[m[K’
+   89 |         for (auto number: result[01;31m[K->[m[Ksequence)
+      |                                 [01;31m[K^~[m[K
+gmake[2]: *** [CMakeFiles/simple_action_client.dir/build.make:76: CMakeFiles/simple_action_client.dir/src/simple_action_client.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:335: CMakeFiles/simple_action_client.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

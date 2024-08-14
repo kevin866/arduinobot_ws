@@ -1,0 +1,20 @@
+[0.015s] Invoking command in '/home/parallels/arduinobot_ws/build/arduinobot_firmware': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/parallels/ros2_ws/install/opencv_tests:/home/parallels/ros2_ws/install/my_robot_controller:/opt/ros/humble /usr/bin/cmake --build /home/parallels/arduinobot_ws/build/arduinobot_firmware -- -j6 -l6
+[0.044s] Invoked command in '/home/parallels/arduinobot_ws/build/arduinobot_firmware' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/parallels/ros2_ws/install/opencv_tests:/home/parallels/ros2_ws/install/my_robot_controller:/opt/ros/humble /usr/bin/cmake --build /home/parallels/arduinobot_ws/build/arduinobot_firmware -- -j6 -l6
+[0.069s] Invoking command in '/home/parallels/arduinobot_ws/build/arduinobot_firmware': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/parallels/ros2_ws/install/opencv_tests:/home/parallels/ros2_ws/install/my_robot_controller:/opt/ros/humble /usr/bin/cmake --install /home/parallels/arduinobot_ws/build/arduinobot_firmware
+[0.077s] -- Install configuration: ""
+[0.077s] -- Up-to-date: /home/parallels/arduinobot_ws/install/arduinobot_firmware/share/ament_index/resource_index/package_run_dependencies/arduinobot_firmware
+[0.077s] -- Up-to-date: /home/parallels/arduinobot_ws/install/arduinobot_firmware/share/ament_index/resource_index/parent_prefix_path/arduinobot_firmware
+[0.077s] -- Up-to-date: /home/parallels/arduinobot_ws/install/arduinobot_firmware/share/arduinobot_firmware/environment/ament_prefix_path.sh
+[0.077s] -- Up-to-date: /home/parallels/arduinobot_ws/install/arduinobot_firmware/share/arduinobot_firmware/environment/ament_prefix_path.dsv
+[0.077s] -- Up-to-date: /home/parallels/arduinobot_ws/install/arduinobot_firmware/share/arduinobot_firmware/environment/path.sh
+[0.077s] -- Up-to-date: /home/parallels/arduinobot_ws/install/arduinobot_firmware/share/arduinobot_firmware/environment/path.dsv
+[0.078s] -- Up-to-date: /home/parallels/arduinobot_ws/install/arduinobot_firmware/share/arduinobot_firmware/local_setup.bash
+[0.078s] -- Up-to-date: /home/parallels/arduinobot_ws/install/arduinobot_firmware/share/arduinobot_firmware/local_setup.sh
+[0.078s] -- Up-to-date: /home/parallels/arduinobot_ws/install/arduinobot_firmware/share/arduinobot_firmware/local_setup.zsh
+[0.078s] -- Up-to-date: /home/parallels/arduinobot_ws/install/arduinobot_firmware/share/arduinobot_firmware/local_setup.dsv
+[0.078s] -- Installing: /home/parallels/arduinobot_ws/install/arduinobot_firmware/share/arduinobot_firmware/package.dsv
+[0.078s] -- Up-to-date: /home/parallels/arduinobot_ws/install/arduinobot_firmware/share/ament_index/resource_index/packages/arduinobot_firmware
+[0.078s] -- Up-to-date: /home/parallels/arduinobot_ws/install/arduinobot_firmware/share/arduinobot_firmware/cmake/arduinobot_firmwareConfig.cmake
+[0.078s] -- Up-to-date: /home/parallels/arduinobot_ws/install/arduinobot_firmware/share/arduinobot_firmware/cmake/arduinobot_firmwareConfig-version.cmake
+[0.078s] -- Up-to-date: /home/parallels/arduinobot_ws/install/arduinobot_firmware/share/arduinobot_firmware/package.xml
+[0.090s] Invoked command in '/home/parallels/arduinobot_ws/build/arduinobot_firmware' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/parallels/ros2_ws/install/opencv_tests:/home/parallels/ros2_ws/install/my_robot_controller:/opt/ros/humble /usr/bin/cmake --install /home/parallels/arduinobot_ws/build/arduinobot_firmware

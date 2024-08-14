@@ -1,0 +1,51 @@
+[0.015s] Invoking command in '/home/parallels/arduinobot_ws/build/arduinobot_cpp_examples': AMENT_PREFIX_PATH=/home/parallels/arduinobot_ws/install/arduinobot_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/parallels/arduinobot_ws/install/arduinobot_msgs:/home/parallels/ros2_ws/install/vision_opencv:/home/parallels/ros2_ws/install/image_geometry:/home/parallels/ros2_ws/install/cv_bridge:/home/parallels/test_ws/install/turtlesim:/home/parallels/test_ws/install/my_package:/home/parallels/ros2_ws/install/opencv_tests:/home/parallels/ros2_ws/install/my_robot_controller:/opt/ros/humble LD_LIBRARY_PATH=/home/parallels/arduinobot_ws/install/arduinobot_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/parallels/arduinobot_ws/install/arduinobot_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/parallels/arduinobot_ws/build/arduinobot_cpp_examples -- -j6 -l6
+[0.208s] [ 11%] Built target simple_publisher
+[0.208s] [ 22%] Built target simple_parameter
+[0.208s] [ 33%] Built target simple_subscriber
+[0.208s] [ 44%] Built target simple_service_server
+[0.208s] [ 66%] Built target simple_service_client
+[0.208s] [ 66%] Built target simple_action_server
+[0.208s] [35m[1mConsolidate compiler generated dependencies of target simple_action_client[0m
+[0.208s] [ 77%] Built target simple_action_client_node
+[0.208s] [ 94%] [32mBuilding CXX object CMakeFiles/simple_action_client.dir/src/simple_action_client.cpp.o[0m
+[0.208s] [ 94%] Built target simple_action_server_node
+[1.715s] [01m[K/home/parallels/arduinobot_ws/src/arduinobot_cpp_examples/src/simple_action_client.cpp:[m[K In constructor ‘[01m[Karduinobot_cpp_examples::SimpleActionClient::SimpleActionClient(const rclcpp::NodeOptions&)[m[K’:
+[1.715s] [01m[K/home/parallels/arduinobot_ws/src/arduinobot_cpp_examples/src/simple_action_client.cpp:19:35:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Karduinobot_cpp_examples::SimpleActionClient::create_wall_timer()[m[K’
+[1.715s]    19 |         timer_ = [01;31m[Kcreate_wall_timer()[m[K
+[1.715s]       |                  [01;31m[K~~~~~~~~~~~~~~~~~^~[m[K
+[1.715s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/single_threaded_executor.hpp:28[m[K,
+[1.715s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:22[m[K,
+[1.715s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[1.715s]                  from [01m[K/home/parallels/arduinobot_ws/src/arduinobot_cpp_examples/src/simple_action_client.cpp:1[m[K:
+[1.715s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:238:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class DurationRepT, class DurationT, class CallbackT> typename rclcpp::WallTimer<CallbackT>::SharedPtr rclcpp::Node::create_wall_timer(std::chrono::duration<_Rep1, _Period1>, CallbackT, rclcpp::CallbackGroup::SharedPtr)[m[K’
+[1.715s]   238 |   [01;36m[Kcreate_wall_timer[m[K(
+[1.715s]       |   [01;36m[K^~~~~~~~~~~~~~~~~[m[K
+[1.715s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:238:3:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[1.715s] [01m[K/home/parallels/arduinobot_ws/src/arduinobot_cpp_examples/src/simple_action_client.cpp:19:35:[m[K [01;36m[Knote: [m[K  candidate expects 3 arguments, 0 provided
+[1.715s]    19 |         timer_ = [01;36m[Kcreate_wall_timer()[m[K
+[1.715s]       |                  [01;36m[K~~~~~~~~~~~~~~~~~^~[m[K
+[1.722s] [01m[K/home/parallels/arduinobot_ws/src/arduinobot_cpp_examples/src/simple_action_client.cpp:[m[K In member function ‘[01m[Kvoid arduinobot_cpp_examples::SimpleActionClient::timerCallback()[m[K’:
+[1.722s] [01m[K/home/parallels/arduinobot_ws/src/arduinobot_cpp_examples/src/simple_action_client.cpp:41:78:[m[K [01;31m[Kerror: [m[K‘[01m[KfeedbackCallback[m[K’ is not a member of ‘[01m[Karduinobot_cpp_examples::SimpleActionClient[m[K’
+[1.722s]    41 |         send_goal_options.feedback_callback = std::bind(&SimpleActionClient::[01;31m[KfeedbackCallback[m[K, this, _1, _2);
+[1.722s]       |                                                                              [01;31m[K^~~~~~~~~~~~~~~~[m[K
+[1.722s] [01m[K/home/parallels/arduinobot_ws/src/arduinobot_cpp_examples/src/simple_action_client.cpp:42:76:[m[K [01;31m[Kerror: [m[K‘[01m[KresultCallback[m[K’ is not a member of ‘[01m[Karduinobot_cpp_examples::SimpleActionClient[m[K’
+[1.722s]    42 |         send_goal_options.result_callback = std::bind(&SimpleActionClient::[01;31m[KresultCallback[m[K, this, _1);
+[1.722s]       |                                                                            [01;31m[K^~~~~~~~~~~~~~[m[K
+[1.729s] [01m[K/home/parallels/arduinobot_ws/src/arduinobot_cpp_examples/src/simple_action_client.cpp:44:44:[m[K [01;31m[Kerror: [m[K‘[01m[Kend_goal_options[m[K’ was not declared in this scope; did you mean ‘[01m[Ksend_goal_options[m[K’?
+[1.729s]    44 |         client_->async_send_goal(goal_msg, [01;31m[Kend_goal_options[m[K);
+[1.729s]       |                                            [01;31m[K^~~~~~~~~~~~~~~~[m[K
+[1.729s]       |                                            [32m[Ksend_goal_options[m[K
+[1.734s] [01m[K/home/parallels/arduinobot_ws/src/arduinobot_cpp_examples/src/simple_action_client.cpp:[m[K In member function ‘[01m[Kvoid arduinobot_cpp_examples::SimpleActionClient::feedback_callback(const SharedPtr&)[m[K’:
+[1.734s] [01m[K/home/parallels/arduinobot_ws/src/arduinobot_cpp_examples/src/simple_action_client.cpp:72:23:[m[K [01;31m[Kerror: [m[K‘[01m[Kconst SharedPtr[m[K’ {aka ‘[01m[Kconst class std::shared_ptr<rclcpp_action::ClientGoalHandle<arduinobot_msgs::action::Fibonacci> >[m[K’} has no member named ‘[01m[Kcode[m[K’
+[1.734s]    72 |         swtich(result.[01;31m[Kcode[m[K)
+[1.734s]       |                       [01;31m[K^~~~[m[K
+[1.740s] [01m[K/home/parallels/arduinobot_ws/src/arduinobot_cpp_examples/src/simple_action_client.cpp:72:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kswtich[m[K’ was not declared in this scope
+[1.740s]    72 |         [01;31m[Kswtich[m[K(result.code)
+[1.740s]       |         [01;31m[K^~~~~~[m[K
+[1.740s] [01m[K/home/parallels/arduinobot_ws/src/arduinobot_cpp_examples/src/simple_action_client.cpp:88:35:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing element_type = class rclcpp_action::ClientGoalHandle<arduinobot_msgs::action::Fibonacci>[m[K’ {aka ‘[01m[Kclass rclcpp_action::ClientGoalHandle<arduinobot_msgs::action::Fibonacci>[m[K’} has no member named ‘[01m[Ksequence[m[K’
+[1.740s]    88 |         for (auto number: result->[01;31m[Ksequence[m[K)
+[1.740s]       |                                   [01;31m[K^~~~~~~~[m[K
+[2.177s] gmake[2]: *** [CMakeFiles/simple_action_client.dir/build.make:76: CMakeFiles/simple_action_client.dir/src/simple_action_client.cpp.o] Error 1
+[2.177s] gmake[1]: *** [CMakeFiles/Makefile2:335: CMakeFiles/simple_action_client.dir/all] Error 2
+[2.177s] gmake: *** [Makefile:146: all] Error 2
+[2.178s] Invoked command in '/home/parallels/arduinobot_ws/build/arduinobot_cpp_examples' returned '2': AMENT_PREFIX_PATH=/home/parallels/arduinobot_ws/install/arduinobot_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/parallels/arduinobot_ws/install/arduinobot_msgs:/home/parallels/ros2_ws/install/vision_opencv:/home/parallels/ros2_ws/install/image_geometry:/home/parallels/ros2_ws/install/cv_bridge:/home/parallels/test_ws/install/turtlesim:/home/parallels/test_ws/install/my_package:/home/parallels/ros2_ws/install/opencv_tests:/home/parallels/ros2_ws/install/my_robot_controller:/opt/ros/humble LD_LIBRARY_PATH=/home/parallels/arduinobot_ws/install/arduinobot_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/parallels/arduinobot_ws/install/arduinobot_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/parallels/arduinobot_ws/build/arduinobot_cpp_examples -- -j6 -l6

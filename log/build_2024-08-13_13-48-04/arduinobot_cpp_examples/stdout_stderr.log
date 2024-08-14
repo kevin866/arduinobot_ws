@@ -1,0 +1,19 @@
+[ 11%] Built target simple_service_server
+[ 22%] Built target simple_service_client
+[ 33%] Built target simple_publisher
+[ 44%] Built target simple_parameter
+[ 55%] Built target simple_action_server
+[ 66%] Built target simple_subscriber
+[ 77%] Built target simple_action_server_node
+[35m[1mConsolidate compiler generated dependencies of target simple_action_client[0m
+[ 88%] Built target simple_action_client_node
+[ 94%] [32mBuilding CXX object CMakeFiles/simple_action_client.dir/src/simple_action_client.cpp.o[0m
+[01m[K/home/parallels/arduinobot_ws/src/arduinobot_cpp_examples/src/simple_action_client.cpp:99:1:[m[K [01;31m[Kerror: [m[Kexpected declaration before ‘[01m[K}[m[K’ token
+   99 | [01;31m[K}[m[K;
+      | [01;31m[K^[m[K
+[01m[K/home/parallels/arduinobot_ws/src/arduinobot_cpp_examples/src/simple_action_client.cpp:100:1:[m[K [01;31m[Kerror: [m[Kexpected declaration before ‘[01m[K}[m[K’ token
+  100 | [01;31m[K}[m[K
+      | [01;31m[K^[m[K
+gmake[2]: *** [CMakeFiles/simple_action_client.dir/build.make:76: CMakeFiles/simple_action_client.dir/src/simple_action_client.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:335: CMakeFiles/simple_action_client.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

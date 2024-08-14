@@ -1,0 +1,19 @@
+[01m[K/home/parallels/arduinobot_ws/src/arduinobot_cpp_examples/src/simple_moveit_interface.cpp:[m[K In function ‘[01m[Kvoid move_robot(std::shared_ptr<rclcpp::Node>)[m[K’:
+[01m[K/home/parallels/arduinobot_ws/src/arduinobot_cpp_examples/src/simple_moveit_interface.cpp:17:30:[m[K [01;31m[Kerror: [m[K‘[01m[Kripper_within_bounds[m[K’ was not declared in this scope; did you mean ‘[01m[Kgripper_within_bounds[m[K’?
+   17 |     if(!arm_within_bounds | ![01;31m[Kripper_within_bounds[m[K)
+      |                              [01;31m[K^~~~~~~~~~~~~~~~~~~~[m[K
+      |                              [32m[Kgripper_within_bounds[m[K
+[01m[K/home/parallels/arduinobot_ws/src/arduinobot_cpp_examples/src/simple_moveit_interface.cpp:26:48:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Kmoveit::planning_interface::MoveGroupInterface::plan()[m[K’
+   26 |     bool arm_plan_success = [01;31m[Karm_move_group.plan( )[m[K == moveit::core::MoveItErrorCode::SUCCESS;
+      |                             [01;31m[K~~~~~~~~~~~~~~~~~~~^~~[m[K
+In file included from [01m[K/home/parallels/arduinobot_ws/src/arduinobot_cpp_examples/src/simple_moveit_interface.cpp:2[m[K:
+[01m[K/opt/ros/humble/include/moveit/move_group_interface/move_group_interface.h:720:33:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kmoveit::core::MoveItErrorCode moveit::planning_interface::MoveGroupInterface::plan(moveit::planning_interface::MoveGroupInterface::Plan&)[m[K’
+  720 |   moveit::core::MoveItErrorCode [01;36m[Kplan[m[K(Plan& plan);
+      |                                 [01;36m[K^~~~[m[K
+[01m[K/opt/ros/humble/include/moveit/move_group_interface/move_group_interface.h:720:33:[m[K [01;36m[Knote: [m[K  candidate expects 1 argument, 0 provided
+[01m[K/home/parallels/arduinobot_ws/src/arduinobot_cpp_examples/src/simple_moveit_interface.cpp:15:10:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kgripper_within_bounds[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+   15 |     bool [01;35m[Kgripper_within_bounds[m[K = gripper_move_group.setJointValueTarget(gripper_joint_goal);
+      |          [01;35m[K^~~~~~~~~~~~~~~~~~~~~[m[K
+gmake[2]: *** [CMakeFiles/simple_moveit_interface.dir/build.make:76: CMakeFiles/simple_moveit_interface.dir/src/simple_moveit_interface.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:285: CMakeFiles/simple_moveit_interface.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2
