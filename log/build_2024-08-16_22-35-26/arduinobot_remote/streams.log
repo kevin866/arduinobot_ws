@@ -1,0 +1,82 @@
+[0.208s] Invoking command in '/home/parallels/arduinobot_ws/build/arduinobot_remote': AMENT_PREFIX_PATH=/home/parallels/arduinobot_ws/install/arduinobot_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/parallels/arduinobot_ws/install/arduinobot_msgs:/home/parallels/ros2_ws/install/vision_opencv:/home/parallels/ros2_ws/install/image_geometry:/home/parallels/ros2_ws/install/cv_bridge:/home/parallels/test_ws/install/turtlesim:/home/parallels/test_ws/install/my_package:/home/parallels/ros2_ws/install/opencv_tests:/home/parallels/ros2_ws/install/my_robot_controller:/opt/ros/humble LD_LIBRARY_PATH=/home/parallels/arduinobot_ws/install/arduinobot_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/parallels/arduinobot_ws/install/arduinobot_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/parallels/arduinobot_ws/build/arduinobot_remote -- -j6 -l6
+[0.223s] -- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.327s] -- Found rclcpp: 16.0.10 (/opt/ros/humble/share/rclcpp/cmake)
+[0.374s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.380s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.389s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.402s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.419s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.469s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.469s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.541s] -- Found OpenSSL: /usr/lib/aarch64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[0.570s] -- Found FastRTPS: /opt/ros/humble/include  
+[0.609s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.620s] -- Looking for pthread.h
+[0.674s] -- Looking for pthread.h - found
+[0.674s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[0.719s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[0.720s] -- Found Threads: TRUE  
+[0.769s] -- Found rclcpp_action: 16.0.10 (/opt/ros/humble/share/rclcpp_action/cmake)
+[0.803s] -- Found rclcpp_components: 16.0.10 (/opt/ros/humble/share/rclcpp_components/cmake)
+[0.829s] -- Found arduinobot_msgs: 0.0.0 (/home/parallels/arduinobot_ws/install/arduinobot_msgs/share/arduinobot_msgs/cmake)
+[0.843s] -- Found moveit_ros_planning_interface: 2.5.5 (/opt/ros/humble/share/moveit_ros_planning_interface/cmake)
+[0.870s] -- Found Boost: /usr/lib/aarch64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: date_time filesystem program_options system thread 
+[1.018s] -- Found Boost: /usr/lib/aarch64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: chrono date_time filesystem iostreams program_options regex serialization system thread 
+[1.032s] -- Found parameter_traits: 0.3.8 (/opt/ros/humble/share/parameter_traits/cmake)
+[1.051s] -- Found rclcpp_lifecycle: 16.0.10 (/opt/ros/humble/share/rclcpp_lifecycle/cmake)
+[1.075s] -- Found Boost: /usr/lib/aarch64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: filesystem 
+[1.143s] -- library: /usr/lib/aarch64-linux-gnu/libcurl.so
+[1.175s] -- Found Eigen3: TRUE (found version "3.4.0") 
+[1.175s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[1.291s] -- Found Boost: /usr/lib/aarch64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: system filesystem date_time program_options thread chrono 
+[1.325s] -- Found Boost: /usr/lib/aarch64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: thread system filesystem regex date_time program_options 
+[1.348s] -- Found Boost: /usr/lib/aarch64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: system filesystem date_time program_options thread 
+[1.377s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[1.427s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[1.427s] -- Configured cppcheck include dirs: $<BUILD_INTERFACE:/home/parallels/arduinobot_ws/src/arduinobot_remote/include>
+[1.428s] -- Configured cppcheck exclude dirs and/or files: 
+[1.428s] -- Added test 'lint_cmake' to check CMake code style
+[1.429s] -- Added test 'uncrustify' to check C / C++ code style
+[1.429s] -- Configured uncrustify additional arguments: 
+[1.429s] -- Added test 'xmllint' to check XML markup files
+[1.430s] -- Configuring done
+[1.456s] -- Generating done
+[1.458s] -- Build files have been written to: /home/parallels/arduinobot_ws/build/arduinobot_remote
+[1.482s] [ 50%] [32mBuilding CXX object CMakeFiles/task_server.dir/src/task_server.cpp.o[0m
+[1.482s] [ 50%] [32mBuilding CXX object CMakeFiles/task_server_node.dir/rclcpp_components/node_main_task_server_node.cpp.o[0m
+[3.515s] [ 75%] [32m[1mLinking CXX executable task_server_node[0m
+[3.597s] [ 75%] Built target task_server_node
+[5.008s] [01m[K/home/parallels/arduinobot_ws/src/arduinobot_remote/src/task_server.cpp:[m[K In member function ‘[01m[Krclcpp_action::GoalResponse arduinobot_remote::TaskServer::goalCallback(rclcpp_action::GoalUUID, std::shared_ptr<const arduinobot_msgs::action::ArduinobotTask_Goal_<std::allocator<void> > >)[m[K’:
+[5.008s] [01m[K/home/parallels/arduinobot_ws/src/arduinobot_remote/src/task_server.cpp:31:76:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kuuid[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[5.008s]    31 |     rclcpp_action::GoalResponse goalCallback([01;35m[Kconst rclcpp_action::GoalUUID uuid[m[K, std::shared_ptr<const arduinobot_msgs::action::ArduinobotTask::Goal> goal)
+[5.008s]       |                                              [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~[m[K
+[5.015s] [01m[K/home/parallels/arduinobot_ws/src/arduinobot_remote/src/task_server.cpp:[m[K In member function ‘[01m[Krclcpp_action::CancelResponse arduinobot_remote::TaskServer::cancelCallback(std::shared_ptr<rclcpp_action::ServerGoalHandle<arduinobot_msgs::action::ArduinobotTask> >)[m[K’:
+[5.015s] [01m[K/home/parallels/arduinobot_ws/src/arduinobot_remote/src/task_server.cpp:104:146:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kgoal_handle[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[5.015s]   104 |     rclcpp_action::CancelResponse cancelCallback([01;35m[Kconst std::shared_ptr<rclcpp_action::ServerGoalHandle<arduinobot_msgs::action::ArduinobotTask>> goal_handle[m[K)
+[5.015s]       |                                                  [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~[m[K
+[7.250s] [100%] [32m[1mLinking CXX shared library libtask_server.so[0m
+[7.506s] [100%] Built target task_server
+[7.512s] Invoked command in '/home/parallels/arduinobot_ws/build/arduinobot_remote' returned '0': AMENT_PREFIX_PATH=/home/parallels/arduinobot_ws/install/arduinobot_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/parallels/arduinobot_ws/install/arduinobot_msgs:/home/parallels/ros2_ws/install/vision_opencv:/home/parallels/ros2_ws/install/image_geometry:/home/parallels/ros2_ws/install/cv_bridge:/home/parallels/test_ws/install/turtlesim:/home/parallels/test_ws/install/my_package:/home/parallels/ros2_ws/install/opencv_tests:/home/parallels/ros2_ws/install/my_robot_controller:/opt/ros/humble LD_LIBRARY_PATH=/home/parallels/arduinobot_ws/install/arduinobot_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/parallels/arduinobot_ws/install/arduinobot_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/parallels/arduinobot_ws/build/arduinobot_remote -- -j6 -l6
+[7.528s] Invoking command in '/home/parallels/arduinobot_ws/build/arduinobot_remote': AMENT_PREFIX_PATH=/home/parallels/arduinobot_ws/install/arduinobot_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/parallels/arduinobot_ws/install/arduinobot_msgs:/home/parallels/ros2_ws/install/vision_opencv:/home/parallels/ros2_ws/install/image_geometry:/home/parallels/ros2_ws/install/cv_bridge:/home/parallels/test_ws/install/turtlesim:/home/parallels/test_ws/install/my_package:/home/parallels/ros2_ws/install/opencv_tests:/home/parallels/ros2_ws/install/my_robot_controller:/opt/ros/humble LD_LIBRARY_PATH=/home/parallels/arduinobot_ws/install/arduinobot_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/parallels/arduinobot_ws/install/arduinobot_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/parallels/arduinobot_ws/build/arduinobot_remote
+[7.532s] -- Install configuration: ""
+[7.532s] -- Installing: /home/parallels/arduinobot_ws/install/arduinobot_remote/lib/arduinobot_remote/task_server_node
+[7.532s] -- Set runtime path of "/home/parallels/arduinobot_ws/install/arduinobot_remote/lib/arduinobot_remote/task_server_node" to ""
+[7.532s] -- Installing: /home/parallels/arduinobot_ws/install/arduinobot_remote/lib/libtask_server.so
+[7.533s] -- Set runtime path of "/home/parallels/arduinobot_ws/install/arduinobot_remote/lib/libtask_server.so" to ""
+[7.534s] -- Installing: /home/parallels/arduinobot_ws/install/arduinobot_remote/share/ament_index/resource_index/package_run_dependencies/arduinobot_remote
+[7.534s] -- Installing: /home/parallels/arduinobot_ws/install/arduinobot_remote/share/ament_index/resource_index/parent_prefix_path/arduinobot_remote
+[7.534s] -- Up-to-date: /home/parallels/arduinobot_ws/install/arduinobot_remote/share/arduinobot_remote/environment/ament_prefix_path.sh
+[7.534s] -- Installing: /home/parallels/arduinobot_ws/install/arduinobot_remote/share/arduinobot_remote/environment/ament_prefix_path.dsv
+[7.534s] -- Up-to-date: /home/parallels/arduinobot_ws/install/arduinobot_remote/share/arduinobot_remote/environment/path.sh
+[7.534s] -- Installing: /home/parallels/arduinobot_ws/install/arduinobot_remote/share/arduinobot_remote/environment/path.dsv
+[7.534s] -- Up-to-date: /home/parallels/arduinobot_ws/install/arduinobot_remote/share/arduinobot_remote/local_setup.bash
+[7.534s] -- Up-to-date: /home/parallels/arduinobot_ws/install/arduinobot_remote/share/arduinobot_remote/local_setup.sh
+[7.534s] -- Up-to-date: /home/parallels/arduinobot_ws/install/arduinobot_remote/share/arduinobot_remote/local_setup.zsh
+[7.534s] -- Installing: /home/parallels/arduinobot_ws/install/arduinobot_remote/share/arduinobot_remote/local_setup.dsv
+[7.534s] -- Installing: /home/parallels/arduinobot_ws/install/arduinobot_remote/share/arduinobot_remote/package.dsv
+[7.534s] -- Up-to-date: /home/parallels/arduinobot_ws/install/arduinobot_remote/share/ament_index/resource_index/packages/arduinobot_remote
+[7.535s] -- Installing: /home/parallels/arduinobot_ws/install/arduinobot_remote/share/ament_index/resource_index/rclcpp_components/arduinobot_remote
+[7.535s] -- Up-to-date: /home/parallels/arduinobot_ws/install/arduinobot_remote/share/arduinobot_remote/cmake/arduinobot_remoteConfig.cmake
+[7.535s] -- Up-to-date: /home/parallels/arduinobot_ws/install/arduinobot_remote/share/arduinobot_remote/cmake/arduinobot_remoteConfig-version.cmake
+[7.535s] -- Installing: /home/parallels/arduinobot_ws/install/arduinobot_remote/share/arduinobot_remote/package.xml
+[7.536s] Invoked command in '/home/parallels/arduinobot_ws/build/arduinobot_remote' returned '0': AMENT_PREFIX_PATH=/home/parallels/arduinobot_ws/install/arduinobot_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/parallels/arduinobot_ws/install/arduinobot_msgs:/home/parallels/ros2_ws/install/vision_opencv:/home/parallels/ros2_ws/install/image_geometry:/home/parallels/ros2_ws/install/cv_bridge:/home/parallels/test_ws/install/turtlesim:/home/parallels/test_ws/install/my_package:/home/parallels/ros2_ws/install/opencv_tests:/home/parallels/ros2_ws/install/my_robot_controller:/opt/ros/humble LD_LIBRARY_PATH=/home/parallels/arduinobot_ws/install/arduinobot_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/parallels/arduinobot_ws/install/arduinobot_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/parallels/arduinobot_ws/build/arduinobot_remote

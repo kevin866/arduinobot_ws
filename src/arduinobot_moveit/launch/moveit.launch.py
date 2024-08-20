@@ -18,12 +18,12 @@ def generate_launch_description():
         MoveItConfigsBuilder("arduinobot", package_name="arduinobot_moveit")
         .robot_description(file_path=os.path.join(get_package_share_directory("arduinobot_description"), "urdf", "arduinobot.urdf.xacro"))
         .robot_description_semantic(file_path="config/arduinobot.srdf")
-        .trajectory_execution(file_path="config/movit_controllers.yaml")
+        .trajectory_execution(file_path="config/moveit_controllers.yaml")
         .to_moveit_configs()
     )
 
     move_group_node = Node(
-        package="moveit_ros_move",
+        package="moveit_ros_move_group",
         executable="move_group",
         output="screen",
         parameters=[moveit_config.to_dict(), {"use_sim_time": is_sim}, {"publish_robot_description_semantic":True}],

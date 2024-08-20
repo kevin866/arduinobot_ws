@@ -23,7 +23,7 @@ def generate_launch_description():
     )
 
     move_group_node = Node(
-        package="moveit_ros_move",
+        package="moveit_ros_move_group",
         executable="move_group",
         output="screen",
         parameters=[moveit_config.to_dict(), {"use_sim_time": is_sim}, {"publish_robot_description_semantic":True}],
