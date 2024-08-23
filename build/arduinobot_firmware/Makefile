@@ -197,6 +197,69 @@ arduinobot_firmware_uninstall/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/arduinobot_firmware_uninstall.dir/build.make CMakeFiles/arduinobot_firmware_uninstall.dir/build
 .PHONY : arduinobot_firmware_uninstall/fast
 
+#=============================================================================
+# Target rules for targets named ament_cmake_python_copy_arduinobot_firmware
+
+# Build rule for target.
+ament_cmake_python_copy_arduinobot_firmware: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 ament_cmake_python_copy_arduinobot_firmware
+.PHONY : ament_cmake_python_copy_arduinobot_firmware
+
+# fast build rule for target.
+ament_cmake_python_copy_arduinobot_firmware/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ament_cmake_python_copy_arduinobot_firmware.dir/build.make CMakeFiles/ament_cmake_python_copy_arduinobot_firmware.dir/build
+.PHONY : ament_cmake_python_copy_arduinobot_firmware/fast
+
+#=============================================================================
+# Target rules for targets named ament_cmake_python_build_arduinobot_firmware_egg
+
+# Build rule for target.
+ament_cmake_python_build_arduinobot_firmware_egg: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 ament_cmake_python_build_arduinobot_firmware_egg
+.PHONY : ament_cmake_python_build_arduinobot_firmware_egg
+
+# fast build rule for target.
+ament_cmake_python_build_arduinobot_firmware_egg/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ament_cmake_python_build_arduinobot_firmware_egg.dir/build.make CMakeFiles/ament_cmake_python_build_arduinobot_firmware_egg.dir/build
+.PHONY : ament_cmake_python_build_arduinobot_firmware_egg/fast
+
+#=============================================================================
+# Target rules for targets named simple_serial_transmitter
+
+# Build rule for target.
+simple_serial_transmitter: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 simple_serial_transmitter
+.PHONY : simple_serial_transmitter
+
+# fast build rule for target.
+simple_serial_transmitter/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/simple_serial_transmitter.dir/build.make CMakeFiles/simple_serial_transmitter.dir/build
+.PHONY : simple_serial_transmitter/fast
+
+src/simple_serial_transmitter.o: src/simple_serial_transmitter.cpp.o
+.PHONY : src/simple_serial_transmitter.o
+
+# target to build an object file
+src/simple_serial_transmitter.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/simple_serial_transmitter.dir/build.make CMakeFiles/simple_serial_transmitter.dir/src/simple_serial_transmitter.cpp.o
+.PHONY : src/simple_serial_transmitter.cpp.o
+
+src/simple_serial_transmitter.i: src/simple_serial_transmitter.cpp.i
+.PHONY : src/simple_serial_transmitter.i
+
+# target to preprocess a source file
+src/simple_serial_transmitter.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/simple_serial_transmitter.dir/build.make CMakeFiles/simple_serial_transmitter.dir/src/simple_serial_transmitter.cpp.i
+.PHONY : src/simple_serial_transmitter.cpp.i
+
+src/simple_serial_transmitter.s: src/simple_serial_transmitter.cpp.s
+.PHONY : src/simple_serial_transmitter.s
+
+# target to generate assembly for a file
+src/simple_serial_transmitter.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/simple_serial_transmitter.dir/build.make CMakeFiles/simple_serial_transmitter.dir/src/simple_serial_transmitter.cpp.s
+.PHONY : src/simple_serial_transmitter.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -210,8 +273,14 @@ help:
 	@echo "... list_install_components"
 	@echo "... rebuild_cache"
 	@echo "... test"
+	@echo "... ament_cmake_python_build_arduinobot_firmware_egg"
+	@echo "... ament_cmake_python_copy_arduinobot_firmware"
 	@echo "... arduinobot_firmware_uninstall"
 	@echo "... uninstall"
+	@echo "... simple_serial_transmitter"
+	@echo "... src/simple_serial_transmitter.o"
+	@echo "... src/simple_serial_transmitter.i"
+	@echo "... src/simple_serial_transmitter.s"
 .PHONY : help
 
 

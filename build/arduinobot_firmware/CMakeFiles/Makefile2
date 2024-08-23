@@ -63,7 +63,8 @@ CMAKE_BINARY_DIR = /home/parallels/arduinobot_ws/build/arduinobot_firmware
 # Directory level rules for the build root directory
 
 # The main recursive "all" target.
-all:
+all: CMakeFiles/ament_cmake_python_build_arduinobot_firmware_egg.dir/all
+all: CMakeFiles/simple_serial_transmitter.dir/all
 .PHONY : all
 
 # The main recursive "preinstall" target.
@@ -73,6 +74,9 @@ preinstall:
 # The main recursive "clean" target.
 clean: CMakeFiles/uninstall.dir/clean
 clean: CMakeFiles/arduinobot_firmware_uninstall.dir/clean
+clean: CMakeFiles/ament_cmake_python_copy_arduinobot_firmware.dir/clean
+clean: CMakeFiles/ament_cmake_python_build_arduinobot_firmware_egg.dir/clean
+clean: CMakeFiles/simple_serial_transmitter.dir/clean
 .PHONY : clean
 
 #=============================================================================
@@ -126,6 +130,84 @@ arduinobot_firmware_uninstall: CMakeFiles/arduinobot_firmware_uninstall.dir/rule
 CMakeFiles/arduinobot_firmware_uninstall.dir/clean:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/arduinobot_firmware_uninstall.dir/build.make CMakeFiles/arduinobot_firmware_uninstall.dir/clean
 .PHONY : CMakeFiles/arduinobot_firmware_uninstall.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/ament_cmake_python_copy_arduinobot_firmware.dir
+
+# All Build rule for target.
+CMakeFiles/ament_cmake_python_copy_arduinobot_firmware.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ament_cmake_python_copy_arduinobot_firmware.dir/build.make CMakeFiles/ament_cmake_python_copy_arduinobot_firmware.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ament_cmake_python_copy_arduinobot_firmware.dir/build.make CMakeFiles/ament_cmake_python_copy_arduinobot_firmware.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/parallels/arduinobot_ws/build/arduinobot_firmware/CMakeFiles --progress-num= "Built target ament_cmake_python_copy_arduinobot_firmware"
+.PHONY : CMakeFiles/ament_cmake_python_copy_arduinobot_firmware.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/ament_cmake_python_copy_arduinobot_firmware.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/parallels/arduinobot_ws/build/arduinobot_firmware/CMakeFiles 0
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/ament_cmake_python_copy_arduinobot_firmware.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/parallels/arduinobot_ws/build/arduinobot_firmware/CMakeFiles 0
+.PHONY : CMakeFiles/ament_cmake_python_copy_arduinobot_firmware.dir/rule
+
+# Convenience name for target.
+ament_cmake_python_copy_arduinobot_firmware: CMakeFiles/ament_cmake_python_copy_arduinobot_firmware.dir/rule
+.PHONY : ament_cmake_python_copy_arduinobot_firmware
+
+# clean rule for target.
+CMakeFiles/ament_cmake_python_copy_arduinobot_firmware.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ament_cmake_python_copy_arduinobot_firmware.dir/build.make CMakeFiles/ament_cmake_python_copy_arduinobot_firmware.dir/clean
+.PHONY : CMakeFiles/ament_cmake_python_copy_arduinobot_firmware.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/ament_cmake_python_build_arduinobot_firmware_egg.dir
+
+# All Build rule for target.
+CMakeFiles/ament_cmake_python_build_arduinobot_firmware_egg.dir/all: CMakeFiles/ament_cmake_python_copy_arduinobot_firmware.dir/all
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ament_cmake_python_build_arduinobot_firmware_egg.dir/build.make CMakeFiles/ament_cmake_python_build_arduinobot_firmware_egg.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ament_cmake_python_build_arduinobot_firmware_egg.dir/build.make CMakeFiles/ament_cmake_python_build_arduinobot_firmware_egg.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/parallels/arduinobot_ws/build/arduinobot_firmware/CMakeFiles --progress-num= "Built target ament_cmake_python_build_arduinobot_firmware_egg"
+.PHONY : CMakeFiles/ament_cmake_python_build_arduinobot_firmware_egg.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/ament_cmake_python_build_arduinobot_firmware_egg.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/parallels/arduinobot_ws/build/arduinobot_firmware/CMakeFiles 0
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/ament_cmake_python_build_arduinobot_firmware_egg.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/parallels/arduinobot_ws/build/arduinobot_firmware/CMakeFiles 0
+.PHONY : CMakeFiles/ament_cmake_python_build_arduinobot_firmware_egg.dir/rule
+
+# Convenience name for target.
+ament_cmake_python_build_arduinobot_firmware_egg: CMakeFiles/ament_cmake_python_build_arduinobot_firmware_egg.dir/rule
+.PHONY : ament_cmake_python_build_arduinobot_firmware_egg
+
+# clean rule for target.
+CMakeFiles/ament_cmake_python_build_arduinobot_firmware_egg.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ament_cmake_python_build_arduinobot_firmware_egg.dir/build.make CMakeFiles/ament_cmake_python_build_arduinobot_firmware_egg.dir/clean
+.PHONY : CMakeFiles/ament_cmake_python_build_arduinobot_firmware_egg.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/simple_serial_transmitter.dir
+
+# All Build rule for target.
+CMakeFiles/simple_serial_transmitter.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/simple_serial_transmitter.dir/build.make CMakeFiles/simple_serial_transmitter.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/simple_serial_transmitter.dir/build.make CMakeFiles/simple_serial_transmitter.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/parallels/arduinobot_ws/build/arduinobot_firmware/CMakeFiles --progress-num=1,2 "Built target simple_serial_transmitter"
+.PHONY : CMakeFiles/simple_serial_transmitter.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/simple_serial_transmitter.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/parallels/arduinobot_ws/build/arduinobot_firmware/CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/simple_serial_transmitter.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/parallels/arduinobot_ws/build/arduinobot_firmware/CMakeFiles 0
+.PHONY : CMakeFiles/simple_serial_transmitter.dir/rule
+
+# Convenience name for target.
+simple_serial_transmitter: CMakeFiles/simple_serial_transmitter.dir/rule
+.PHONY : simple_serial_transmitter
+
+# clean rule for target.
+CMakeFiles/simple_serial_transmitter.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/simple_serial_transmitter.dir/build.make CMakeFiles/simple_serial_transmitter.dir/clean
+.PHONY : CMakeFiles/simple_serial_transmitter.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.

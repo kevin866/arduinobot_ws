@@ -1,0 +1,5 @@
+[31mCMake Error at CMakeLists.txt:24 (install):
+  install TARGETS given unknown argument "RUNTIME_DESTINATION".
+
+[0m
+gmake: *** [Makefile:254: cmake_check_build_system] Error 1
