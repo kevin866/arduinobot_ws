@@ -13,8 +13,6 @@ class SimpleSerialTransmitter(Node):
         self.port_ = self.get_parameter("port").value
         self.baud_rate_ = self.get_parameter("baud_rate").value
 
-
-
         self.sub_ = self.create_subscription(String, "serial_transmitter", self.msgCallback, 10)
         self.arduino_ = serial.Serial(port=self.port_, baudrate=self.baud_rate_, timeout=0.1)  
 

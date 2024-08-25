@@ -236,6 +236,43 @@ simple_serial_transmitter/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/simple_serial_transmitter.dir/build.make CMakeFiles/simple_serial_transmitter.dir/build
 .PHONY : simple_serial_transmitter/fast
 
+#=============================================================================
+# Target rules for targets named simple_serial_receiver
+
+# Build rule for target.
+simple_serial_receiver: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 simple_serial_receiver
+.PHONY : simple_serial_receiver
+
+# fast build rule for target.
+simple_serial_receiver/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/simple_serial_receiver.dir/build.make CMakeFiles/simple_serial_receiver.dir/build
+.PHONY : simple_serial_receiver/fast
+
+src/simple_serial_receiver.o: src/simple_serial_receiver.cpp.o
+.PHONY : src/simple_serial_receiver.o
+
+# target to build an object file
+src/simple_serial_receiver.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/simple_serial_receiver.dir/build.make CMakeFiles/simple_serial_receiver.dir/src/simple_serial_receiver.cpp.o
+.PHONY : src/simple_serial_receiver.cpp.o
+
+src/simple_serial_receiver.i: src/simple_serial_receiver.cpp.i
+.PHONY : src/simple_serial_receiver.i
+
+# target to preprocess a source file
+src/simple_serial_receiver.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/simple_serial_receiver.dir/build.make CMakeFiles/simple_serial_receiver.dir/src/simple_serial_receiver.cpp.i
+.PHONY : src/simple_serial_receiver.cpp.i
+
+src/simple_serial_receiver.s: src/simple_serial_receiver.cpp.s
+.PHONY : src/simple_serial_receiver.s
+
+# target to generate assembly for a file
+src/simple_serial_receiver.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/simple_serial_receiver.dir/build.make CMakeFiles/simple_serial_receiver.dir/src/simple_serial_receiver.cpp.s
+.PHONY : src/simple_serial_receiver.cpp.s
+
 src/simple_serial_transmitter.o: src/simple_serial_transmitter.cpp.o
 .PHONY : src/simple_serial_transmitter.o
 
@@ -277,7 +314,11 @@ help:
 	@echo "... ament_cmake_python_copy_arduinobot_firmware"
 	@echo "... arduinobot_firmware_uninstall"
 	@echo "... uninstall"
+	@echo "... simple_serial_receiver"
 	@echo "... simple_serial_transmitter"
+	@echo "... src/simple_serial_receiver.o"
+	@echo "... src/simple_serial_receiver.i"
+	@echo "... src/simple_serial_receiver.s"
 	@echo "... src/simple_serial_transmitter.o"
 	@echo "... src/simple_serial_transmitter.i"
 	@echo "... src/simple_serial_transmitter.s"

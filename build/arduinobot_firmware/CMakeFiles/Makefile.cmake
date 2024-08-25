@@ -653,4 +653,5 @@ set(CMAKE_DEPEND_INFO_FILES
   "CMakeFiles/ament_cmake_python_copy_arduinobot_firmware.dir/DependInfo.cmake"
   "CMakeFiles/ament_cmake_python_build_arduinobot_firmware_egg.dir/DependInfo.cmake"
   "CMakeFiles/simple_serial_transmitter.dir/DependInfo.cmake"
+  "CMakeFiles/simple_serial_receiver.dir/DependInfo.cmake"
   )

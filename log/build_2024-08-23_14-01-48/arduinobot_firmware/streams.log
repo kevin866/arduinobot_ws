@@ -1,0 +1,71 @@
+[0.022s] Invoking command in '/home/parallels/arduinobot_ws/build/arduinobot_firmware': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/parallels/ros2_ws/install/opencv_tests:/home/parallels/ros2_ws/install/my_robot_controller:/opt/ros/humble /usr/bin/cmake --build /home/parallels/arduinobot_ws/build/arduinobot_firmware -- -j6 -l6
+[0.053s] -- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.157s] -- Found rclpy: 3.3.14 (/opt/ros/humble/share/rclpy/cmake)
+[0.158s] -- Found rclcpp: 16.0.10 (/opt/ros/humble/share/rclcpp/cmake)
+[0.185s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.187s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.192s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.201s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.212s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.243s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.244s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.348s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.452s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[0.523s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[0.523s] -- Configured cppcheck include dirs: /home/parallels/arduinobot_ws/src/arduinobot_firmware/
+[0.524s] -- Configured cppcheck exclude dirs and/or files: 
+[0.524s] -- Added test 'flake8' to check Python code syntax and style conventions
+[0.524s] -- Added test 'lint_cmake' to check CMake code style
+[0.524s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[0.525s] -- Added test 'uncrustify' to check C / C++ code style
+[0.525s] -- Configured uncrustify additional arguments: 
+[0.525s] -- Added test 'xmllint' to check XML markup files
+[0.526s] -- Configuring done
+[0.535s] -- Generating done
+[0.538s] -- Build files have been written to: /home/parallels/arduinobot_ws/build/arduinobot_firmware
+[0.558s] [35m[1mConsolidate compiler generated dependencies of target simple_serial_transmitter[0m
+[0.568s] [  0%] Built target ament_cmake_python_copy_arduinobot_firmware
+[0.576s] [100%] Built target simple_serial_transmitter
+[0.752s] running egg_info
+[0.752s] writing arduinobot_firmware.egg-info/PKG-INFO
+[0.752s] writing dependency_links to arduinobot_firmware.egg-info/dependency_links.txt
+[0.752s] writing top-level names to arduinobot_firmware.egg-info/top_level.txt
+[0.754s] reading manifest file 'arduinobot_firmware.egg-info/SOURCES.txt'
+[0.754s] writing manifest file 'arduinobot_firmware.egg-info/SOURCES.txt'
+[0.776s] [100%] Built target ament_cmake_python_build_arduinobot_firmware_egg
+[0.855s] Invoked command in '/home/parallels/arduinobot_ws/build/arduinobot_firmware' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/parallels/ros2_ws/install/opencv_tests:/home/parallels/ros2_ws/install/my_robot_controller:/opt/ros/humble /usr/bin/cmake --build /home/parallels/arduinobot_ws/build/arduinobot_firmware -- -j6 -l6
+[0.914s] Invoking command in '/home/parallels/arduinobot_ws/build/arduinobot_firmware': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/parallels/ros2_ws/install/opencv_tests:/home/parallels/ros2_ws/install/my_robot_controller:/opt/ros/humble /usr/bin/cmake --install /home/parallels/arduinobot_ws/build/arduinobot_firmware
+[0.928s] -- Install configuration: ""
+[0.928s] -- Up-to-date: /home/parallels/arduinobot_ws/install/arduinobot_firmware/share/arduinobot_firmware/environment/pythonpath.sh
+[0.929s] -- Installing: /home/parallels/arduinobot_ws/install/arduinobot_firmware/share/arduinobot_firmware/environment/pythonpath.dsv
+[0.930s] -- Up-to-date: /home/parallels/arduinobot_ws/install/arduinobot_firmware/local/lib/python3.10/dist-packages/arduinobot_firmware-0.0.0-py3.10.egg-info
+[0.930s] -- Installing: /home/parallels/arduinobot_ws/install/arduinobot_firmware/local/lib/python3.10/dist-packages/arduinobot_firmware-0.0.0-py3.10.egg-info/dependency_links.txt
+[0.931s] -- Installing: /home/parallels/arduinobot_ws/install/arduinobot_firmware/local/lib/python3.10/dist-packages/arduinobot_firmware-0.0.0-py3.10.egg-info/top_level.txt
+[0.931s] -- Installing: /home/parallels/arduinobot_ws/install/arduinobot_firmware/local/lib/python3.10/dist-packages/arduinobot_firmware-0.0.0-py3.10.egg-info/PKG-INFO
+[0.932s] -- Installing: /home/parallels/arduinobot_ws/install/arduinobot_firmware/local/lib/python3.10/dist-packages/arduinobot_firmware-0.0.0-py3.10.egg-info/SOURCES.txt
+[0.932s] -- Up-to-date: /home/parallels/arduinobot_ws/install/arduinobot_firmware/local/lib/python3.10/dist-packages/arduinobot_firmware
+[0.933s] -- Installing: /home/parallels/arduinobot_ws/install/arduinobot_firmware/local/lib/python3.10/dist-packages/arduinobot_firmware/simple_serial_transmitter.py
+[0.933s] -- Installing: /home/parallels/arduinobot_ws/install/arduinobot_firmware/local/lib/python3.10/dist-packages/arduinobot_firmware/simple_serial_receiver.py
+[0.933s] -- Up-to-date: /home/parallels/arduinobot_ws/install/arduinobot_firmware/local/lib/python3.10/dist-packages/arduinobot_firmware/__init__.py
+[0.960s] Listing '/home/parallels/arduinobot_ws/install/arduinobot_firmware/local/lib/python3.10/dist-packages/arduinobot_firmware'...
+[0.960s] Compiling '/home/parallels/arduinobot_ws/install/arduinobot_firmware/local/lib/python3.10/dist-packages/arduinobot_firmware/simple_serial_receiver.py'...
+[0.960s] Compiling '/home/parallels/arduinobot_ws/install/arduinobot_firmware/local/lib/python3.10/dist-packages/arduinobot_firmware/simple_serial_transmitter.py'...
+[0.963s] -- Up-to-date: /home/parallels/arduinobot_ws/install/arduinobot_firmware/lib/arduinobot_firmware/simple_serial_transmitter
+[0.964s] -- Installing: /home/parallels/arduinobot_ws/install/arduinobot_firmware/lib/arduinobot_firmware/simple_serial_transmitter.py
+[0.964s] -- Installing: /home/parallels/arduinobot_ws/install/arduinobot_firmware/lib/arduinobot_firmware/simple_serial_receiver.py
+[0.965s] -- Up-to-date: /home/parallels/arduinobot_ws/install/arduinobot_firmware/share/ament_index/resource_index/package_run_dependencies/arduinobot_firmware
+[0.965s] -- Up-to-date: /home/parallels/arduinobot_ws/install/arduinobot_firmware/share/ament_index/resource_index/parent_prefix_path/arduinobot_firmware
+[0.966s] -- Up-to-date: /home/parallels/arduinobot_ws/install/arduinobot_firmware/share/arduinobot_firmware/environment/ament_prefix_path.sh
+[0.966s] -- Installing: /home/parallels/arduinobot_ws/install/arduinobot_firmware/share/arduinobot_firmware/environment/ament_prefix_path.dsv
+[0.967s] -- Up-to-date: /home/parallels/arduinobot_ws/install/arduinobot_firmware/share/arduinobot_firmware/environment/path.sh
+[0.972s] -- Installing: /home/parallels/arduinobot_ws/install/arduinobot_firmware/share/arduinobot_firmware/environment/path.dsv
+[0.972s] -- Up-to-date: /home/parallels/arduinobot_ws/install/arduinobot_firmware/share/arduinobot_firmware/local_setup.bash
+[0.972s] -- Up-to-date: /home/parallels/arduinobot_ws/install/arduinobot_firmware/share/arduinobot_firmware/local_setup.sh
+[0.972s] -- Up-to-date: /home/parallels/arduinobot_ws/install/arduinobot_firmware/share/arduinobot_firmware/local_setup.zsh
+[0.972s] -- Installing: /home/parallels/arduinobot_ws/install/arduinobot_firmware/share/arduinobot_firmware/local_setup.dsv
+[0.972s] -- Installing: /home/parallels/arduinobot_ws/install/arduinobot_firmware/share/arduinobot_firmware/package.dsv
+[0.972s] -- Up-to-date: /home/parallels/arduinobot_ws/install/arduinobot_firmware/share/ament_index/resource_index/packages/arduinobot_firmware
+[0.972s] -- Up-to-date: /home/parallels/arduinobot_ws/install/arduinobot_firmware/share/arduinobot_firmware/cmake/arduinobot_firmwareConfig.cmake
+[0.972s] -- Up-to-date: /home/parallels/arduinobot_ws/install/arduinobot_firmware/share/arduinobot_firmware/cmake/arduinobot_firmwareConfig-version.cmake
+[0.973s] -- Up-to-date: /home/parallels/arduinobot_ws/install/arduinobot_firmware/share/arduinobot_firmware/package.xml
+[0.978s] Invoked command in '/home/parallels/arduinobot_ws/build/arduinobot_firmware' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/parallels/ros2_ws/install/opencv_tests:/home/parallels/ros2_ws/install/my_robot_controller:/opt/ros/humble /usr/bin/cmake --install /home/parallels/arduinobot_ws/build/arduinobot_firmware
