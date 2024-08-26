@@ -6,6 +6,7 @@
 /home/parallels/arduinobot_ws/build/arduinobot_cpp_examples/CMakeFiles/simple_service_server.dir
 /home/parallels/arduinobot_ws/build/arduinobot_cpp_examples/CMakeFiles/simple_service_client.dir
 /home/parallels/arduinobot_ws/build/arduinobot_cpp_examples/CMakeFiles/simple_moveit_interface.dir
+/home/parallels/arduinobot_ws/build/arduinobot_cpp_examples/CMakeFiles/simple_lifecycle_node.dir
 /home/parallels/arduinobot_ws/build/arduinobot_cpp_examples/CMakeFiles/simple_action_server.dir
 /home/parallels/arduinobot_ws/build/arduinobot_cpp_examples/CMakeFiles/simple_action_server_node.dir
 /home/parallels/arduinobot_ws/build/arduinobot_cpp_examples/CMakeFiles/simple_action_client.dir
