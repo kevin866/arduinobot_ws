@@ -55,7 +55,7 @@ public:
     void msgCallback(const std_msgs::msg::String & msg)
     {
         auto state = get_current_state();
-        if (state.label() == "activate")
+        if (state.label() == "active")
         {
             RCLCPP_INFO_STREAM(get_logger(), "Lifecycle node heard: " << msg.data.c_str());
         }
