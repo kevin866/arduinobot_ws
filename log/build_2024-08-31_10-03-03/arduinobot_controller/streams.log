@@ -1,0 +1,9 @@
+[0.022s] Invoking command in '/home/parallels/arduinobot_ws/build/arduinobot_controller': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/parallels/ros2_ws/install/opencv_tests:/home/parallels/ros2_ws/install/my_robot_controller:/opt/ros/humble /usr/bin/cmake --build /home/parallels/arduinobot_ws/build/arduinobot_controller -- -j6 -l6
+[0.036s] -- Configuring incomplete, errors occurred!
+[0.036s] See also "/home/parallels/arduinobot_ws/build/arduinobot_controller/CMakeFiles/CMakeOutput.log".
+[0.037s] [31mCMake Error at CMakeLists.txt:24:
+[0.037s]   Parse error.  Expected a command name, got left paren with text "(".
+[0.037s] 
+[0.037s] [0m
+[0.037s] gmake: *** [Makefile:226: cmake_check_build_system] Error 1
+[0.051s] Invoked command in '/home/parallels/arduinobot_ws/build/arduinobot_controller' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/parallels/ros2_ws/install/opencv_tests:/home/parallels/ros2_ws/install/my_robot_controller:/opt/ros/humble /usr/bin/cmake --build /home/parallels/arduinobot_ws/build/arduinobot_controller -- -j6 -l6

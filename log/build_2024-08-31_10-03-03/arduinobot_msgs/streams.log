@@ -1,0 +1,23 @@
+[0.023s] Invoking command in '/home/parallels/arduinobot_ws/build/arduinobot_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/parallels/ros2_ws/install/opencv_tests:/home/parallels/ros2_ws/install/my_robot_controller:/opt/ros/humble /usr/bin/cmake --build /home/parallels/arduinobot_ws/build/arduinobot_msgs -- -j6 -l6
+[0.071s] [  1%] Built target arduinobot_msgs__cpp
+[0.073s] [  1%] Built target ament_cmake_python_copy_arduinobot_msgs
+[0.075s] [ 12%] Built target arduinobot_msgs__rosidl_generator_c
+[0.088s] [ 23%] Built target arduinobot_msgs__rosidl_typesupport_cpp
+[0.103s] [ 34%] Built target arduinobot_msgs__rosidl_typesupport_introspection_cpp
+[0.108s] [ 46%] Built target arduinobot_msgs__rosidl_typesupport_fastrtps_cpp
+[0.117s] [ 57%] Built target arduinobot_msgs__rosidl_typesupport_c
+[0.119s] [ 68%] Built target arduinobot_msgs__rosidl_typesupport_introspection_c
+[0.121s] [ 79%] Built target arduinobot_msgs__rosidl_typesupport_fastrtps_c
+[0.134s] [ 79%] Built target arduinobot_msgs
+[0.146s] [ 80%] Built target arduinobot_msgs__py
+[0.162s] [ 90%] Built target arduinobot_msgs__rosidl_generator_py
+[0.176s] [ 96%] Built target arduinobot_msgs__rosidl_typesupport_introspection_c__pyext
+[0.176s] [ 96%] Built target arduinobot_msgs__rosidl_typesupport_fastrtps_c__pyext
+[0.176s] [100%] Built target arduinobot_msgs__rosidl_typesupport_c__pyext
+[0.267s] running egg_info
+[0.267s] writing arduinobot_msgs.egg-info/PKG-INFO
+[0.268s] writing dependency_links to arduinobot_msgs.egg-info/dependency_links.txt
+[0.268s] writing top-level names to arduinobot_msgs.egg-info/top_level.txt
+[0.269s] reading manifest file 'arduinobot_msgs.egg-info/SOURCES.txt'
+[0.270s] writing manifest file 'arduinobot_msgs.egg-info/SOURCES.txt'
+[0.288s] [100%] Built target ament_cmake_python_build_arduinobot_msgs_egg

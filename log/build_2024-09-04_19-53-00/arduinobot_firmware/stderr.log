@@ -1,0 +1,5 @@
+failed to create symbolic link '/home/parallels/arduinobot_ws/build/arduinobot_firmware/ament_cmake_python/arduinobot_firmware/arduinobot_firmware' because existing path cannot be removed: Is a directory
+gmake[2]: *** [CMakeFiles/ament_cmake_python_symlink_arduinobot_firmware.dir/build.make:70: CMakeFiles/ament_cmake_python_symlink_arduinobot_firmware] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:142: CMakeFiles/ament_cmake_python_symlink_arduinobot_firmware.dir/all] Error 2
+gmake[1]: *** Waiting for unfinished jobs....
+gmake: *** [Makefile:146: all] Error 2

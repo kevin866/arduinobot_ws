@@ -1,26 +1,27 @@
 {
-  "configurations": [
-    {
-      "browse": {
-        "databaseFilename": "${default}",
-        "limitSymbolsToIncludedHeaders": false
-      },
-      "includePath": [
-        "/home/parallels/ros2_ws/install/image_geometry/include/**",
-        "/home/parallels/ros2_ws/install/cv_bridge/include/**",
-        "/home/parallels/test_ws/install/turtlesim/include/**",
-        "/opt/ros/humble/include/**",
-        "/home/parallels/arduinobot_ws/src/arduinobot_cpp_examples/include/**",
-        "/home/parallels/arduinobot_ws/src/arduinobot_description/include/**",
-        "/home/parallels/arduinobot_ws/src/arduinobot_msgs/include/**",
-        "/usr/include/**"
-      ],
-      "name": "ROS",
-      "intelliSenseMode": "gcc-arm64",
-      "compilerPath": "/usr/bin/gcc",
-      "cStandard": "gnu11",
-      "cppStandard": "c++14"
-    }
-  ],
-  "version": 4
+    "configurations": [
+        {
+            "browse": {
+                "databaseFilename": "${default}",
+                "limitSymbolsToIncludedHeaders": false
+            },
+            "includePath": [
+                "/home/parallels/ros2_ws/install/image_geometry/include/**",
+                "/home/parallels/ros2_ws/install/cv_bridge/include/**",
+                "/home/parallels/test_ws/install/turtlesim/include/**",
+                "/opt/ros/humble/include/**",
+                "/home/parallels/arduinobot_ws/src/arduinobot_cpp_examples/include/**",
+                "/home/parallels/arduinobot_ws/src/arduinobot_description/include/**",
+                "/home/parallels/arduinobot_ws/src/arduinobot_msgs/include/**",
+                "/usr/include/**",
+                "${workspaceFolder}/src/arduinobot_controller/include"
+            ],
+            "name": "ROS",
+            "intelliSenseMode": "gcc-arm64",
+            "compilerPath": "/usr/bin/gcc",
+            "cStandard": "gnu11",
+            "cppStandard": "c++14"
+        }
+    ],
+    "version": 4
 }

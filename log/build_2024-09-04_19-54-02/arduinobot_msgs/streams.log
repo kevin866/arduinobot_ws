@@ -1,0 +1,9 @@
+[0.024s] Invoking command in '/home/parallels/arduinobot_ws/build/arduinobot_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/parallels/ros2_ws/install/opencv_tests:/home/parallels/ros2_ws/install/my_robot_controller:/opt/ros/humble /usr/bin/cmake --build /home/parallels/arduinobot_ws/build/arduinobot_msgs -- -j6 -l6
+[0.068s] failed to create symbolic link '/home/parallels/arduinobot_ws/build/arduinobot_msgs/ament_cmake_python/arduinobot_msgs/arduinobot_msgs' because existing path cannot be removed: Is a directory
+[0.069s] gmake[2]: *** [CMakeFiles/ament_cmake_python_symlink_arduinobot_msgs.dir/build.make:70: CMakeFiles/ament_cmake_python_symlink_arduinobot_msgs] Error 1
+[0.069s] gmake[1]: *** [CMakeFiles/Makefile2:421: CMakeFiles/ament_cmake_python_symlink_arduinobot_msgs.dir/all] Error 2
+[0.069s] gmake[1]: *** Waiting for unfinished jobs....
+[0.082s] [ 11%] Built target arduinobot_msgs__rosidl_generator_c
+[0.085s] [ 12%] Built target arduinobot_msgs__cpp
+[0.085s] gmake: *** [Makefile:146: all] Error 2
+[0.089s] Invoked command in '/home/parallels/arduinobot_ws/build/arduinobot_msgs' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/parallels/ros2_ws/install/opencv_tests:/home/parallels/ros2_ws/install/my_robot_controller:/opt/ros/humble /usr/bin/cmake --build /home/parallels/arduinobot_ws/build/arduinobot_msgs -- -j6 -l6

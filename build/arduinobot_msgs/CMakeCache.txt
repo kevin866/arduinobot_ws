@@ -465,9 +465,6 @@ rosidl_typesupport_introspection_c_DIR:PATH=/opt/ros/humble/share/rosidl_typesup
 //The directory containing a CMake configuration file for rosidl_typesupport_introspection_cpp.
 rosidl_typesupport_introspection_cpp_DIR:PATH=/opt/ros/humble/share/rosidl_typesupport_introspection_cpp/cmake
 
-//The directory containing a CMake configuration file for soridl_default_generators.
-soridl_default_generators_DIR:PATH=soridl_default_generators_DIR-NOTFOUND
-
 //The directory containing a CMake configuration file for std_msgs.
 std_msgs_DIR:PATH=/opt/ros/humble/share/std_msgs/cmake
 

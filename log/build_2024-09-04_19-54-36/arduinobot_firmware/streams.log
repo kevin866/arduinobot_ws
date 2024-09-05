@@ -1,0 +1,9 @@
+[0.022s] Invoking command in '/home/parallels/arduinobot_ws/build/arduinobot_firmware': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/parallels/ros2_ws/install/opencv_tests:/home/parallels/ros2_ws/install/my_robot_controller:/opt/ros/humble /usr/bin/cmake --build /home/parallels/arduinobot_ws/build/arduinobot_firmware -- -j6 -l6
+[0.070s] failed to create symbolic link '/home/parallels/arduinobot_ws/build/arduinobot_firmware/ament_cmake_python/arduinobot_firmware/arduinobot_firmware' because existing path cannot be removed: Is a directory
+[0.070s] [ 50%] Built target simple_serial_transmitter
+[0.071s] gmake[2]: *** [CMakeFiles/ament_cmake_python_symlink_arduinobot_firmware.dir/build.make:70: CMakeFiles/ament_cmake_python_symlink_arduinobot_firmware] Error 1
+[0.071s] gmake[1]: *** [CMakeFiles/Makefile2:142: CMakeFiles/ament_cmake_python_symlink_arduinobot_firmware.dir/all] Error 2
+[0.071s] gmake[1]: *** Waiting for unfinished jobs....
+[0.083s] [100%] Built target simple_serial_receiver
+[0.084s] gmake: *** [Makefile:146: all] Error 2
+[0.090s] Invoked command in '/home/parallels/arduinobot_ws/build/arduinobot_firmware' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/parallels/ros2_ws/install/opencv_tests:/home/parallels/ros2_ws/install/my_robot_controller:/opt/ros/humble /usr/bin/cmake --build /home/parallels/arduinobot_ws/build/arduinobot_firmware -- -j6 -l6

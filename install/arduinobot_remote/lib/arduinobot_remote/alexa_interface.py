@@ -1,4 +1,4 @@
-#!/user/bin/env python3
+#!/usr/bin/env python3
 from flask import Flask
 from ask_sdk_core.skill_builder import SkillBuilder
 from flask_ask_sdk.skill_adapter import SkillAdapter
@@ -13,6 +13,7 @@ from rclpy.node import Node
 from rclpy.action import ActionClient
 from arduinobot_msgs.action import ArduinobotTask
 import threading
+
 
 
 threading.Thread(target=lambda: rclpy.init()).start()

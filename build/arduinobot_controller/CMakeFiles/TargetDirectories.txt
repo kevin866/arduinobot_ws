@@ -1,5 +1,6 @@
 /home/parallels/arduinobot_ws/build/arduinobot_controller/CMakeFiles/uninstall.dir
 /home/parallels/arduinobot_ws/build/arduinobot_controller/CMakeFiles/arduinobot_controller_uninstall.dir
+/home/parallels/arduinobot_ws/build/arduinobot_controller/CMakeFiles/arduinobot_controller.dir
 /home/parallels/arduinobot_ws/build/arduinobot_controller/CMakeFiles/test.dir
 /home/parallels/arduinobot_ws/build/arduinobot_controller/CMakeFiles/edit_cache.dir
 /home/parallels/arduinobot_ws/build/arduinobot_controller/CMakeFiles/rebuild_cache.dir

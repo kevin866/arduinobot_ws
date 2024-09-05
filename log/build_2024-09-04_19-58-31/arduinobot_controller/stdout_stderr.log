@@ -1,0 +1,8 @@
+[35m[1mConsolidate compiler generated dependencies of target arduinobot_controller[0m
+[100%] Built target arduinobot_controller
+-- Install configuration: ""
+-- Up-to-date: /home/parallels/arduinobot_ws/install/arduinobot_controller/share/arduinobot_controller/config
+-- Up-to-date: /home/parallels/arduinobot_ws/install/arduinobot_controller/share/arduinobot_controller/launch
+-- Up-to-date: /home/parallels/arduinobot_ws/install/arduinobot_controller/include/include
+-- Up-to-date: /home/parallels/arduinobot_ws/install/arduinobot_controller/include/include/arduinobot_controller
+-- Installing: /home/parallels/arduinobot_ws/install/arduinobot_controller/share/arduinobot_controller/package.dsv

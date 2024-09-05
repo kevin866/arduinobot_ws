@@ -1,0 +1,11 @@
+[0.024s] Invoking command in '/home/parallels/arduinobot_ws/build/arduinobot_firmware': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/parallels/ros2_ws/install/opencv_tests:/home/parallels/ros2_ws/install/my_robot_controller:/opt/ros/humble /usr/bin/cmake --build /home/parallels/arduinobot_ws/build/arduinobot_firmware -- -j6 -l6
+[0.076s] [ 50%] Built target simple_serial_transmitter
+[0.079s] [ 50%] Built target ament_cmake_python_copy_arduinobot_firmware
+[0.084s] [100%] Built target simple_serial_receiver
+[0.258s] running egg_info
+[0.258s] writing arduinobot_firmware.egg-info/PKG-INFO
+[0.258s] writing dependency_links to arduinobot_firmware.egg-info/dependency_links.txt
+[0.259s] writing top-level names to arduinobot_firmware.egg-info/top_level.txt
+[0.260s] reading manifest file 'arduinobot_firmware.egg-info/SOURCES.txt'
+[0.260s] writing manifest file 'arduinobot_firmware.egg-info/SOURCES.txt'
+[0.279s] [100%] Built target ament_cmake_python_build_arduinobot_firmware_egg

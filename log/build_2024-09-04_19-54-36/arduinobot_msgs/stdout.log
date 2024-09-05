@@ -1,0 +1,6 @@
+[  1%] Built target arduinobot_msgs__cpp
+[ 12%] Built target arduinobot_msgs__rosidl_generator_c
+[35m[1mConsolidate compiler generated dependencies of target arduinobot_msgs__rosidl_typesupport_cpp[0m
+[35m[1mConsolidate compiler generated dependencies of target arduinobot_msgs__rosidl_typesupport_fastrtps_cpp[0m
+[ 34%] Built target arduinobot_msgs__rosidl_typesupport_fastrtps_cpp
+[ 34%] Built target arduinobot_msgs__rosidl_typesupport_cpp

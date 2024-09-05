@@ -1,0 +1,28 @@
+[01m[K/home/parallels/arduinobot_ws/src/arduinobot_controller/src/arduinobot_interface.cpp:[m[K In member function ‘[01m[Kvirtual arduinobot_controller::CallbackReturn arduinobot_controller::ArduinobotInterface::on_activate(const rclcpp_lifecycle::State&)[m[K’:
+[01m[K/home/parallels/arduinobot_ws/src/arduinobot_controller/src/arduinobot_interface.cpp:76:81:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kprevious_state[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+   76 | nobotInterface::on_activate([01;35m[Kconst rclcpp_lifecycle::State & previous_state[m[K)
+      |                             [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~[m[K
+
+[01m[K/home/parallels/arduinobot_ws/src/arduinobot_controller/src/arduinobot_interface.cpp:[m[K In member function ‘[01m[Kvirtual arduinobot_controller::CallbackReturn arduinobot_controller::ArduinobotInterface::on_deactivate(const rclcpp_lifecycle::State&)[m[K’:
+[01m[K/home/parallels/arduinobot_ws/src/arduinobot_controller/src/arduinobot_interface.cpp:100:83:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kprevious_state[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+  100 | botInterface::on_deactivate([01;35m[Kconst rclcpp_lifecycle::State & previous_state[m[K)
+      |                             [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~[m[K
+
+[01m[K/home/parallels/arduinobot_ws/src/arduinobot_controller/src/arduinobot_interface.cpp:[m[K In member function ‘[01m[Kvirtual hardware_interface::return_type arduinobot_controller::ArduinobotInterface::read(const rclcpp::Time&, const rclcpp::Duration&)[m[K’:
+[01m[K/home/parallels/arduinobot_ws/src/arduinobot_controller/src/arduinobot_interface.cpp:119:80:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Ktime[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+  119 | :return_type ArduinobotInterface::read([01;35m[Kconst rclcpp::Time & time[m[K, const rclcpp::Duration & period)
+      |                                        [01;35m[K~~~~~~~~~~~~~~~~~~~~~^~~~[m[K
+
+[01m[K/home/parallels/arduinobot_ws/src/arduinobot_controller/src/arduinobot_interface.cpp:119:111:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kperiod[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+  119 | rface::read(const rclcpp::Time & time, [01;35m[Kconst rclcpp::Duration & period[m[K)
+      |                                        [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~[m[K
+
+[01m[K/home/parallels/arduinobot_ws/src/arduinobot_controller/src/arduinobot_interface.cpp:[m[K In member function ‘[01m[Kvirtual hardware_interface::return_type arduinobot_controller::ArduinobotInterface::write(const rclcpp::Time&, const rclcpp::Duration&)[m[K’:
+[01m[K/home/parallels/arduinobot_ws/src/arduinobot_controller/src/arduinobot_interface.cpp:125:81:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Ktime[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+  125 | return_type ArduinobotInterface::write([01;35m[Kconst rclcpp::Time & time[m[K, const rclcpp::Duration & period)
+      |                                        [01;35m[K~~~~~~~~~~~~~~~~~~~~~^~~~[m[K
+
+[01m[K/home/parallels/arduinobot_ws/src/arduinobot_controller/src/arduinobot_interface.cpp:125:112:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kperiod[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+  125 | face::write(const rclcpp::Time & time, [01;35m[Kconst rclcpp::Duration & period[m[K)
+      |                                        [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~[m[K
+

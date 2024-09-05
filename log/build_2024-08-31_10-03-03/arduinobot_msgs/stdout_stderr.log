@@ -1,0 +1,22 @@
+[  1%] Built target arduinobot_msgs__cpp
+[  1%] Built target ament_cmake_python_copy_arduinobot_msgs
+[ 12%] Built target arduinobot_msgs__rosidl_generator_c
+[ 23%] Built target arduinobot_msgs__rosidl_typesupport_cpp
+[ 34%] Built target arduinobot_msgs__rosidl_typesupport_introspection_cpp
+[ 46%] Built target arduinobot_msgs__rosidl_typesupport_fastrtps_cpp
+[ 57%] Built target arduinobot_msgs__rosidl_typesupport_c
+[ 68%] Built target arduinobot_msgs__rosidl_typesupport_introspection_c
+[ 79%] Built target arduinobot_msgs__rosidl_typesupport_fastrtps_c
+[ 79%] Built target arduinobot_msgs
+[ 80%] Built target arduinobot_msgs__py
+[ 90%] Built target arduinobot_msgs__rosidl_generator_py
+[ 96%] Built target arduinobot_msgs__rosidl_typesupport_introspection_c__pyext
+[ 96%] Built target arduinobot_msgs__rosidl_typesupport_fastrtps_c__pyext
+[100%] Built target arduinobot_msgs__rosidl_typesupport_c__pyext
+running egg_info
+writing arduinobot_msgs.egg-info/PKG-INFO
+writing dependency_links to arduinobot_msgs.egg-info/dependency_links.txt
+writing top-level names to arduinobot_msgs.egg-info/top_level.txt
+reading manifest file 'arduinobot_msgs.egg-info/SOURCES.txt'
+writing manifest file 'arduinobot_msgs.egg-info/SOURCES.txt'
+[100%] Built target ament_cmake_python_build_arduinobot_msgs_egg

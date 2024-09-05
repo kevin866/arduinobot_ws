@@ -1,0 +1,105 @@
+[0.018s] Invoking command in '/home/parallels/arduinobot_ws/build/arduinobot_cpp_examples': AMENT_PREFIX_PATH=/home/parallels/arduinobot_ws/install/arduinobot_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/parallels/arduinobot_ws/install/arduinobot_msgs:/home/parallels/ros2_ws/install/vision_opencv:/home/parallels/ros2_ws/install/image_geometry:/home/parallels/ros2_ws/install/cv_bridge:/home/parallels/test_ws/install/turtlesim:/home/parallels/test_ws/install/my_package:/home/parallels/ros2_ws/install/opencv_tests:/home/parallels/ros2_ws/install/my_robot_controller:/opt/ros/humble LD_LIBRARY_PATH=/home/parallels/arduinobot_ws/install/arduinobot_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/parallels/arduinobot_ws/install/arduinobot_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/parallels/arduinobot_ws/src/arduinobot_cpp_examples -DCMAKE_INSTALL_PREFIX=/home/parallels/arduinobot_ws/install/arduinobot_cpp_examples
+[0.260s] -- The C compiler identification is GNU 11.4.0
+[0.260s] -- The CXX compiler identification is GNU 11.4.0
+[0.260s] -- Detecting C compiler ABI info
+[0.260s] -- Detecting C compiler ABI info - done
+[0.260s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.260s] -- Detecting C compile features
+[0.260s] -- Detecting C compile features - done
+[0.260s] -- Detecting CXX compiler ABI info
+[0.260s] -- Detecting CXX compiler ABI info - done
+[0.267s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.267s] -- Detecting CXX compile features
+[0.268s] -- Detecting CXX compile features - done
+[0.274s] -- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.462s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.554s] -- Found rclcpp: 16.0.10 (/opt/ros/humble/share/rclcpp/cmake)
+[0.611s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.620s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.627s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.639s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.657s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.707s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.710s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.851s] -- Found OpenSSL: /usr/lib/aarch64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[0.882s] -- Found FastRTPS: /opt/ros/humble/include  
+[0.930s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.948s] -- Looking for pthread.h
+[0.993s] -- Looking for pthread.h - found
+[0.997s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[1.049s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[1.050s] -- Found Threads: TRUE  
+[1.111s] -- Found arduinobot_msgs: 0.0.0 (/home/parallels/arduinobot_ws/install/arduinobot_msgs/share/arduinobot_msgs/cmake)
+[1.153s] -- Found rclcpp_components: 16.0.10 (/opt/ros/humble/share/rclcpp_components/cmake)
+[1.184s] -- Found rclcpp_action: 16.0.10 (/opt/ros/humble/share/rclcpp_action/cmake)
+[1.198s] -- Found moveit_ros_planning_interface: 2.5.5 (/opt/ros/humble/share/moveit_ros_planning_interface/cmake)
+[1.224s] -- Found Boost: /usr/lib/aarch64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: date_time filesystem program_options system thread 
+[1.388s] -- Found Boost: /usr/lib/aarch64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: chrono date_time filesystem iostreams program_options regex serialization system thread 
+[1.409s] -- Found parameter_traits: 0.3.8 (/opt/ros/humble/share/parameter_traits/cmake)
+[1.432s] -- Found rclcpp_lifecycle: 16.0.10 (/opt/ros/humble/share/rclcpp_lifecycle/cmake)
+[1.459s] -- Found Boost: /usr/lib/aarch64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: filesystem 
+[1.546s] -- library: /usr/lib/aarch64-linux-gnu/libcurl.so
+[1.581s] -- Found Eigen3: TRUE (found version "3.4.0") 
+[1.581s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[1.724s] -- Found Boost: /usr/lib/aarch64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: system filesystem date_time program_options thread chrono 
+[1.765s] -- Found Boost: /usr/lib/aarch64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: thread system filesystem regex date_time program_options 
+[1.795s] -- Found Boost: /usr/lib/aarch64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: system filesystem date_time program_options thread 
+[1.844s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[1.926s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[1.926s] -- Configured cppcheck include dirs: $<BUILD_INTERFACE:/home/parallels/arduinobot_ws/src/arduinobot_cpp_examples/include>
+[1.926s] -- Configured cppcheck exclude dirs and/or files: 
+[1.928s] -- Added test 'lint_cmake' to check CMake code style
+[1.928s] -- Added test 'uncrustify' to check C / C++ code style
+[1.928s] -- Configured uncrustify additional arguments: 
+[1.929s] -- Added test 'xmllint' to check XML markup files
+[1.932s] -- Configuring done
+[1.997s] -- Generating done
+[2.000s] -- Build files have been written to: /home/parallels/arduinobot_ws/build/arduinobot_cpp_examples
+[2.016s] Invoked command in '/home/parallels/arduinobot_ws/build/arduinobot_cpp_examples' returned '0': AMENT_PREFIX_PATH=/home/parallels/arduinobot_ws/install/arduinobot_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/parallels/arduinobot_ws/install/arduinobot_msgs:/home/parallels/ros2_ws/install/vision_opencv:/home/parallels/ros2_ws/install/image_geometry:/home/parallels/ros2_ws/install/cv_bridge:/home/parallels/test_ws/install/turtlesim:/home/parallels/test_ws/install/my_package:/home/parallels/ros2_ws/install/opencv_tests:/home/parallels/ros2_ws/install/my_robot_controller:/opt/ros/humble LD_LIBRARY_PATH=/home/parallels/arduinobot_ws/install/arduinobot_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/parallels/arduinobot_ws/install/arduinobot_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/parallels/arduinobot_ws/src/arduinobot_cpp_examples -DCMAKE_INSTALL_PREFIX=/home/parallels/arduinobot_ws/install/arduinobot_cpp_examples
+[2.016s] Invoking command in '/home/parallels/arduinobot_ws/build/arduinobot_cpp_examples': AMENT_PREFIX_PATH=/home/parallels/arduinobot_ws/install/arduinobot_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/parallels/arduinobot_ws/install/arduinobot_msgs:/home/parallels/ros2_ws/install/vision_opencv:/home/parallels/ros2_ws/install/image_geometry:/home/parallels/ros2_ws/install/cv_bridge:/home/parallels/test_ws/install/turtlesim:/home/parallels/test_ws/install/my_package:/home/parallels/ros2_ws/install/opencv_tests:/home/parallels/ros2_ws/install/my_robot_controller:/opt/ros/humble LD_LIBRARY_PATH=/home/parallels/arduinobot_ws/install/arduinobot_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/parallels/arduinobot_ws/install/arduinobot_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/parallels/arduinobot_ws/build/arduinobot_cpp_examples -- -j6 -l6
+[2.068s] [  4%] [32mBuilding CXX object CMakeFiles/simple_subscriber.dir/src/simple_subscriber.cpp.o[0m
+[2.077s] [  9%] [32mBuilding CXX object CMakeFiles/simple_publisher.dir/src/simple_publisher.cpp.o[0m
+[2.082s] [ 13%] [32mBuilding CXX object CMakeFiles/simple_service_server.dir/src/simple_service_server.cpp.o[0m
+[2.089s] [ 18%] [32mBuilding CXX object CMakeFiles/simple_parameter.dir/src/simple_parameter.cpp.o[0m
+[2.097s] [ 22%] [32mBuilding CXX object CMakeFiles/simple_moveit_interface.dir/src/simple_moveit_interface.cpp.o[0m
+[2.108s] [ 27%] [32mBuilding CXX object CMakeFiles/simple_service_client.dir/src/simple_service_client.cpp.o[0m
+[7.295s] [ 31%] [32m[1mLinking CXX executable simple_service_client[0m
+[7.450s] [ 36%] [32m[1mLinking CXX executable simple_parameter[0m
+[7.619s] [ 36%] Built target simple_parameter
+[7.635s] [ 36%] Built target simple_service_client
+[7.648s] [ 40%] [32mBuilding CXX object CMakeFiles/simple_lifecycle_node.dir/src/simple_lifecycle_node.cpp.o[0m
+[7.691s] [ 45%] [32mBuilding CXX object CMakeFiles/simple_action_server.dir/src/simple_action_server.cpp.o[0m
+[8.037s] [ 50%] [32m[1mLinking CXX executable simple_service_server[0m
+[8.320s] [ 50%] Built target simple_service_server
+[8.405s] [ 54%] [32mBuilding CXX object CMakeFiles/simple_action_server_node.dir/rclcpp_components/node_main_simple_action_server_node.cpp.o[0m
+[8.880s] [ 59%] [32m[1mLinking CXX executable simple_publisher[0m
+[9.226s] [ 59%] Built target simple_publisher
+[9.331s] [ 63%] [32mBuilding CXX object CMakeFiles/simple_action_client.dir/src/simple_action_client.cpp.o[0m
+[10.176s] [01m[K/home/parallels/arduinobot_ws/src/arduinobot_cpp_examples/src/simple_action_server.cpp:[m[K In member function ‘[01m[Krclcpp_action::GoalResponse arduinobot_cpp_examples::SimpleActionServer::goalCallback(rclcpp_action::GoalUUID, std::shared_ptr<const arduinobot_msgs::action::Fibonacci_Goal_<std::allocator<void> > >)[m[K’:
+[10.176s] [01m[K/home/parallels/arduinobot_ws/src/arduinobot_cpp_examples/src/simple_action_server.cpp:30:76:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kuuid[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[10.176s]    30 |     rclcpp_action::GoalResponse goalCallback([01;35m[Kconst rclcpp_action::GoalUUID uuid[m[K, std::shared_ptr<const arduinobot_msgs::action::Fibonacci::Goal> goal)
+[10.176s]       |                                              [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~[m[K
+[10.184s] [01m[K/home/parallels/arduinobot_ws/src/arduinobot_cpp_examples/src/simple_action_server.cpp:[m[K In member function ‘[01m[Krclcpp_action::CancelResponse arduinobot_cpp_examples::SimpleActionServer::cancelCallback(std::shared_ptr<rclcpp_action::ServerGoalHandle<arduinobot_msgs::action::Fibonacci> >)[m[K’:
+[10.184s] [01m[K/home/parallels/arduinobot_ws/src/arduinobot_cpp_examples/src/simple_action_server.cpp:78:141:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kgoal_handle[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[10.184s]    78 |     rclcpp_action::CancelResponse cancelCallback([01;35m[Kconst std::shared_ptr<rclcpp_action::ServerGoalHandle<arduinobot_msgs::action::Fibonacci>> goal_handle[m[K)
+[10.184s]       |                                                  [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~[m[K
+[11.996s] [ 68%] [32m[1mLinking CXX shared library libsimple_action_server.so[0m
+[12.086s] [ 72%] [32m[1mLinking CXX executable simple_action_server_node[0m
+[12.332s] [ 72%] Built target simple_action_server
+[12.365s] [ 72%] Built target simple_action_server_node
+[12.416s] [ 77%] [32mBuilding CXX object CMakeFiles/simple_action_client_node.dir/rclcpp_components/node_main_simple_action_client_node.cpp.o[0m
+[13.677s] [ 81%] [32m[1mLinking CXX executable simple_moveit_interface[0m
+[14.182s] [ 86%] [32m[1mLinking CXX executable simple_subscriber[0m
+[14.238s] [ 86%] Built target simple_moveit_interface
+[14.567s] [ 90%] [32m[1mLinking CXX shared library libsimple_action_client.so[0m
+[14.710s] [ 90%] Built target simple_subscriber
+[14.741s] [ 90%] Built target simple_action_client
+[15.338s] [ 95%] [32m[1mLinking CXX executable simple_action_client_node[0m
+[15.427s] [ 95%] Built target simple_action_client_node
+[15.973s] [100%] [32m[1mLinking CXX executable simple_lifecycle_node[0m
+[16.277s] [100%] Built target simple_lifecycle_node
+[16.285s] Invoked command in '/home/parallels/arduinobot_ws/build/arduinobot_cpp_examples' returned '0': AMENT_PREFIX_PATH=/home/parallels/arduinobot_ws/install/arduinobot_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/parallels/arduinobot_ws/install/arduinobot_msgs:/home/parallels/ros2_ws/install/vision_opencv:/home/parallels/ros2_ws/install/image_geometry:/home/parallels/ros2_ws/install/cv_bridge:/home/parallels/test_ws/install/turtlesim:/home/parallels/test_ws/install/my_package:/home/parallels/ros2_ws/install/opencv_tests:/home/parallels/ros2_ws/install/my_robot_controller:/opt/ros/humble LD_LIBRARY_PATH=/home/parallels/arduinobot_ws/install/arduinobot_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/parallels/arduinobot_ws/install/arduinobot_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/parallels/arduinobot_ws/build/arduinobot_cpp_examples -- -j6 -l6
+[16.319s] Invoking command in '/home/parallels/arduinobot_ws/build/arduinobot_cpp_examples': AMENT_PREFIX_PATH=/home/parallels/arduinobot_ws/install/arduinobot_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/parallels/arduinobot_ws/install/arduinobot_msgs:/home/parallels/ros2_ws/install/vision_opencv:/home/parallels/ros2_ws/install/image_geometry:/home/parallels/ros2_ws/install/cv_bridge:/home/parallels/test_ws/install/turtlesim:/home/parallels/test_ws/install/my_package:/home/parallels/ros2_ws/install/opencv_tests:/home/parallels/ros2_ws/install/my_robot_controller:/opt/ros/humble LD_LIBRARY_PATH=/home/parallels/arduinobot_ws/install/arduinobot_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/parallels/arduinobot_ws/install/arduinobot_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/parallels/arduinobot_ws/build/arduinobot_cpp_examples
+[16.323s] -- Install configuration: ""
+[16.324s] -- Installing: /home/parallels/arduinobot_ws/install/arduinobot_cpp_examples/share/arduinobot_cpp_examples/package.dsv
+[16.326s] Invoked command in '/home/parallels/arduinobot_ws/build/arduinobot_cpp_examples' returned '0': AMENT_PREFIX_PATH=/home/parallels/arduinobot_ws/install/arduinobot_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/parallels/arduinobot_ws/install/arduinobot_msgs:/home/parallels/ros2_ws/install/vision_opencv:/home/parallels/ros2_ws/install/image_geometry:/home/parallels/ros2_ws/install/cv_bridge:/home/parallels/test_ws/install/turtlesim:/home/parallels/test_ws/install/my_package:/home/parallels/ros2_ws/install/opencv_tests:/home/parallels/ros2_ws/install/my_robot_controller:/opt/ros/humble LD_LIBRARY_PATH=/home/parallels/arduinobot_ws/install/arduinobot_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/parallels/arduinobot_ws/install/arduinobot_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/parallels/arduinobot_ws/build/arduinobot_cpp_examples
