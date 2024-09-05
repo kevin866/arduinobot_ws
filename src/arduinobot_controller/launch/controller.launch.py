@@ -5,29 +5,31 @@ from launch.actions import DeclareLaunchArgument
 from launch_ros.parameter_descriptions import ParameterValue
 from launch.substitutions import Command, LaunchConfiguration
 from ament_index_python.packages import get_package_share_directory
-from launch.actions import DeclareLaunchArgument
 from launch.conditions import UnlessCondition
 
 def generate_launch_description():
+
+    is_sim = LaunchConfiguration("is_sim")
 
     is_sim_arg = DeclareLaunchArgument(
         "is_sim",
         default_value = "True"
     )
 
-    is_sim = LaunchConfiguration("is_sim")
-
     robot_description = ParameterValue(
         Command(
-        [
-            "xacro",
-            os.path.join(get_package_share_directory("arduinobot_description"), 
-                         "urdf", "arduinobot.urdf.xacro"),
-            " is_sim:=False"
-        ]
+            [
+                "xacro ",
+                os.path.join(get_package_share_directory("arduinobot_description"), 
+                            "urdf", 
+                            "arduinobot.urdf.xacro",
+                ),
+                " is_sim:=False"
+            ]
         ),
-        value_type=str
+        value_type=str,
     )
+    print(robot_description)
 
     model_arg = DeclareLaunchArgument(
         name="model", 
@@ -35,7 +37,6 @@ def generate_launch_description():
                                      "urdf", "arduinobot.urdf.xacro"),
     )
 
-    robot_description = ParameterValue(Command(["xacro ", LaunchConfiguration("model")]))
     
 
     robot_state_publisher = Node(

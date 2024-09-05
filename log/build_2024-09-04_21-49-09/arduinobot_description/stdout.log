@@ -1,0 +1,11 @@
+-- Install configuration: ""
+-- Up-to-date: /home/parallels/arduinobot_ws/install/arduinobot_description/share/arduinobot_description/meshes
+-- Up-to-date: /home/parallels/arduinobot_ws/install/arduinobot_description/share/arduinobot_description/models
+-- Up-to-date: /home/parallels/arduinobot_ws/install/arduinobot_description/share/arduinobot_description/models/sun
+-- Up-to-date: /home/parallels/arduinobot_ws/install/arduinobot_description/share/arduinobot_description/models/ground_plane
+-- Up-to-date: /home/parallels/arduinobot_ws/install/arduinobot_description/share/arduinobot_description/urdf
+-- Installing: /home/parallels/arduinobot_ws/install/arduinobot_description/share/arduinobot_description/urdf/arduinobot_ros2_controlold.xacro
+-- Up-to-date: /home/parallels/arduinobot_ws/install/arduinobot_description/share/arduinobot_description/launch
+-- Up-to-date: /home/parallels/arduinobot_ws/install/arduinobot_description/share/arduinobot_description/launch/gazebofortress.launch.py
+-- Up-to-date: /home/parallels/arduinobot_ws/install/arduinobot_description/share/arduinobot_description/rviz
+-- Installing: /home/parallels/arduinobot_ws/install/arduinobot_description/share/arduinobot_description/package.dsv

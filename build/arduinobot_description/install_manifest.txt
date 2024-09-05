@@ -1,1 +1,3 @@
+/home/parallels/arduinobot_ws/install/arduinobot_description/share/arduinobot_description/urdf/arduinobot_ros2_controlold.xacro
+/home/parallels/arduinobot_ws/install/arduinobot_description/share/arduinobot_description/launch/gazebofortress.launch.py
 /home/parallels/arduinobot_ws/install/arduinobot_description/share/arduinobot_description/package.dsv

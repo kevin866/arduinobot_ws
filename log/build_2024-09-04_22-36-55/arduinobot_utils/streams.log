@@ -1,0 +1,42 @@
+[0.203s] Invoking command in '/home/parallels/arduinobot_ws/build/arduinobot_utils': AMENT_PREFIX_PATH=/home/parallels/arduinobot_ws/install/arduinobot_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/parallels/arduinobot_ws/install/arduinobot_msgs:/home/parallels/ros2_ws/install/vision_opencv:/home/parallels/ros2_ws/install/image_geometry:/home/parallels/ros2_ws/install/cv_bridge:/home/parallels/test_ws/install/turtlesim:/home/parallels/test_ws/install/my_package:/home/parallels/ros2_ws/install/opencv_tests:/home/parallels/ros2_ws/install/my_robot_controller:/opt/ros/humble LD_LIBRARY_PATH=/home/parallels/arduinobot_ws/install/arduinobot_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/parallels/arduinobot_ws/install/arduinobot_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/parallels/arduinobot_ws/build/arduinobot_utils -- -j6 -l6
+[0.241s] [  0%] Built target ament_cmake_python_copy_arduinobot_utils
+[0.241s] [100%] Built target angle_conversion
+[0.435s] running egg_info
+[0.436s] writing arduinobot_utils.egg-info/PKG-INFO
+[0.436s] writing dependency_links to arduinobot_utils.egg-info/dependency_links.txt
+[0.436s] writing top-level names to arduinobot_utils.egg-info/top_level.txt
+[0.438s] reading manifest file 'arduinobot_utils.egg-info/SOURCES.txt'
+[0.438s] writing manifest file 'arduinobot_utils.egg-info/SOURCES.txt'
+[0.462s] [100%] Built target ament_cmake_python_build_arduinobot_utils_egg
+[0.474s] Invoked command in '/home/parallels/arduinobot_ws/build/arduinobot_utils' returned '0': AMENT_PREFIX_PATH=/home/parallels/arduinobot_ws/install/arduinobot_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/parallels/arduinobot_ws/install/arduinobot_msgs:/home/parallels/ros2_ws/install/vision_opencv:/home/parallels/ros2_ws/install/image_geometry:/home/parallels/ros2_ws/install/cv_bridge:/home/parallels/test_ws/install/turtlesim:/home/parallels/test_ws/install/my_package:/home/parallels/ros2_ws/install/opencv_tests:/home/parallels/ros2_ws/install/my_robot_controller:/opt/ros/humble LD_LIBRARY_PATH=/home/parallels/arduinobot_ws/install/arduinobot_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/parallels/arduinobot_ws/install/arduinobot_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/parallels/arduinobot_ws/build/arduinobot_utils -- -j6 -l6
+[0.493s] Invoking command in '/home/parallels/arduinobot_ws/build/arduinobot_utils': AMENT_PREFIX_PATH=/home/parallels/arduinobot_ws/install/arduinobot_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/parallels/arduinobot_ws/install/arduinobot_msgs:/home/parallels/ros2_ws/install/vision_opencv:/home/parallels/ros2_ws/install/image_geometry:/home/parallels/ros2_ws/install/cv_bridge:/home/parallels/test_ws/install/turtlesim:/home/parallels/test_ws/install/my_package:/home/parallels/ros2_ws/install/opencv_tests:/home/parallels/ros2_ws/install/my_robot_controller:/opt/ros/humble LD_LIBRARY_PATH=/home/parallels/arduinobot_ws/install/arduinobot_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/parallels/arduinobot_ws/install/arduinobot_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/parallels/arduinobot_ws/build/arduinobot_utils
+[0.500s] -- Install configuration: ""
+[0.500s] -- Up-to-date: /home/parallels/arduinobot_ws/install/arduinobot_utils/share/arduinobot_utils/environment/pythonpath.sh
+[0.500s] -- Up-to-date: /home/parallels/arduinobot_ws/install/arduinobot_utils/share/arduinobot_utils/environment/pythonpath.dsv
+[0.500s] -- Up-to-date: /home/parallels/arduinobot_ws/install/arduinobot_utils/local/lib/python3.10/dist-packages/arduinobot_utils-0.0.0-py3.10.egg-info
+[0.500s] -- Installing: /home/parallels/arduinobot_ws/install/arduinobot_utils/local/lib/python3.10/dist-packages/arduinobot_utils-0.0.0-py3.10.egg-info/dependency_links.txt
+[0.500s] -- Installing: /home/parallels/arduinobot_ws/install/arduinobot_utils/local/lib/python3.10/dist-packages/arduinobot_utils-0.0.0-py3.10.egg-info/top_level.txt
+[0.500s] -- Installing: /home/parallels/arduinobot_ws/install/arduinobot_utils/local/lib/python3.10/dist-packages/arduinobot_utils-0.0.0-py3.10.egg-info/PKG-INFO
+[0.500s] -- Installing: /home/parallels/arduinobot_ws/install/arduinobot_utils/local/lib/python3.10/dist-packages/arduinobot_utils-0.0.0-py3.10.egg-info/SOURCES.txt
+[0.500s] -- Up-to-date: /home/parallels/arduinobot_ws/install/arduinobot_utils/local/lib/python3.10/dist-packages/arduinobot_utils
+[0.500s] -- Up-to-date: /home/parallels/arduinobot_ws/install/arduinobot_utils/local/lib/python3.10/dist-packages/arduinobot_utils/angle_conversion.py
+[0.500s] -- Up-to-date: /home/parallels/arduinobot_ws/install/arduinobot_utils/local/lib/python3.10/dist-packages/arduinobot_utils/__init__.py
+[0.524s] Listing '/home/parallels/arduinobot_ws/install/arduinobot_utils/local/lib/python3.10/dist-packages/arduinobot_utils'...
+[0.527s] -- Up-to-date: /home/parallels/arduinobot_ws/install/arduinobot_utils/lib/arduinobot_utils/angle_conversion
+[0.527s] -- Up-to-date: /home/parallels/arduinobot_ws/install/arduinobot_utils/lib/arduinobot_utils/angle_conversion.py
+[0.527s] -- Up-to-date: /home/parallels/arduinobot_ws/install/arduinobot_utils/share/ament_index/resource_index/package_run_dependencies/arduinobot_utils
+[0.527s] -- Up-to-date: /home/parallels/arduinobot_ws/install/arduinobot_utils/share/ament_index/resource_index/parent_prefix_path/arduinobot_utils
+[0.527s] -- Up-to-date: /home/parallels/arduinobot_ws/install/arduinobot_utils/share/arduinobot_utils/environment/ament_prefix_path.sh
+[0.527s] -- Up-to-date: /home/parallels/arduinobot_ws/install/arduinobot_utils/share/arduinobot_utils/environment/ament_prefix_path.dsv
+[0.527s] -- Up-to-date: /home/parallels/arduinobot_ws/install/arduinobot_utils/share/arduinobot_utils/environment/path.sh
+[0.527s] -- Up-to-date: /home/parallels/arduinobot_ws/install/arduinobot_utils/share/arduinobot_utils/environment/path.dsv
+[0.527s] -- Up-to-date: /home/parallels/arduinobot_ws/install/arduinobot_utils/share/arduinobot_utils/local_setup.bash
+[0.528s] -- Up-to-date: /home/parallels/arduinobot_ws/install/arduinobot_utils/share/arduinobot_utils/local_setup.sh
+[0.528s] -- Up-to-date: /home/parallels/arduinobot_ws/install/arduinobot_utils/share/arduinobot_utils/local_setup.zsh
+[0.528s] -- Up-to-date: /home/parallels/arduinobot_ws/install/arduinobot_utils/share/arduinobot_utils/local_setup.dsv
+[0.528s] -- Installing: /home/parallels/arduinobot_ws/install/arduinobot_utils/share/arduinobot_utils/package.dsv
+[0.528s] -- Up-to-date: /home/parallels/arduinobot_ws/install/arduinobot_utils/share/ament_index/resource_index/packages/arduinobot_utils
+[0.528s] -- Up-to-date: /home/parallels/arduinobot_ws/install/arduinobot_utils/share/arduinobot_utils/cmake/arduinobot_utilsConfig.cmake
+[0.528s] -- Up-to-date: /home/parallels/arduinobot_ws/install/arduinobot_utils/share/arduinobot_utils/cmake/arduinobot_utilsConfig-version.cmake
+[0.528s] -- Up-to-date: /home/parallels/arduinobot_ws/install/arduinobot_utils/share/arduinobot_utils/package.xml
+[0.538s] Invoked command in '/home/parallels/arduinobot_ws/build/arduinobot_utils' returned '0': AMENT_PREFIX_PATH=/home/parallels/arduinobot_ws/install/arduinobot_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/parallels/arduinobot_ws/install/arduinobot_msgs:/home/parallels/ros2_ws/install/vision_opencv:/home/parallels/ros2_ws/install/image_geometry:/home/parallels/ros2_ws/install/cv_bridge:/home/parallels/test_ws/install/turtlesim:/home/parallels/test_ws/install/my_package:/home/parallels/ros2_ws/install/opencv_tests:/home/parallels/ros2_ws/install/my_robot_controller:/opt/ros/humble LD_LIBRARY_PATH=/home/parallels/arduinobot_ws/install/arduinobot_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/parallels/arduinobot_ws/install/arduinobot_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/parallels/arduinobot_ws/build/arduinobot_utils

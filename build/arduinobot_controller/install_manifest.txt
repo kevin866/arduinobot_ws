@@ -1,1 +1,2 @@
+/home/parallels/arduinobot_ws/install/arduinobot_controller/share/arduinobot_controller/launch/slider_controller.launch.py
 /home/parallels/arduinobot_ws/install/arduinobot_controller/share/arduinobot_controller/package.dsv
