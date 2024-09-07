@@ -31,14 +31,6 @@ def generate_launch_description():
     )
     print(robot_description)
 
-    model_arg = DeclareLaunchArgument(
-        name="model", 
-        default_value = os.path.join(get_package_share_directory("arduinobot_description"), 
-                                     "urdf", "arduinobot.urdf.xacro"),
-    )
-
-    
-
     robot_state_publisher = Node(
         package = "robot_state_publisher",
         executable="robot_state_publisher",
@@ -54,7 +46,7 @@ def generate_launch_description():
                      os.path.join(
                          get_package_share_directory("arduinobot_controller"),
                          "config",
-                         "arduinobot_controllers.yaml"
+                         "arduinobot_controllers.yaml",
                      )
         ],
         condition=UnlessCondition(is_sim)
@@ -64,35 +56,43 @@ def generate_launch_description():
         package="controller_manager",
         executable="spawner",
         arguments=[
-            "joint_state_broadcaster"
-            # "--controller-manager",
-            # "/conroller_manager",
-        ]
+            "joint_state_broadcaster",
+            "--controller-manager",
+            "/controller_manager",
+        ],
     )
 
     arm_controller_spawner = Node(
         package="controller_manager",
         executable="spawner",
         arguments=[
-            "arm_controller"
-            # "--controller-manager",
-            # "/conroller_manager",
-        ]
+            "arm_controller",
+            "--controller-manager",
+            "/controller_manager"
+        ],
     )
 
     gripper_controller_spawner = Node(
         package="controller_manager",
         executable="spawner",
         arguments=[
-            "gripper_controller"
-            # "--controller-manager",
-            # "/conroller_manager",
-        ]
+            "gripper_controller", 
+            "--controller-manager", 
+            "/controller_manager"
+        ],
+    )
+    gripper_controller_spawner = Node(
+        package="controller_manager",
+        executable="spawner",
+        arguments=[
+            "gripper_controller",
+            "--controller-manager",
+            "/controller_manager"
+        ],
     )
 
     return LaunchDescription([
         is_sim_arg,
-        model_arg,
         robot_state_publisher,
         controller_manager,
         joint_state_broadcaster_spawner,

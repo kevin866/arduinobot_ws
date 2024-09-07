@@ -1,0 +1,13 @@
+[  9%] Built target simple_subscriber
+[ 22%] Built target simple_service_client
+[ 31%] Built target simple_service_server
+[ 36%] Built target simple_moveit_interface
+[ 45%] Built target simple_parameter
+[ 54%] Built target simple_publisher
+[ 63%] Built target simple_action_server
+[ 72%] Built target simple_lifecycle_node
+[ 81%] Built target simple_action_client
+[ 90%] Built target simple_action_client_node
+[100%] Built target simple_action_server_node
+-- Install configuration: ""
+-- Installing: /home/parallels/arduinobot_ws/install/arduinobot_cpp_examples/share/arduinobot_cpp_examples/package.dsv
