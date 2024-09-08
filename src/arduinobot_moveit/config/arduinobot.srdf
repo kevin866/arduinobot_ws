@@ -34,4 +34,5 @@
     <disable_collision link1="forward_drive_arm" link2="horizontal_arm" reason="Never"/>
     <disable_collision link1="gripper_left" link2="horizontal_arm" reason="Never"/>
     <disable_collision link1="gripper_right" link2="horizontal_arm" reason="Never"/>
+    <disable_collisions link1="gripper_right" link2="gripper_left" reason="Adjacent"/>
 </robot>
